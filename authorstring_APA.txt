@@ -1,0 +1,27 @@
+(Etternavn(,)(space)*[Initial(.)]*)
+Ta bare Første bokstaven her for hver gruppe..
+
+En forfatter: (1 komma)
+Bordieu, P. E. (1996)
+(første bokstav)
+
+2 forfattere: (2 komma)
+Flisbäck, M. A. B. &amp; Lindström, S. (2013).
+(første bokstav, første bokstav etter &amp;)
+
+3 forfattere: (5 komma)
+Heian Torvik, M., Løyland, K. L., &amp; Mangset, P. (
+(første bokstav, første bokstav etter komma nr 2, første bokstav etter komma nr 4 og &amp;)
+
+4 forfattere: (7)
+Heian Torvik, M., Heian Torvik, M. P., Løyland, K., &amp; Mangset, P. (
+
+(første bokstav, første bokstav etter komma nr 2,4,6
+
+5 forfattere: (9)
+Arne Sigurd, E. K., Heian Torvik, M., Heian Torvik, M. P., Løyland, K., &amp; Mangset, P. (
+
+Kanskje erstatte . &amp; med , først
+
+Den siste har ikke komma etter punktum
+Den neste siste har ., &amp; 
