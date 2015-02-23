@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xsl:output method="xml" indent="yes"/>
 
   <xsl:template match="node()|@*">
@@ -19,16 +21,16 @@
 
     <xsl:variable name="textcontent" select="."/>
 
-    <xsl:variable name="isBookChapter">
+    <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($textcontent, '(Eds\.)')"/>
     </xsl:variable>
     
-    <!--<xsl:variable name="isUnknownRefType">
-      <xsl:value-of select="false"></xsl:value-of>
-    </xsl:variable>-->
-
-    <xsl:variable name="hasYearInParanthesis">
+    <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
       <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
+    </xsl:variable>
+
+    <xsl:variable name="isUnknownRefType" as="xs:boolean">
+      <xsl:value-of select="not($hasYearInParanthesis)"></xsl:value-of>
     </xsl:variable>
 
     <xsl:variable name="year">
@@ -61,7 +63,7 @@
       </xsl:attribute>-->
 
       <xsl:choose>
-        <xsl:when test="not($isBookChapter)">
+        <xsl:when test="$isUnknownRefType eq true()">
           <mixed-citation>
             <!--<isUnknownRefTypeState>
               <xsl:value-of select="$isUnknownRefType"></xsl:value-of>
@@ -69,7 +71,7 @@
             <xsl:value-of select="$textcontent"/>
           </mixed-citation>
         </xsl:when>
-        <xsl:otherwise>
+        <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
             <!--<isUnknownRefTypeState>
               <xsl:value-of select="$isUnknownRefType"></xsl:value-of>
@@ -81,6 +83,9 @@
               <xsl:value-of select="$year"/>
             </year>
           </element-citation>
+        </xsl:when>
+        <xsl:otherwise>
+        <error/>
         </xsl:otherwise>
       </xsl:choose>
 
