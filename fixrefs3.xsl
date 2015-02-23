@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+
   <xsl:output method="xml" indent="yes"/>
 
   <xsl:template match="node()|@*">
@@ -21,18 +21,6 @@
 
     <xsl:variable name="textcontent" select="."/>
 
-    <xsl:variable name="isBookChapter" as="xs:boolean">
-      <xsl:value-of select="matches($textcontent, '(Eds\.)')"/>
-    </xsl:variable>
-    
-    <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
-      <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
-    </xsl:variable>
-
-    <xsl:variable name="isUnknownRefType" as="xs:boolean">
-      <xsl:value-of select="not($hasYearInParanthesis)"></xsl:value-of>
-    </xsl:variable>
-
     <xsl:variable name="year">
       <xsl:analyze-string select="$textcontent" regex=".*\(([0-9]{{4}})\)">
         <xsl:matching-substring>
@@ -42,11 +30,27 @@
     </xsl:variable>
 
     <xsl:variable name="authors">
-      <xsl:analyze-string select="$textcontent" regex="([^(]*)[(]">
+      <xsl:analyze-string select="$textcontent" regex="(..*)\(\d{{4}}\)">
         <xsl:matching-substring>
           <xsl:value-of select="regex-group(1)"/>
         </xsl:matching-substring>
       </xsl:analyze-string>
+    </xsl:variable>
+
+    <xsl:variable name="isParsableAuthorString" as="xs:boolean">
+      <xsl:value-of select="matches($authors, '^\s*[\c][\c]*,\s*[\c]')"/>
+    </xsl:variable>
+
+    <xsl:variable name="isBookChapter" as="xs:boolean">
+      <xsl:value-of select="matches($textcontent, '(Eds\.)')"/>
+    </xsl:variable>
+
+    <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
+      <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
+    </xsl:variable>
+
+    <xsl:variable name="isUnknownRefType" as="xs:boolean">
+      <xsl:value-of select="not($hasYearInParanthesis) or not($isParsableAuthorString)"/>
     </xsl:variable>
 
     <xsl:element name="ref">
@@ -57,25 +61,15 @@
       <xsl:attribute name="hasYearInParanthesis">
         <xsl:value-of select="$hasYearInParanthesis"/>
       </xsl:attribute>
-      
-      <!--<xsl:attribute name="unknown">
-        <xsl:value-of select="$isUnknownRefType"/>
-      </xsl:attribute>-->
 
       <xsl:choose>
         <xsl:when test="$isUnknownRefType eq true()">
           <mixed-citation>
-            <!--<isUnknownRefTypeState>
-              <xsl:value-of select="$isUnknownRefType"></xsl:value-of>
-            </isUnknownRefTypeState>-->
-            <xsl:value-of select="$textcontent"/>
+            <xsl:apply-templates/>
           </mixed-citation>
         </xsl:when>
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
-            <!--<isUnknownRefTypeState>
-              <xsl:value-of select="$isUnknownRefType"></xsl:value-of>
-            </isUnknownRefTypeState>-->
             <authors>
               <xsl:value-of select="$authors"/>
             </authors>
@@ -85,10 +79,19 @@
           </element-citation>
         </xsl:when>
         <xsl:otherwise>
-        <error/>
+          <errorInXSLT/>
         </xsl:otherwise>
       </xsl:choose>
 
     </xsl:element>
   </xsl:template>
+
+  <xsl:template match="ext-link">
+    <uri><xsl:value-of select="./@xlink:href"/></uri>
+  </xsl:template>
+  
+  <xsl:template match="uri">
+    <uri><xsl:value-of select="."/></uri>
+  </xsl:template>
+
 </xsl:stylesheet>
