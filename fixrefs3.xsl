@@ -41,6 +41,10 @@
       <xsl:value-of select="matches($authors, '^\s*[\c][\c]*,\s*[\c]')"/>
     </xsl:variable>
 
+    <xsl:variable name="isParsableEditorString" as="xs:boolean">
+      <xsl:value-of select="false()"/><!-- placeholder for matches() -->
+    </xsl:variable>
+
     <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($textcontent, '(Eds\.)')"/>
     </xsl:variable>
@@ -51,6 +55,24 @@
 
     <xsl:variable name="isUnknownRefType" as="xs:boolean">
       <xsl:value-of select="not($hasYearInParanthesis) or not($isParsableAuthorString)"/>
+    </xsl:variable>
+
+    <xsl:variable name="taggedAuthors">
+      <xsl:choose>
+        <xsl:when test="$isParsableAuthorString eq true()">
+          <!-- process $authors -->
+        </xsl:when>
+        <xsl:otherwise/>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:variable name="taggedEditors">
+      <xsl:choose>
+        <xsl:when test="$isParsableEditorString eq true()">
+          <!-- process $editors -->
+        </xsl:when>
+        <xsl:otherwise/>
+      </xsl:choose>
     </xsl:variable>
 
     <xsl:element name="ref">
@@ -81,6 +103,9 @@
             <year>
               <xsl:value-of select="$year"/>
             </year>
+            <originalRef>
+              <xsl:apply-templates/>
+            </originalRef>
           </element-citation>
         </xsl:when>
         <xsl:otherwise>
