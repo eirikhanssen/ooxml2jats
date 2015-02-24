@@ -54,13 +54,18 @@
     </xsl:variable>
 
     <xsl:element name="ref">
-      <xsl:attribute name="isBookChapter">
-        <xsl:value-of select="$isBookChapter"/>
-      </xsl:attribute>
-
-      <xsl:attribute name="hasYearInParanthesis">
-        <xsl:value-of select="$hasYearInParanthesis"/>
-      </xsl:attribute>
+      <!-- publication-type: book-chapter|book|journal -->
+      <xsl:if test="$isBookChapter eq true()">
+        <xsl:attribute name="publication-type">
+          <xsl:value-of select="'book-chapter'"/>
+        </xsl:attribute>
+      </xsl:if>
+      <!-- publication-format: print|web -->
+      <xsl:if test="ext-link">
+        <xsl:attribute name="publication-format">
+          <xsl:value-of select="'web'"/>
+        </xsl:attribute>
+      </xsl:if>
 
       <xsl:choose>
         <xsl:when test="$isUnknownRefType eq true()">
@@ -87,11 +92,15 @@
   </xsl:template>
 
   <xsl:template match="ext-link">
-    <uri><xsl:value-of select="./@xlink:href"/></uri>
+    <uri>
+      <xsl:value-of select="./@xlink:href"/>
+    </uri>
   </xsl:template>
-  
+
   <xsl:template match="uri">
-    <uri><xsl:value-of select="."/></uri>
+    <uri>
+      <xsl:value-of select="."/>
+    </uri>
   </xsl:template>
 
 </xsl:stylesheet>
