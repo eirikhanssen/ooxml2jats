@@ -7,7 +7,35 @@
 
   <xsl:function name="j2e:replaceAmpInAuthorstring" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <xsl:value-of select="replace($originalString, '&amp;' , '#')"/>
+    <xsl:value-of select="replace($originalString, ',*?\s*&amp;' , ',')"/>
+  </xsl:function>
+
+  <xsl:function name="j2e:normalizeInitialsInAuthorstring" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of
+      select="
+      normalize-space(
+        replace(
+          replace(
+              replace(
+                $originalString , '(\s\c)\s' , '$1. ') ,
+                '(\c{3,})(\s\c)' , '$1,$2') ,
+                '(\c{3,},\s\c),' , '$1.,')
+              )"/>
+    <!-- (inner replace) - Correct missing dot after initial: Molander, A => Molander, A. -->
+    <!-- (middle replace) - Correct missing comma after surname: Lundberg U. => Lundberg, U. -->
+    <!-- (outer replace) - Correct missing dot after initial: Lund, A, = > Lund, A., --><!-- Krantz, J, => Krantz, J., -->
+  </xsl:function>
+
+  <xsl:function name="j2e:prepareTokens" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString, '(\c\.),\s*?' , '$1|')"/>
+  </xsl:function>
+
+
+  <xsl:function name="j2e:tokenizeAuthors" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="j2e:prepareTokens(j2e:replaceAmpInAuthorstring(j2e:normalizeInitialsInAuthorstring($originalString)))"/>
   </xsl:function>
 
   <xsl:template match="node()|@*">
@@ -15,6 +43,7 @@
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
+
   <xsl:template match="/references">
     <ref-list>
       <xsl:for-each select="p">
@@ -47,9 +76,8 @@
       <xsl:value-of select="matches($authors, '^\s*[\c][\c]*,\s*[\c]')"/>
     </xsl:variable>
 
-    <xsl:variable name="authorsNormalized" as="xs:string">
-      <!-- WIP! -->
-      <xsl:value-of select="j2e:replaceAmpInAuthorstring($authors)"/>
+    <xsl:variable name="tokenizedAuthors" as="xs:string">
+      <xsl:value-of select="j2e:tokenizeAuthors($authors)"/>
     </xsl:variable>
 
     <xsl:variable name="isParsableEditorString" as="xs:boolean">
@@ -74,7 +102,13 @@
         <xsl:when test="$isParsableAuthorString eq true()">
           <!-- process $authors -->
           <person-group person-group-type="author">
-            <!-- placeholder -->
+            <xsl:for-each select="tokenize($tokenizedAuthors, '\|')">
+              <xsl:variable name="author" select="normalize-space(.)"/>
+              <name>
+                <!-- WIP refine $author and put into surname and given-names -->
+                <xsl:value-of select="$author"/>
+              </name>
+            </xsl:for-each>
           </person-group>
         </xsl:when>
         <xsl:otherwise/>
@@ -110,14 +144,16 @@
             <xsl:apply-templates/>
           </mixed-citation>
         </xsl:when>
+
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
+            <xsl:apply-templates select="$taggedAuthors"/>
             <authors>
               <xsl:value-of select="$authors"/>
             </authors>
-            <authorsNormalized>
-              <xsl:value-of select="$authorsNormalized"/>
-            </authorsNormalized>
+            <tokenizedAuthors>
+              <xsl:value-of select="$tokenizedAuthors"/>
+            </tokenizedAuthors>
             <year>
               <xsl:value-of select="$year"/>
             </year>
