@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:j2e="https://github.com/eirikhanssen/jats2epub">
 
   <xsl:output method="xml" indent="yes"/>
+
+  <xsl:function name="j2e:replaceAmpInAuthorstring" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString, '&amp;' , '#')"/>
+  </xsl:function>
 
   <xsl:template match="node()|@*">
     <xsl:copy>
@@ -41,8 +47,14 @@
       <xsl:value-of select="matches($authors, '^\s*[\c][\c]*,\s*[\c]')"/>
     </xsl:variable>
 
+    <xsl:variable name="authorsNormalized" as="xs:string">
+      <!-- WIP! -->
+      <xsl:value-of select="j2e:replaceAmpInAuthorstring($authors)"/>
+    </xsl:variable>
+
     <xsl:variable name="isParsableEditorString" as="xs:boolean">
-      <xsl:value-of select="false()"/><!-- placeholder for matches() -->
+      <xsl:value-of select="false()"/>
+      <!-- placeholder for matches() -->
     </xsl:variable>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
@@ -61,6 +73,9 @@
       <xsl:choose>
         <xsl:when test="$isParsableAuthorString eq true()">
           <!-- process $authors -->
+          <person-group person-group-type="author">
+            <!-- placeholder -->
+          </person-group>
         </xsl:when>
         <xsl:otherwise/>
       </xsl:choose>
@@ -100,6 +115,9 @@
             <authors>
               <xsl:value-of select="$authors"/>
             </authors>
+            <authorsNormalized>
+              <xsl:value-of select="$authorsNormalized"/>
+            </authorsNormalized>
             <year>
               <xsl:value-of select="$year"/>
             </year>
