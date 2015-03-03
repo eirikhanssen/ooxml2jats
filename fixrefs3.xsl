@@ -7,6 +7,8 @@
 
   <xsl:function name="j2e:replaceAmpInAuthorstring" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
+    <!-- replace the &amp; (preceeded by comma and optional space) before the last author in authorstring with comma -->
+    <!-- then different authors in the authorstring will be separated by (last initial) (dot) (comma) -->
     <xsl:value-of select="replace($originalString, ',*?\s*&amp;' , ',')"/>
   </xsl:function>
 
@@ -30,6 +32,7 @@
 
   <xsl:function name="j2e:prepareTokens" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
+    <!-- replace comma and whitespace between two authors in authorstring with vertical bar -->
     <xsl:value-of select="replace($originalString, '(\c\.),\s*?' , '$1|')"/>
   </xsl:function>
 
@@ -68,6 +71,24 @@
   <xsl:function name="j2e:createRefId" as="xs:string">
     <xsl:param name="year" as="xs:string"/>
     <xsl:value-of select="$year"/>
+  </xsl:function>
+
+  <xsl:function name="j2e:getPublisherString" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <!-- WIP placeholder text -->
+    <xsl:text>PublisherLocWIP: WIPPublisherNameWIP</xsl:text>
+  </xsl:function>
+
+  <xsl:function name="j2e:getPublisherLoc" as="xs:string">
+    <xsl:param name="publisherString" as="xs:string"/>
+    <!-- WIP placeholder text -->
+    <xsl:text>PublisherLoc</xsl:text>
+  </xsl:function>
+
+  <xsl:function name="j2e:getPublisherName" as="xs:string">
+    <xsl:param name="publisherString" as="xs:string"/>
+    <!-- WIP placeholder text -->
+    <xsl:text>PublisherName</xsl:text>
   </xsl:function>
 
   <xsl:template match="node()|@*">
@@ -114,16 +135,24 @@
 
     <xsl:variable name="isParsableEditorString" as="xs:boolean">
       <xsl:value-of select="false()"/>
-      <!-- placeholder for matches() -->
+      <!-- WIP placeholder for matches() -->
     </xsl:variable>
 
+    <!-- WIP placeholder hasParsablePublisherString  -->
+
     <xsl:variable name="isBook" as="xs:boolean">
-      <xsl:value-of select="matches($textcontent, '\.\s*[\c]{2,}:\s*[\c]{2,}.?$')"/>
+      <!-- Check if the reference ends with a typical book type reference to a publisher -->
+      <!-- Example:  [(...) Malmö: Liber.] -->
+      <xsl:value-of select="matches($textcontent, '\.?\s*[\c]{2,}:\s*[\c]{2,}.?$')"/>
     </xsl:variable>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($textcontent, '(Eds?\.)')"/>
     </xsl:variable>
+
+    <!-- WIP placeholder isParsablePublisherString -->
+
+    <!-- WIP placeholder isParsableEditorString -->
 
     <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
       <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
@@ -158,8 +187,7 @@
     <xsl:variable name="taggedEditors">
       <xsl:choose>
         <xsl:when test="$isParsableEditorString eq true()">
-          <!-- process $editors -->
-          <!-- WIP: TODO! -->
+          <!-- WIP placeholder process $editors -->
         </xsl:when>
         <xsl:otherwise/>
       </xsl:choose>
@@ -168,8 +196,12 @@
     <xsl:variable name="publisher">
       <xsl:choose>
         <xsl:when test="$isBook eq true()">
-          <publisher-loc></publisher-loc>
-          <publisher-name></publisher-name>
+          <publisher-loc>
+            <xsl:value-of select="j2e:getPublisherLoc(j2e:getPublisherString($textcontent))"/>
+          </publisher-loc>
+          <publisher-name>
+            <xsl:value-of select="j2e:getPublisherName(j2e:getPublisherString($textcontent))"/>
+          </publisher-name>
         </xsl:when>
         <xsl:otherwise/>
       </xsl:choose>
