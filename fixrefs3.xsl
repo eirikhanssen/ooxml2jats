@@ -75,13 +75,17 @@
 
   <xsl:function name="j2e:getPublisherString" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <!-- get the Publisher String, it's important to use the lazy/non-greedy quantifiers such as *? -->
-    <!-- This function assumes textcontent to be of a book type referenec; a ref that is tested to be $isBook eq true() -->
-    <!-- $1 with preceeding regex is important to allow publisher-loc such as in {New York, NY: Wiley} -->
-    <!-- $2 allows forward-slash in publisher-loc as in {Stockholm/Stehag: Symposion.} -->
-    <!-- the negated character class [^:] in $2 is important in order to match text only around the last colon -->
-    <!-- in the case where a colon might be used earlier in the reference text -->
-    <xsl:value-of select="replace($originalString , '.*?[,.\]]?\s+([^,.\]]*?\c\c+,\s)?([\c/]{2,}:[^:]*?)$' , '$1$2')"/>
+    <!-- Extract publisher string from a book type reference in a reference list -->
+    <!-- This function assumes $originalString to be of a book type reference; a ref that is tested to be $isBook eq true() -->
+    <!-- It's important to use the lazy/non-greedy quantifiers such as *? 
+         to get the shortest possible match and not the longest possible match -->
+    <!-- $1 with preceeding regex is important to allow publisher-loc such as {New York, NY: Wiley} -->
+    <!-- $2 makes {, } optional, so publisher-loc such as {New York: Basic Books.} is also correctly matched. 
+         This grouping should not be carried over to the output -->
+    <!-- $3 allows forward-slash in publisher-loc as in {Stockholm/Stehag: Symposion.} -->
+    <!-- the negated character class [^:] in $3 is important in order to match text only around the last colon
+         in the case where a colon might be used earlier in the string -->
+    <xsl:value-of select="normalize-space(replace($originalString , '.*?[,.\]]?\s+([^,.\]]*?\c\c+(,\s)?)?([\c/]{2,}:[^:]*?)$' , '$1$3'))"/>
   </xsl:function>
 
   <xsl:function name="j2e:getPublisherLoc" as="xs:string">
