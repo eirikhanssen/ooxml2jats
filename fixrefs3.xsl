@@ -117,8 +117,12 @@
       <!-- placeholder for matches() -->
     </xsl:variable>
 
+    <xsl:variable name="isBook" as="xs:boolean">
+      <xsl:value-of select="matches($textcontent, '\.\s*[\c]{2,}:\s*[\c]{2,}.?$')"/>
+    </xsl:variable>
+
     <xsl:variable name="isBookChapter" as="xs:boolean">
-      <xsl:value-of select="matches($textcontent, '(Eds\.)')"/>
+      <xsl:value-of select="matches($textcontent, '(Eds?\.)')"/>
     </xsl:variable>
 
     <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
@@ -161,6 +165,16 @@
       </xsl:choose>
     </xsl:variable>
 
+    <xsl:variable name="publisher">
+      <xsl:choose>
+        <xsl:when test="$isBook eq true()">
+          <publisher-loc></publisher-loc>
+          <publisher-name></publisher-name>
+        </xsl:when>
+        <xsl:otherwise/>
+      </xsl:choose>
+    </xsl:variable>
+
     <xsl:element name="ref">
       <xsl:attribute name="id">
         <xsl:choose>
@@ -178,17 +192,30 @@
       </xsl:attribute>
 
       <!-- publication-type: book-chapter|book|journal -->
-      <xsl:if test="$isBookChapter eq true()">
+      <xsl:if test="$isBook eq true()">
         <xsl:attribute name="publication-type">
-          <xsl:value-of select="'book-chapter'"/>
+        <xsl:choose>
+          <xsl:when test="$isBookChapter eq true()">
+            <xsl:text>book-chapter</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>book</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
         </xsl:attribute>
       </xsl:if>
       <!-- publication-format: print|web -->
-      <xsl:if test="ext-link">
-        <xsl:attribute name="publication-format">
-          <xsl:value-of select="'web'"/>
-        </xsl:attribute>
-      </xsl:if>
+
+      <xsl:attribute name="publication-format">
+        <xsl:choose>
+          <xsl:when test="ext-link">
+            <xsl:text>web</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>print</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
 
       <xsl:choose>
         <xsl:when test="$isUnknownRefType eq true()">
@@ -200,12 +227,13 @@
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
             <xsl:apply-templates select="$taggedAuthors"/>
-            <authors>
+            <!-- authors and tokenizedAuthors can be uncommented to debug program output-->
+            <!--<authors>
               <xsl:value-of select="$authors"/>
             </authors>
             <tokenizedAuthors>
               <xsl:value-of select="$tokenizedAuthors"/>
-            </tokenizedAuthors>
+            </tokenizedAuthors>-->
             <year>
               <xsl:value-of select="$year"/>
             </year>
