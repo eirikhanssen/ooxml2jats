@@ -272,6 +272,14 @@
             <originalRef>
               <xsl:apply-templates/>
             </originalRef>
+            <xsl:if test="$isBook eq true()">
+              <publisher-loc>
+                <xsl:value-of select="$publisher/publisher-loc"/>
+              </publisher-loc>
+              <publisher-name>
+                <xsl:value-of select="$publisher/publisher-name"/>
+              </publisher-name>
+            </xsl:if>
           </element-citation>
         </xsl:when>
         <xsl:otherwise>
