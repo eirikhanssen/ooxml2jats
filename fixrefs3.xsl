@@ -75,8 +75,13 @@
 
   <xsl:function name="j2e:getPublisherString" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <!-- WIP placeholder text -->
-    <xsl:text>PublisherLocWIP: WIPPublisherNameWIP</xsl:text>
+    <!-- get the Publisher String, it's important to use the lazy/non-greedy quantifiers such as *? -->
+    <!-- This function assumes textcontent to be of a book type referenec; a ref that is tested to be $isBook eq true() -->
+    <!-- $1 with preceeding regex is important to allow publisher-loc such as in {New York, NY: Wiley} -->
+    <!-- $2 allows forward-slash in publisher-loc as in {Stockholm/Stehag: Symposion.} -->
+    <!-- the negated character class [^:] in $2 is important in order to match text only around the last colon -->
+    <!-- in the case where a colon might be used earlier in the reference text -->
+    <xsl:value-of select="replace($originalString , '.*?[,.\]]?\s+([^,.\]]*?\c\c+,\s)?([\c/]{2,}:[^:]*?)$' , '$1$2')"/>
   </xsl:function>
 
   <xsl:function name="j2e:getPublisherLoc" as="xs:string">
@@ -272,6 +277,7 @@
             <originalRef>
               <xsl:apply-templates/>
             </originalRef>
+            <publisherStringDebug><xsl:value-of select="j2e:getPublisherString($textcontent)"/></publisherStringDebug>
             <xsl:if test="$isBook eq true()">
               <publisher-loc>
                 <xsl:value-of select="$publisher/publisher-loc"/>
