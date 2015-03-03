@@ -40,8 +40,8 @@
          <originalRef>Featherstone, M. (1994). <italic>Kultur, kropp och konsumtion. </italic> 
             <italic>Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </italic>[Culture, body and consumption. Cultural sociological texts selected and translated by F. Miegel &amp; T. Johansson] Stockholm/Stehag: Symposion.</originalRef>
          <publisherStringDebug>Stockholm/Stehag: Symposion.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Stockholm/Stehag</publisher-loc>
+         <publisher-name>Symposion</publisher-name>
       </element-citation>
    </ref>
    <ref id="S2015" publication-type="book" publication-format="print">
@@ -55,8 +55,8 @@
          <year>2015</year>
          <originalRef>Schmanson, E. (2015). <italic>Testing a book-reference with space in publisher-loc.</italic> New York, NY: Wiley</originalRef>
          <publisherStringDebug>New York, NY: Wiley</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>New York, NY</publisher-loc>
+         <publisher-name>Wiley</publisher-name>
       </element-citation>
    </ref>
    <ref id="A1988" publication-format="print">
@@ -99,8 +99,8 @@
          <year>2006</year>
          <originalRef>Allvin, M., Aronsson, G., Hagström, T., Johansson, G., &amp; Lundberg U. (2006). <italic>Gränslöst arbete. Socialpsykologiska perspektiv på det nya arbetslivet</italic> [Boundariless work life. Social-psychological perspectives on the new working life]. Malmö: Liber.</originalRef>
          <publisherStringDebug>Malmö: Liber.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Malmö</publisher-loc>
+         <publisher-name>Liber</publisher-name>
       </element-citation>
    </ref>
    <ref id="A2012" publication-format="print">
@@ -127,8 +127,8 @@
          <year>2001</year>
          <originalRef>Bauman, Z. (2001). <italic>The individualized society.</italic> Cambridge: Polity.</originalRef>
          <publisherStringDebug>Cambridge: Polity.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Cambridge</publisher-loc>
+         <publisher-name>Polity</publisher-name>
       </element-citation>
    </ref>
    <ref id="B2004" publication-format="print">
@@ -214,8 +214,8 @@
          <year>2010</year>
          <originalRef>Brante, T. (2010). State formations and the historical take-off of continental professional types. The case of Sweden. In L. Svensson &amp; J. Evett (Eds.): <italic>Sociology of professions. Continental and Anglo-Saxon traditions</italic> (pp. 75-119). Göteborg: Daidalos.</originalRef>
          <publisherStringDebug>Göteborg: Daidalos.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Göteborg</publisher-loc>
+         <publisher-name>Daidalos</publisher-name>
       </element-citation>
    </ref>
    <ref id="C2001" publication-format="print">
@@ -301,8 +301,8 @@
          <originalRef>Featherstone, M. (1994). <italic>Kultur, kropp och konsumtion. </italic> 
             <italic>Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </italic>[Culture, body and consumption. Cultural sociological texts selected and translated by F. Miegel &amp; T. Johansson] Stockholm/Stehag: Symposion.</originalRef>
          <publisherStringDebug>Stockholm/Stehag: Symposion.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Stockholm/Stehag</publisher-loc>
+         <publisher-name>Symposion</publisher-name>
       </element-citation>
    </ref>
    <ref id="F2014" publication-type="book" publication-format="print">
@@ -317,8 +317,8 @@
          <originalRef>Flisbäck, M. (2014). <italic>När livet går bort, när livet kommer till. </italic> 
             <italic>Existenssociologiska betraktelser av konstnärligt arbete, familjebildning och anhörigförlust</italic> [When life passes away, when life arises: Contemplations of artistic work, family formation and losses of relatives from an existential sociology perspective]. Lund: Studentlitteratur.</originalRef>
          <publisherStringDebug>Lund: Studentlitteratur.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Lund</publisher-loc>
+         <publisher-name>Studentlitteratur</publisher-name>
       </element-citation>
    </ref>
    <ref id="F2013" publication-format="print">
@@ -407,8 +407,8 @@
          <year>2000</year>
          <originalRef>Fournier, V. (2000). Boundary work and the (un)making of the professions. In N. Malin (Ed.), <italic>Professionalism, boundaries and the workplace</italic> (pp. 67–86). London: Routledge.</originalRef>
          <publisherStringDebug>London: Routledge.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>London</publisher-loc>
+         <publisher-name>Routledge</publisher-name>
       </element-citation>
    </ref>
    <ref id="F2005" publication-format="print">
@@ -454,8 +454,8 @@
          <year>2014</year>
          <originalRef>Jacobsson, B. (2014<italic>). Kulturpolitik. Styrning på avstånd</italic> [Cultural policy. A distanced steering]. Lund: Studentlitteratur.</originalRef>
          <publisherStringDebug>Lund: Studentlitteratur.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Lund</publisher-loc>
+         <publisher-name>Studentlitteratur</publisher-name>
       </element-citation>
    </ref>
    <ref id="J2012" publication-format="print">
@@ -575,8 +575,8 @@
          <year>2010</year>
          <originalRef>Molander, A &amp; Grimen, H. (2010). Understanding professional discretion. In L. Svensson &amp; J. Evett (Eds.), <italic>Sociology of professions. Continental and Anglo-Saxon traditions</italic> (pp. 167-187). Göteborg: Daidalos.</originalRef>
          <publisherStringDebug>Göteborg: Daidalos.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Göteborg</publisher-loc>
+         <publisher-name>Daidalos</publisher-name>
       </element-citation>
    </ref>
    <ref id="N1999" publication-type="book" publication-format="print">
@@ -590,8 +590,8 @@
          <year>1999</year>
          <originalRef>Nilsson, S. (1999). <italic>Kulturens vägar</italic> [Paths of culture]. Malmö: Polyvalent.</originalRef>
          <publisherStringDebug>Malmö: Polyvalent.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Malmö</publisher-loc>
+         <publisher-name>Polyvalent</publisher-name>
       </element-citation>
    </ref>
    <ref id="N2008" publication-type="book" publication-format="print">
@@ -606,8 +606,8 @@
          <originalRef>Nilsson, S. (2008). <italic>Var finns kreativiteten? </italic> 
             <italic>Exemplet Skåne</italic> [Where is the creativity? Skåne as an example]. Malmö: Polyvalent.</originalRef>
          <publisherStringDebug>Malmö: Polyvalent.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Malmö</publisher-loc>
+         <publisher-name>Polyvalent</publisher-name>
       </element-citation>
    </ref>
    <ref id="P2008" publication-format="print">
@@ -771,8 +771,8 @@
          <year>2010</year>
          <originalRef>Svensson, L. G. &amp; Evetts, J. (2010). <italic>Sociology of professions. Continental and Anglo-Saxon traditions.</italic> Göteborg: Daidalos.</originalRef>
          <publisherStringDebug>Göteborg: Daidalos.</publisherStringDebug>
-         <publisher-loc>PublisherLoc</publisher-loc>
-         <publisher-name>PublisherName</publisher-name>
+         <publisher-loc>Göteborg</publisher-loc>
+         <publisher-name>Daidalos</publisher-name>
       </element-citation>
    </ref>
    <ref id="___ 2012" publication-format="print">

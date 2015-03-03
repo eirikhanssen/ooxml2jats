@@ -77,7 +77,7 @@
     <xsl:param name="originalString" as="xs:string"/>
     <!-- Extract publisher string from a book type reference in a reference list -->
     <!-- This function assumes $originalString to be of a book type reference; a ref that is tested to be $isBook eq true() -->
-    <!-- It's important to use the lazy/non-greedy quantifiers such as *? 
+    <!-- It's important to use the lazy/non-greedy quantifiers such as *? as opposed to *
          to get the shortest possible match and not the longest possible match -->
     <!-- $1 with preceeding regex is important to allow publisher-loc such as {New York, NY: Wiley} -->
     <!-- $2 makes {, } optional, so publisher-loc such as {New York: Basic Books.} is also correctly matched. 
@@ -90,14 +90,14 @@
 
   <xsl:function name="j2e:getPublisherLoc" as="xs:string">
     <xsl:param name="publisherString" as="xs:string"/>
-    <!-- WIP placeholder text -->
-    <xsl:text>PublisherLoc</xsl:text>
+    <!-- Get all text before colon -->
+    <xsl:value-of select="normalize-space(replace($publisherString, '^([^:]*?):.*', '$1'))"/>
   </xsl:function>
 
   <xsl:function name="j2e:getPublisherName" as="xs:string">
     <xsl:param name="publisherString" as="xs:string"/>
-    <!-- WIP placeholder text -->
-    <xsl:text>PublisherName</xsl:text>
+    <!-- Get all text after colon, but leave out optional dot in the end -->
+    <xsl:value-of select="normalize-space(replace($publisherString, '.*?:([^:]*?)\.?$', '$1'))"/>
   </xsl:function>
 
   <xsl:template match="node()|@*">
