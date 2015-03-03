@@ -1,0 +1,2 @@
+#!/bin/sh
+saxon refs.temp.xml fixrefs3.xsl | tee output.xml | pygmentize -l xml | less -RS
