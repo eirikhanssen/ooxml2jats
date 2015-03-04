@@ -463,8 +463,24 @@
          <publisherStringDebug>Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. American Sociological Review, 48(6), 781–795.</publisherStringDebug>
       </element-citation>
    </ref>
-   <ref id="___" publication-type="book" publication-format="print">
-      <mixed-citation>Harding, T &amp; Nathanson, C. 2012. ”Inledning”, In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, Introduction] (pp. 9-14). Stockholm: Sveriges Kommuner och Landsting.</mixed-citation>
+   <ref id="HN2012" publication-type="book" publication-format="print">
+      <element-citation>
+         <person-group person-group-type="author">
+            <name>
+               <surname>Harding</surname>
+               <given-names>T.</given-names>
+            </name>
+            <name>
+               <surname>Nathanson</surname>
+               <given-names>C.</given-names>
+            </name>
+         </person-group>
+         <year>2012</year>
+         <originalRef>Harding, T &amp; Nathanson, C. (2012). ”Inledning”, In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, Introduction] (pp. 9-14). Stockholm: Sveriges Kommuner och Landsting.</originalRef>
+         <publisherStringDebug>Stockholm: Sveriges Kommuner och Landsting.</publisherStringDebug>
+         <publisher-loc>Stockholm</publisher-loc>
+         <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
+      </element-citation>
    </ref>
    <ref id="___ 2008" publication-format="print">
       <mixed-citation>Heian Torvik, M., Løyland, K., &amp; Mangset, P. (2008). Kunstnernes aktivitet, arbeids- og inntektsforhold, 2006. Rapport nr 241.Telemarksforsking-Bø.</mixed-citation>
