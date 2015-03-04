@@ -107,6 +107,16 @@
     <!-- Get all text after colon, but leave out optional dot in the end -->
     <xsl:value-of select="normalize-space(replace($publisherString, '.*?:([^:]*?)\.?$', '$1'))"/>
   </xsl:function>
+  
+  <xsl:function name="j2e:getEditorString" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString , '^.*?In([^()]*?)[,.\s]*?\((RE|E)ds?\.\).*$' , '$1' )"></xsl:value-of>
+  </xsl:function>
+  
+  <xsl:function name="j2e:tokenizeEditorString" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString , '(,|&amp;)' , '|' )"></xsl:value-of>
+  </xsl:function>
 
   <xsl:template match="node()|@*">
     <xsl:copy>
@@ -150,13 +160,7 @@
       <xsl:value-of select="j2e:tokenizeAuthors($authors)"/>
     </xsl:variable>
 
-    <xsl:variable name="isParsableEditorString" as="xs:boolean">
-      <xsl:value-of select="false()"/>
-      <!-- WIP placeholder for matches() -->
-    </xsl:variable>
-
-    <!-- WIP placeholder hasParsablePublisherString  -->
-
+    
     <xsl:variable name="isBook" as="xs:boolean">
       <!-- Check if the end of the reference to see if it ends with a typical book type reference to a publisher -->
       <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, slash, hyphen -->
@@ -166,12 +170,25 @@
           [(...) Stockholm/Stehag: Symposion.]
           [(...) Stockholm: Sveriges Kommuner och Landsting.]
       -->
-      <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s*[-\c\s/]{2,}.?$')"/>
+      <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s+[-\c\s/]{2,}.?$')"/>
     </xsl:variable>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
-      <xsl:value-of select="matches($textcontent, '(Eds?\.)')"/>
+      <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
     </xsl:variable>
+
+    <xsl:variable name="editorString">
+      <xsl:if test="$isBookChapter eq true()">
+        <xsl:value-of select="normalize-space(j2e:getEditorString($textcontent))"/>
+      </xsl:if>
+    </xsl:variable>
+    
+    <xsl:variable name="isParsableEditorString" as="xs:boolean">
+      <xsl:value-of select="false()"/>
+      <!-- WIP placeholder for matches() -->
+    </xsl:variable>
+    
+    <!-- WIP placeholder hasParsablePublisherString  -->
 
     <!-- WIP placeholder isParsablePublisherString -->
 
@@ -313,6 +330,12 @@
           <tokenizedAuthors>
             <xsl:value-of select="$tokenizedAuthors"/>
           </tokenizedAuthors>
+          <editorstring>
+            <xsl:value-of select="$editorString"/>
+          </editorstring>
+          <tokenizedEditorString>
+            <xsl:value-of select="j2e:tokenizeEditorString($editorString)"/>
+          </tokenizedEditorString>
           <publisherString><xsl:value-of select="j2e:getPublisherString($textcontent)"/></publisherString>
         </debugMode>
       </xsl:if>

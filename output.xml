@@ -2,6 +2,25 @@
 <ref-list xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:j2e="https://github.com/eirikhanssen/jats2epub">
+   <ref id="HM2004"
+        publication-type="book-chapter"
+        publication-format="print">
+      <element-citation>
+         <person-group person-group-type="author">
+            <name>
+               <surname>Hanssen</surname>
+               <given-names>E.</given-names>
+            </name>
+            <name>
+               <surname>McRobbie</surname>
+               <given-names>A.</given-names>
+            </name>
+         </person-group>
+         <year>2004</year>
+         <publisher-loc>Durham</publisher-loc>
+         <publisher-name>Sociology Press</publisher-name>
+      </element-citation>
+   </ref>
    <ref id="A1988" publication-type="book" publication-format="print">
       <element-citation>
          <person-group person-group-type="author">
@@ -565,7 +584,7 @@
    <ref id="___" publication-format="print">
       <mixed-citation>Regeringens proposition [Government Bill] 2009/10:3. Tid för kultur [Time for culture].</mixed-citation>
    </ref>
-   <ref id="___" publication-type="book" publication-format="print">
+   <ref id="___" publication-format="print">
       <mixed-citation>Regeringskansliet [Swedish Government Offices], 2014. Kulturpolitiska mål [Cultural policy-goals]. <uri>http://www.regeringen.se/sb/d/1897</uri>.</mixed-citation>
    </ref>
    <ref id="___ 2014" publication-format="web">
@@ -679,7 +698,7 @@
    <ref id="___ 2012" publication-format="print">
       <mixed-citation>Swedish Agency for Cultural Policy Analysis (2012). <italic>Kulturanalys 2012</italic> [Cultural analysis 2012].</mixed-citation>
    </ref>
-   <ref id="___ 2013" publication-type="book" publication-format="print">
+   <ref id="___ 2013" publication-format="print">
       <mixed-citation>Swedish Agency for Cultural Policy Analysis (2013). Kultursamverkansmodellen. Styrning och bidragsfördelning [The Cultural Collaboration Model. Control and fund allocation]. Report 2013:2.</mixed-citation>
    </ref>
    <ref id="___ 2011" publication-format="print">
