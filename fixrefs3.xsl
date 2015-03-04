@@ -150,9 +150,15 @@
     <!-- WIP placeholder hasParsablePublisherString  -->
 
     <xsl:variable name="isBook" as="xs:boolean">
-      <!-- Check if the reference ends with a typical book type reference to a publisher -->
-      <!-- Example:  [(...) Malmö: Liber.] -->
-      <xsl:value-of select="matches($textcontent, '\.?\s*[\c]{2,}:\s*[\c]{2,}.?$')"/>
+      <!-- Check if the end of the reference to see if it ends with a typical book type reference to a publisher -->
+      <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, slash, hyphen -->
+      <!-- Example publisher strings that should match:  
+          [(...) Malmö: Liber.] 
+          [(...) Cambridge: Polity Press.]
+          [(...) Stockholm/Stehag: Symposion.]
+          [(...) Stockholm: Sveriges Kommuner och Landsting.]
+      -->
+      <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s*[-\c\s/]{2,}.?$')"/>
     </xsl:variable>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
