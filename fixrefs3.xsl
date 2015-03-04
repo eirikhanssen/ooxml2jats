@@ -2,9 +2,17 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:j2e="https://github.com/eirikhanssen/jats2epub">
-
   <xsl:output method="xml" indent="yes"/>
 
+  <!-- 'debug=on|true|1' can be specified as a paramenter during runtime, and then debug output will be shown -->
+  <xsl:param name="debug" as="xs:string">off</xsl:param>
+  
+  <xsl:variable name="debugMode" as="xs:boolean">
+    <!-- decide if debugMode is on or off and assign true or false boolean to $debugMode variable -->
+    <!-- case insensitive match using the "i" flag -->
+    <xsl:value-of select="matches($debug , '^(on|true|1|yes)$' , 'i')"/>
+  </xsl:variable>
+  
   <xsl:function name="j2e:replaceAmpInAuthorstring" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
     <!-- replace the &amp; (preceeded by comma and optional space) before the last author in authorstring with comma -->
@@ -274,20 +282,9 @@
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
             <xsl:apply-templates select="$taggedAuthors"/>
-            <!-- authors and tokenizedAuthors can be uncommented to debug program output-->
-            <!--<authors>
-              <xsl:value-of select="$authors"/>
-            </authors>
-            <tokenizedAuthors>
-              <xsl:value-of select="$tokenizedAuthors"/>
-            </tokenizedAuthors>-->
             <year>
               <xsl:value-of select="$year"/>
             </year>
-            <originalRef>
-              <xsl:apply-templates/>
-            </originalRef>
-            <publisherStringDebug><xsl:value-of select="j2e:getPublisherString($textcontent)"/></publisherStringDebug>
             <xsl:if test="$isBook eq true()">
               <publisher-loc>
                 <xsl:value-of select="$publisher/publisher-loc"/>
@@ -303,7 +300,26 @@
         </xsl:otherwise>
       </xsl:choose>
 
+      <xsl:if test="$debugMode eq true()">
+        <xsl:text>&#xa;</xsl:text>
+        <debugMode>
+          <debug>On</debug>
+          <originalRef>
+            <xsl:apply-templates/>
+          </originalRef>
+          <authors>
+            <xsl:value-of select="$authors"/>
+          </authors>
+          <tokenizedAuthors>
+            <xsl:value-of select="$tokenizedAuthors"/>
+          </tokenizedAuthors>
+          <publisherString><xsl:value-of select="j2e:getPublisherString($textcontent)"/></publisherString>
+        </debugMode>
+      </xsl:if>
+
     </xsl:element>
+    
+    
   </xsl:template>
 
   <xsl:template match="ext-link">
