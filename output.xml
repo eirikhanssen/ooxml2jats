@@ -2,67 +2,6 @@
 <ref-list xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:j2e="https://github.com/eirikhanssen/jats2epub">
-   <ref id="F2002" publication-type="book" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Florida</surname>
-               <given-names>R.</given-names>
-            </name>
-         </person-group>
-         <year>2002</year>
-         <originalRef>Florida, R. (2002). <italic>The rise of the creative class: and how it’s transforming work, leisure, community and everyday life</italic>. New York: Basic Books.</originalRef>
-         <publisherStringDebug>New York: Basic Books.</publisherStringDebug>
-         <publisher-loc>New York</publisher-loc>
-         <publisher-name>Basic Books</publisher-name>
-      </element-citation>
-   </ref>
-   <ref id="B1996" publication-type="book" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Bourdieu</surname>
-               <given-names>P.</given-names>
-            </name>
-         </person-group>
-         <year>1996</year>
-         <originalRef>Bourdieu, P. (1996). <italic>The rules of art: Genesis and structure of the literary field</italic>. Stanford: Stanford University Press.</originalRef>
-         <publisherStringDebug>Stanford: Stanford University Press.</publisherStringDebug>
-         <publisher-loc>Stanford</publisher-loc>
-         <publisher-name>Stanford University Press</publisher-name>
-      </element-citation>
-   </ref>
-   <ref id="F1994" publication-type="book" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Featherstone</surname>
-               <given-names>M.</given-names>
-            </name>
-         </person-group>
-         <year>1994</year>
-         <originalRef>Featherstone, M. (1994). <italic>Kultur, kropp och konsumtion. </italic> 
-            <italic>Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </italic>[Culture, body and consumption. Cultural sociological texts selected and translated by F. Miegel &amp; T. Johansson] Stockholm/Stehag: Symposion.</originalRef>
-         <publisherStringDebug>Stockholm/Stehag: Symposion.</publisherStringDebug>
-         <publisher-loc>Stockholm/Stehag</publisher-loc>
-         <publisher-name>Symposion</publisher-name>
-      </element-citation>
-   </ref>
-   <ref id="S2015" publication-type="book" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Schmanson</surname>
-               <given-names>E.</given-names>
-            </name>
-         </person-group>
-         <year>2015</year>
-         <originalRef>Schmanson, E. (2015). <italic>Testing a book-reference with space in publisher-loc.</italic> New York, NY: Wiley</originalRef>
-         <publisherStringDebug>New York, NY: Wiley</publisherStringDebug>
-         <publisher-loc>New York, NY</publisher-loc>
-         <publisher-name>Wiley</publisher-name>
-      </element-citation>
-   </ref>
    <ref id="A1988" publication-type="book" publication-format="print">
       <element-citation>
          <person-group person-group-type="author">
