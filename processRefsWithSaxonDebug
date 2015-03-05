@@ -1,2 +1,2 @@
 #!/bin/sh
-saxon refs.temp.xml fixrefs3.xsl 'debug=on' | tee outputDebug.xml | pygmentize -l xml | less -RS
+saxon refs.temp.xml fixrefs.xsl 'debug=on' | tee outputDebug.xml | pygmentize -l xml | less -RS
