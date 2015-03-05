@@ -16,6 +16,21 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>Bennett</surname>
+               <given-names>T.</given-names>
+            </name>
+            <name>
+               <surname>Hanssen</surname>
+               <given-names>E. M.</given-names>
+            </name>
+            <name>
+               <surname>De Silva</surname>
+               <given-names>E.</given-names>
+            </name>
+         </person-group>
          <year>2004</year>
          <publisher-loc>Durham</publisher-loc>
          <publisher-name>Sociology Press</publisher-name>
@@ -29,6 +44,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1988</year>
          <publisher-loc>London</publisher-loc>
          <publisher-name>The University of Chicago Press</publisher-name>
@@ -58,6 +74,7 @@
                <given-names>U.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2006</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Liber</publisher-name>
@@ -71,6 +88,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -84,21 +102,15 @@
                <given-names>Z.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2001</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity</publisher-name>
       </element-citation>
    </ref>
-   <ref id="B2004" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Belfiore</surname>
-               <given-names>E.</given-names>
-            </name>
-         </person-group>
-         <year>2004</year>
-      </element-citation>
+   <ref id="___ 2004" publication-format="print">
+      <mixed-citation>Belfiore, E. (2004). The subsidized cultural sector in the New Public Management. <italic>International Journal of Cultural </italic>
+         <italic>Policy</italic>, <italic>10</italic>(2), 183-202. </mixed-citation>
    </ref>
    <ref id="B2012" publication-type="book" publication-format="print">
       <element-citation>
@@ -108,6 +120,7 @@
                <given-names>R.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -121,6 +134,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1993</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity Press</publisher-name>
@@ -134,6 +148,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1996</year>
          <publisher-loc>Stanford</publisher-loc>
          <publisher-name>Stanford University Press</publisher-name>
@@ -151,6 +166,7 @@
                <given-names>G.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1999</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity Press</publisher-name>
@@ -166,32 +182,29 @@
                <given-names>T.</given-names>
             </name>
          </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>Svensson</surname>
+               <given-names>L.</given-names>
+            </name>
+            <name>
+               <surname>Evett</surname>
+               <given-names>J.</given-names>
+            </name>
+         </person-group>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Daidalos</publisher-name>
       </element-citation>
    </ref>
-   <ref id="C2001" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Coburn</surname>
-               <given-names>C. E.</given-names>
-            </name>
-         </person-group>
-         <year>2001</year>
-      </element-citation>
+   <ref id="___ 2001" publication-format="print">
+      <mixed-citation>Coburn, C. E. (2001). Collective sense making about reading: How teachers mediate reading policy in their professional communities. <italic>Educational Evaluation and Policy Analysis,</italic> 
+         <italic>23</italic>(2), 145–170. </mixed-citation>
    </ref>
-   <ref id="C2011" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Carlhed</surname>
-               <given-names>C.</given-names>
-            </name>
-         </person-group>
-         <year>2011</year>
-      </element-citation>
+   <ref id="___ 2011" publication-format="print">
+      <mixed-citation>Carlhed, C. (2011). Fält, habitus och kapital som kompletterande redskap i professionsforskning. [Field, habitus and capital as complementary tools in professions research]. <italic>Socialvetenskaplig tidskrift</italic> 
+         <italic>4</italic>, 283–300.</mixed-citation>
    </ref>
    <ref id="D2003" publication-type="book" publication-format="print">
       <element-citation>
@@ -201,36 +214,17 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2003</year>
          <publisher-loc>Köpenhamn</publisher-loc>
          <publisher-name>Nordisk Kulturinstitut</publisher-name>
       </element-citation>
    </ref>
-   <ref id="D2008" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Duelund</surname>
-               <given-names>P.</given-names>
-            </name>
-         </person-group>
-         <year>2008</year>
-      </element-citation>
+   <ref id="___ 2008" publication-format="print">
+      <mixed-citation>Duelund, P. (2008) Nordic cultural policies: A critical view. <italic>International Journal of Cultural Policy</italic>, <italic>14</italic>(1), 7–24. </mixed-citation>
    </ref>
-   <ref id="EH2004" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Evans</surname>
-               <given-names>T.</given-names>
-            </name>
-            <name>
-               <surname>Harris</surname>
-               <given-names>J.</given-names>
-            </name>
-         </person-group>
-         <year>2004</year>
-      </element-citation>
+   <ref id="___ 2004" publication-format="print">
+      <mixed-citation>Evans, T. &amp; Harris, J. (2004). Street-level bureaucracy, social work and the exaggerated death of discretion. <italic>British Journal of Social Work</italic>, <italic>34</italic>(6), 871–895. </mixed-citation>
    </ref>
    <ref id="F1994" publication-type="book" publication-format="print">
       <element-citation>
@@ -240,6 +234,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1994</year>
          <publisher-loc>Stockholm/Stehag</publisher-loc>
          <publisher-name>Symposion</publisher-name>
@@ -253,51 +248,20 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2014</year>
          <publisher-loc>Lund</publisher-loc>
          <publisher-name>Studentlitteratur</publisher-name>
       </element-citation>
    </ref>
-   <ref id="F2013" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Flisbäck</surname>
-               <given-names>M.</given-names>
-            </name>
-         </person-group>
-         <year>2013</year>
-      </element-citation>
+   <ref id="___ 2013" publication-format="print">
+      <mixed-citation>Flisbäck, M. (2013). Creating a life: The role of symbolic and economic structures in the gender dynamics of Swedish artists’, <italic>International Journal of Cultural Policy</italic>, <italic>19</italic>(4)<italic>,</italic> 462-480. </mixed-citation>
    </ref>
-   <ref id="FL2013" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Flisbäck</surname>
-               <given-names>M.</given-names>
-            </name>
-            <name>
-               <surname>Lindström</surname>
-               <given-names>S.</given-names>
-            </name>
-         </person-group>
-         <year>2013</year>
-      </element-citation>
+   <ref id="___ 2013" publication-format="print">
+      <mixed-citation>Flisbäck, M. &amp; Lindström, S. (2013). Work–family conflict among professional visual artists in Sweden: Gender Differences in the influence of parenting and household responsibilities, <italic>Nordic Journal of Cultural Policy</italic>,<italic> 2</italic>, 239–268.</mixed-citation>
    </ref>
-   <ref id="FL2010" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Flisbäck</surname>
-               <given-names>M.</given-names>
-            </name>
-            <name>
-               <surname>Lund</surname>
-               <given-names>A.</given-names>
-            </name>
-         </person-group>
-         <year>2010</year>
-      </element-citation>
+   <ref id="___ 2010" publication-format="print">
+      <mixed-citation>Flisbäck, M. &amp; Lund, A. (2010). Konst- och kultursektorn - ett pionjärområde för ett arbetsliv i omvandling? [The art and culture sector – a pioneering area for a working life in transition?]. <italic>Arbetsliv i omvandling</italic>, <italic>4</italic>, 1–13.</mixed-citation>
    </ref>
    <ref id="F2002" publication-type="book" publication-format="print">
       <element-citation>
@@ -307,6 +271,7 @@
                <given-names>R.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2002</year>
          <publisher-loc>New York</publisher-loc>
          <publisher-name>Basic Books</publisher-name>
@@ -320,6 +285,17 @@
             <name>
                <surname>Forsman</surname>
                <given-names>A.</given-names>
+            </name>
+         </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>S. Beckman.</surname>
+               <given-names>S.</given-names>
+            </name>
+            <name>
+               <surname>Månsson</surname>
+               <given-names>S.</given-names>
             </name>
          </person-group>
          <year>2008</year>
@@ -337,6 +313,13 @@
                <given-names>V.</given-names>
             </name>
          </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>Malin</surname>
+               <given-names>N.</given-names>
+            </name>
+         </person-group>
          <year>2000</year>
          <publisher-loc>London</publisher-loc>
          <publisher-name>Routledge</publisher-name>
@@ -350,21 +333,14 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2005</year>
          <publisher-loc>Hedemora</publisher-loc>
          <publisher-name>Gidlunds förlag</publisher-name>
       </element-citation>
    </ref>
-   <ref id="G1983" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Gieryn</surname>
-               <given-names>T. F.</given-names>
-            </name>
-         </person-group>
-         <year>1983</year>
-      </element-citation>
+   <ref id="___ 1983" publication-format="print">
+      <mixed-citation>Gieryn, T. F. (1983). Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. <italic>American Sociological Review</italic>, <italic>48(6)</italic>, 781–795. </mixed-citation>
    </ref>
    <ref id="HN2012" publication-type="book" publication-format="print">
       <element-citation>
@@ -378,6 +354,7 @@
                <given-names>C.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -394,6 +371,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2014</year>
          <publisher-loc>Lund</publisher-loc>
          <publisher-name>Studentlitteratur</publisher-name>
@@ -407,6 +385,7 @@
                <given-names>J.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -420,6 +399,7 @@
                <given-names>D.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Glänta produktion</publisher-name>
@@ -431,20 +411,8 @@
    <ref id="___ 2013" publication-format="print">
       <mixed-citation>KLYS (2013). Samverkansmodellen. Hur utvecklas kulturlivet i din region? [TheCollaborative Cultural Model. How is cultural life developing in your region?]. </mixed-citation>
    </ref>
-   <ref id="LJ2013" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Larsson</surname>
-               <given-names>B.</given-names>
-            </name>
-            <name>
-               <surname>Jacobsson</surname>
-               <given-names>B.</given-names>
-            </name>
-         </person-group>
-         <year>2013</year>
-      </element-citation>
+   <ref id="___ 2013" publication-format="print">
+      <mixed-citation>Larsson, B. &amp; Jacobsson, B. (2013). Discretion in the “backyard of law”: Case handling of debt relief in Sweden, <italic>Professions &amp; Professionalism</italic>, <italic>3</italic>(1). </mixed-citation>
    </ref>
    <ref id="LKG2013" publication-type="book" publication-format="print">
       <element-citation>
@@ -462,6 +430,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2013</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Myndigheten för kulturanalys</publisher-name>
@@ -477,21 +446,24 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>Bennett</surname>
+               <given-names>T.</given-names>
+            </name>
+            <name>
+               <surname>De Silva</surname>
+               <given-names>E.</given-names>
+            </name>
+         </person-group>
          <year>2004</year>
          <publisher-loc>Durham</publisher-loc>
          <publisher-name>Sociology Press</publisher-name>
       </element-citation>
    </ref>
-   <ref id="M2006" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Menger</surname>
-               <given-names>P-M.</given-names>
-            </name>
-         </person-group>
-         <year>2006</year>
-      </element-citation>
+   <ref id="___ 2006" publication-format="print">
+      <mixed-citation>Menger, P-M. (2006). Artistic labor markets: Contingent work, excess supply and occupational risk management. In V.A Ginsburgh &amp; D. Throsby (Eds.), <italic>Handbook of the economics of art and culture</italic>, <italic>1</italic> (pp. 766–811). North-Holland.</mixed-citation>
    </ref>
    <ref id="___ 2015" publication-format="print">
       <mixed-citation>Ministry of Culture (2015). Cultural policy objectives. Declared by Ministry of Culture, Government Office of Sweden.  </mixed-citation>
@@ -510,6 +482,17 @@
                <given-names>H.</given-names>
             </name>
          </person-group>
+         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <person-group person-group-type="editor">
+            <name>
+               <surname>Svensson</surname>
+               <given-names>L.</given-names>
+            </name>
+            <name>
+               <surname>Evett</surname>
+               <given-names>J.</given-names>
+            </name>
+         </person-group>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Daidalos</publisher-name>
@@ -523,6 +506,7 @@
                <given-names>S.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1999</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Polyvalent</publisher-name>
@@ -536,21 +520,14 @@
                <given-names>S.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2008</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Polyvalent</publisher-name>
       </element-citation>
    </ref>
-   <ref id="P2008" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Persson</surname>
-               <given-names>S.</given-names>
-            </name>
-         </person-group>
-         <year>2008</year>
-      </element-citation>
+   <ref id="___ 2008" publication-format="print">
+      <mixed-citation>Persson, S. (2008). <italic>Läraryrkets uppkomst och förändring.</italic>[The rise and change of the teaching professions]. Dissertation. Gothenburg: Gothenburg University, Department of Sociology.</mixed-citation>
    </ref>
    <ref id="P1997" publication-type="book" publication-format="print">
       <element-citation>
@@ -560,6 +537,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1997</year>
          <publisher-loc>Oxford</publisher-loc>
          <publisher-name>University Press</publisher-name>
@@ -573,6 +551,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2012</year>
          <publisher-loc>Berlin</publisher-loc>
          <publisher-name>Suhrkamp Verlag</publisher-name>
@@ -599,21 +578,15 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>1977</year>
          <publisher-loc>Berkeley</publisher-loc>
          <publisher-name>University of California Press</publisher-name>
       </element-citation>
    </ref>
-   <ref id="S2008" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Scott</surname>
-               <given-names>W. R.</given-names>
-            </name>
-         </person-group>
-         <year>2008</year>
-      </element-citation>
+   <ref id="___ 2008" publication-format="print">
+      <mixed-citation>Scott, W. R. (2008). Lords of the dance: Professionals as institutional agents. <italic>Organization Studies,</italic> 
+         <italic>29</italic>(2), 219-238. </mixed-citation>
    </ref>
    <ref id="___ 2012" publication-type="book" publication-format="print">
       <mixed-citation>SKL/Sveriges Kommuner och Landsting. (2012) <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Cultural Collaboration Model 2010-2012]. Stockholm: Sveriges Kommuner och Landsting.</mixed-citation>
@@ -635,6 +608,7 @@
                <given-names>G.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2011</year>
          <publisher-loc>London</publisher-loc>
          <publisher-name>Bloomsbury Academic</publisher-name>
@@ -651,32 +625,17 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2008</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Swedish Art Committee</publisher-name>
       </element-citation>
    </ref>
-   <ref id="S2002" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Svensson</surname>
-               <given-names>L. G.</given-names>
-            </name>
-         </person-group>
-         <year>2002</year>
-      </element-citation>
+   <ref id="___ 2002" publication-format="print">
+      <mixed-citation>Svensson, L. G. (2002). <italic>Professionella villkor och värderingar.</italic> [Professional conditions and values] Göteborg: Research report no. 126, Department of Sociology Göteborgs University.</mixed-citation>
    </ref>
-   <ref id="S2011" publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Svensson</surname>
-               <given-names>L. G.</given-names>
-            </name>
-         </person-group>
-         <year>2011</year>
-      </element-citation>
+   <ref id="___ 2011" publication-format="print">
+      <mixed-citation>Svensson, L. G. (2011). Inledning till studier av professioner och professionellt arbete [An introduction to professions and professional work]. <italic>Socialvetenskaplig tidskrift</italic>. <italic>4</italic>, 254-267.</mixed-citation>
    </ref>
    <ref id="SE2010" publication-type="book" publication-format="print">
       <element-citation>
@@ -690,6 +649,7 @@
                <given-names>J.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Daidalos</publisher-name>
@@ -725,6 +685,7 @@
                <given-names>L.</given-names>
             </name>
          </person-group>
+         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
          <year>2009</year>
          <publisher-loc>Durham/London</publisher-loc>
          <publisher-name>Duke University Press</publisher-name>

@@ -20,6 +20,28 @@
     <xsl:value-of select="replace($originalString, ',*?\s*&amp;' , ',')"/>
   </xsl:function>
 
+  <xsl:function name="j2e:normalizeEditorString" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+
+    <!--  E.M => E. M -->
+    <xsl:variable name="editorStringFix1">
+      <xsl:value-of select="replace($originalString , '(\c)\.(\c)' , '$1. $2')"></xsl:value-of>
+    </xsl:variable>
+
+    <!-- Make sure initials have a dot following: E. M => E. M.-->
+    <xsl:variable name="editorStringFix2">
+      <xsl:value-of select="replace($editorStringFix1 , '\s(\c)\s' , ' $1. ')"></xsl:value-of>
+    </xsl:variable>
+
+    <!-- Replace &amp; surrounded by optional space with comma followed by exactly one space -->
+    <!-- E. M. Hanssen &amp; E. De Silva  => E. M. Hanssen, E. De Silva -->
+    <xsl:variable name="editorStringFix3">
+      <xsl:value-of select="replace($editorStringFix2 , '\s*&amp;\s*' , ', ')"></xsl:value-of>
+    </xsl:variable>
+
+    <xsl:value-of select="$editorStringFix3"></xsl:value-of>
+  </xsl:function>
+
   <xsl:function name="j2e:normalizeInitialsInAuthorstring" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
     <xsl:value-of
@@ -54,14 +76,24 @@
     <xsl:value-of select="replace($originalString, '^([^,]*),.*$' , '$1')"/>
   </xsl:function>
 
-  <xsl:function name="j2e:getGivenNameFromTokenizedAuthor" as="xs:string">
+  <xsl:function name="j2e:getGivenNamesFromTokenizedAuthor" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
     <xsl:value-of select="normalize-space(replace($originalString, '^.*,(.*)$' , '$1'))"/>
   </xsl:function>
 
+  <xsl:function name="j2e:getSurnameFromTokenizedEditor" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString, '.*?\s*([^.]+)$' , '$1')"/>
+  </xsl:function>
+
+  <xsl:function name="j2e:getGivenNamesFromTokenizedEditor" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="normalize-space(replace($originalString, '^((\c\.\s?)+).*?$' , '$1'))"/>
+  </xsl:function>
+
   <xsl:function name="j2e:getFirstChar" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <xsl:value-of select="replace($originalString, '^(\c{1}).*$' , '$1')"/>
+    <xsl:value-of select="replace($originalString, '^(\c).*$' , '$1')"/>
   </xsl:function>
 
   <xsl:function name="j2e:createRefId" as="xs:string">
@@ -79,6 +111,20 @@
   <xsl:function name="j2e:createRefId" as="xs:string">
     <xsl:param name="year" as="xs:string"/>
     <xsl:value-of select="$year"/>
+  </xsl:function>
+  
+  <xsl:function name="j2e:getChapterTitle" as="xs:string">
+    <!-- Return string with chapter title. Needs node with raw reference as param. 
+      Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
+<!--    <xsl:param name="originalText" as="xs:node()"/>-->
+    <xsl:value-of select="'WIP ## ChapterTitle ## PLACEHOLDER'"/>
+  </xsl:function>
+
+  <xsl:function name="j2e:getSourceTitle" as="xs:string">
+    <!-- Return string with source title. Needs node with raw reference as param. 
+      Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
+<!--    <xsl:param name="originalText" as="xs:node()"/>-->
+    <xsl:value-of select="'WIP ## SourceTitle ## PLACEHOLDER'"/>
   </xsl:function>
 
   <xsl:function name="j2e:getPublisherString" as="xs:string">
@@ -107,15 +153,15 @@
     <!-- Get all text after colon, but leave out optional dot in the end -->
     <xsl:value-of select="normalize-space(replace($publisherString, '.*?:([^:]*?)\.?$', '$1'))"/>
   </xsl:function>
-  
+
   <xsl:function name="j2e:getEditorString" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
     <xsl:value-of select="replace($originalString , '^.*?In([^()]*?)[,.\s]*?\((RE|E)ds?\.\).*$' , '$1' )"></xsl:value-of>
   </xsl:function>
-  
-  <xsl:function name="j2e:tokenizeEditorString" as="xs:string">
+
+  <xsl:function name="j2e:prepareTokensInEditorString" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <xsl:value-of select="replace($originalString , '(,|&amp;)' , '|' )"></xsl:value-of>
+    <xsl:value-of select="replace($originalString , '(,\s?)' , '|' )"></xsl:value-of>
   </xsl:function>
 
   <xsl:template match="node()|@*">
@@ -159,12 +205,11 @@
     <xsl:variable name="tokenizedAuthors" as="xs:string">
       <xsl:value-of select="j2e:tokenizeAuthors($authors)"/>
     </xsl:variable>
-
     
     <xsl:variable name="isBook" as="xs:boolean">
       <!-- Check if the end of the reference to see if it ends with a typical book type reference to a publisher -->
       <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, slash, hyphen -->
-      <!-- Example publisher strings that should match:  
+      <!-- Example publisher strings that should match:
           [(...) Malmö: Liber.] 
           [(...) Cambridge: Polity Press.]
           [(...) Stockholm/Stehag: Symposion.]
@@ -183,8 +228,15 @@
       </xsl:if>
     </xsl:variable>
     
+    <xsl:variable name="tokenizedEditors" as="xs:string">
+      <xsl:value-of select="j2e:prepareTokensInEditorString(j2e:normalizeEditorString($editorString))"/>
+    </xsl:variable>
+
     <xsl:variable name="isParsableEditorString" as="xs:boolean">
-      <xsl:value-of select="false()"/>
+      <xsl:value-of select="matches(
+          j2e:normalizeEditorString($editorString) ,
+            '((\c.\s)+([-\c]{2,}(,|\s)?)+)'
+        )"/>
       <!-- WIP placeholder for matches() -->
     </xsl:variable>
     
@@ -198,8 +250,11 @@
       <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
     </xsl:variable>
 
+    <!-- unknown ref types will be marked up as mixed citation, that means all ref types that
+    will not be automatically identified as either book, book-chapter or journal article -->
+    <!-- WIP this test needs to be revisited -->
     <xsl:variable name="isUnknownRefType" as="xs:boolean">
-      <xsl:value-of select="not($hasYearInParanthesis) or not($isParsableAuthorString)"/>
+      <xsl:value-of select="not($hasYearInParanthesis) or not($isParsableAuthorString) or not($isBook)"/>
     </xsl:variable>
 
     <xsl:variable name="taggedAuthors">
@@ -214,7 +269,7 @@
                   <xsl:value-of select="j2e:getSurnameFromTokenizedAuthor($author)"/>
                 </surname>
                 <given-names>
-                  <xsl:value-of select="j2e:getGivenNameFromTokenizedAuthor($author)"/>
+                  <xsl:value-of select="j2e:getGivenNamesFromTokenizedAuthor($author)"/>
                 </given-names>
               </name>
             </xsl:for-each>
@@ -228,6 +283,19 @@
       <xsl:choose>
         <xsl:when test="$isParsableEditorString eq true()">
           <!-- WIP placeholder process $editors -->
+          <person-group person-group-type="editor">
+            <xsl:for-each select="tokenize($tokenizedEditors, '\|')">
+              <xsl:variable name="editor" select="normalize-space(.)"/>
+              <name>
+                <surname>
+                  <xsl:value-of select="j2e:getSurnameFromTokenizedEditor($editor)"/>
+                </surname>
+                <given-names>
+                  <xsl:value-of select="j2e:getGivenNamesFromTokenizedEditor($editor)"/>
+                </given-names>
+              </name>
+            </xsl:for-each>
+          </person-group>
         </xsl:when>
         <xsl:otherwise/>
       </xsl:choose>
@@ -299,6 +367,23 @@
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
             <xsl:apply-templates select="$taggedAuthors"/>
+            <xsl:choose>
+              <xsl:when test="$isBook eq true()">
+                <xsl:choose>
+                  <xsl:when test="$isBookChapter eq true()">
+                    <chapter-title>
+                      <xsl:value-of select="j2e:getChapterTitle()"/>
+                    </chapter-title>
+                    <xsl:apply-templates select="$taggedEditors"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <source>
+                      <xsl:value-of select="j2e:getSourceTitle()"/>
+                    </source>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:when>
+            </xsl:choose>
             <year>
               <xsl:value-of select="$year"/>
             </year>
@@ -333,8 +418,14 @@
           <editorstring>
             <xsl:value-of select="$editorString"/>
           </editorstring>
+          <normalizedEditorString>
+            <xsl:value-of select="j2e:normalizeEditorString($editorString)"/>
+          </normalizedEditorString>
+          <parsableEditorString>
+            <xsl:value-of select="$isParsableEditorString"/>
+          </parsableEditorString>
           <tokenizedEditorString>
-            <xsl:value-of select="j2e:tokenizeEditorString($editorString)"/>
+            <xsl:value-of select="j2e:prepareTokensInEditorString(j2e:normalizeEditorString($editorString))"/>
           </tokenizedEditorString>
           <publisherString><xsl:value-of select="j2e:getPublisherString($textcontent)"/></publisherString>
         </debugMode>
