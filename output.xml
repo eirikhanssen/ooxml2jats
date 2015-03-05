@@ -2,40 +2,6 @@
 <ref-list xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:j2e="https://github.com/eirikhanssen/jats2epub">
-   <ref id="HM2004"
-        publication-type="book-chapter"
-        publication-format="print">
-      <element-citation>
-         <person-group person-group-type="author">
-            <name>
-               <surname>Hanssen</surname>
-               <given-names>E.</given-names>
-            </name>
-            <name>
-               <surname>McRobbie</surname>
-               <given-names>A.</given-names>
-            </name>
-         </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
-         <person-group person-group-type="editor">
-            <name>
-               <surname>Bennett</surname>
-               <given-names>T.</given-names>
-            </name>
-            <name>
-               <surname>Hanssen</surname>
-               <given-names>E. M.</given-names>
-            </name>
-            <name>
-               <surname>De Silva</surname>
-               <given-names>E.</given-names>
-            </name>
-         </person-group>
-         <year>2004</year>
-         <publisher-loc>Durham</publisher-loc>
-         <publisher-name>Sociology Press</publisher-name>
-      </element-citation>
-   </ref>
    <ref id="A1988" publication-type="book" publication-format="print">
       <element-citation>
          <person-group person-group-type="author">
@@ -44,7 +10,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The system of professions. An essay on the division of expert labor.</source>
          <year>1988</year>
          <publisher-loc>London</publisher-loc>
          <publisher-name>The University of Chicago Press</publisher-name>
@@ -74,7 +40,7 @@
                <given-names>U.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Gränslöst arbete. Socialpsykologiska perspektiv på det nya arbetslivet</source>
          <year>2006</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Liber</publisher-name>
@@ -88,7 +54,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -102,7 +68,7 @@
                <given-names>Z.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The individualized society.</source>
          <year>2001</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity</publisher-name>
@@ -120,7 +86,7 @@
                <given-names>R.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -134,7 +100,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The field of culture production.</source>
          <year>1993</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity Press</publisher-name>
@@ -148,7 +114,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The rules of art: Genesis and structure of the literary field</source>
          <year>1996</year>
          <publisher-loc>Stanford</publisher-loc>
          <publisher-name>Stanford University Press</publisher-name>
@@ -166,7 +132,7 @@
                <given-names>G.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The weight of the world. Social suffering in contemporary society</source>
          <year>1999</year>
          <publisher-loc>Cambridge</publisher-loc>
          <publisher-name>Polity Press</publisher-name>
@@ -182,7 +148,7 @@
                <given-names>T.</given-names>
             </name>
          </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <chapter-title>Sociology of professions. Continental and Anglo-Saxon traditions</chapter-title>
          <person-group person-group-type="editor">
             <name>
                <surname>Svensson</surname>
@@ -214,7 +180,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The Nordic Cultural Model</source>
          <year>2003</year>
          <publisher-loc>Köpenhamn</publisher-loc>
          <publisher-name>Nordisk Kulturinstitut</publisher-name>
@@ -234,7 +200,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Kultur, kropp och konsumtion.  Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </source>
          <year>1994</year>
          <publisher-loc>Stockholm/Stehag</publisher-loc>
          <publisher-name>Symposion</publisher-name>
@@ -248,7 +214,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>När livet går bort, när livet kommer till.  Existenssociologiska betraktelser av konstnärligt arbete, familjebildning och anhörigförlust</source>
          <year>2014</year>
          <publisher-loc>Lund</publisher-loc>
          <publisher-name>Studentlitteratur</publisher-name>
@@ -271,7 +237,7 @@
                <given-names>R.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The rise of the creative class: and how it’s transforming work, leisure, community and everyday life</source>
          <year>2002</year>
          <publisher-loc>New York</publisher-loc>
          <publisher-name>Basic Books</publisher-name>
@@ -287,7 +253,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <chapter-title>KulturSverige 2009</chapter-title>
          <person-group person-group-type="editor">
             <name>
                <surname>S. Beckman.</surname>
@@ -313,7 +279,7 @@
                <given-names>V.</given-names>
             </name>
          </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <chapter-title>Professionalism, boundaries and the workplace</chapter-title>
          <person-group person-group-type="editor">
             <name>
                <surname>Malin</surname>
@@ -333,7 +299,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Kulturen som kulturpolitikens stora problem. Diskussionen om svensk kulturpolitik under 1900-talet</source>
          <year>2005</year>
          <publisher-loc>Hedemora</publisher-loc>
          <publisher-name>Gidlunds förlag</publisher-name>
@@ -354,7 +320,7 @@
                <given-names>C.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -371,7 +337,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>). Kulturpolitik. Styrning på avstånd</source>
          <year>2014</year>
          <publisher-loc>Lund</publisher-loc>
          <publisher-name>Studentlitteratur</publisher-name>
@@ -385,7 +351,7 @@
                <given-names>J.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
          <year>2012</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
@@ -399,7 +365,7 @@
                <given-names>D.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>En kulturutredning. Pengar, konst och politik</source>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Glänta produktion</publisher-name>
@@ -430,7 +396,7 @@
                <given-names>B.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Skapande skola. En kalejdoskopisk  reform och dess praktik</source>
          <year>2013</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Myndigheten för kulturanalys</publisher-name>
@@ -446,7 +412,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <chapter-title>Contemporary culture and everyday life</chapter-title>
          <person-group person-group-type="editor">
             <name>
                <surname>Bennett</surname>
@@ -482,7 +448,7 @@
                <given-names>H.</given-names>
             </name>
          </person-group>
-         <chapter-title>WIP ## ChapterTitle ## PLACEHOLDER</chapter-title>
+         <chapter-title>Sociology of professions. Continental and Anglo-Saxon traditions</chapter-title>
          <person-group person-group-type="editor">
             <name>
                <surname>Svensson</surname>
@@ -506,7 +472,7 @@
                <given-names>S.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Kulturens vägar</source>
          <year>1999</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Polyvalent</publisher-name>
@@ -520,7 +486,7 @@
                <given-names>S.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Var finns kreativiteten?  Exemplet Skåne</source>
          <year>2008</year>
          <publisher-loc>Malmö</publisher-loc>
          <publisher-name>Polyvalent</publisher-name>
@@ -537,7 +503,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The audit society: Rituals of verification.</source>
          <year>1997</year>
          <publisher-loc>Oxford</publisher-loc>
          <publisher-name>University Press</publisher-name>
@@ -551,7 +517,7 @@
                <given-names>A.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Die Erfindung der Kreativität.</source>
          <year>2012</year>
          <publisher-loc>Berlin</publisher-loc>
          <publisher-name>Suhrkamp Verlag</publisher-name>
@@ -578,7 +544,7 @@
                <given-names>M.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The rise of professionalism. A sociological analysis. </source>
          <year>1977</year>
          <publisher-loc>Berkeley</publisher-loc>
          <publisher-name>University of California Press</publisher-name>
@@ -608,7 +574,7 @@
                <given-names>G.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>The Precariat: the new dangerous class</source>
          <year>2011</year>
          <publisher-loc>London</publisher-loc>
          <publisher-name>Bloomsbury Academic</publisher-name>
@@ -625,7 +591,7 @@
                <given-names>P.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Konstnärerna i kulturpolitiken.</source>
          <year>2008</year>
          <publisher-loc>Stockholm</publisher-loc>
          <publisher-name>Swedish Art Committee</publisher-name>
@@ -649,7 +615,7 @@
                <given-names>J.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Sociology of professions. Continental and Anglo-Saxon traditions.</source>
          <year>2010</year>
          <publisher-loc>Göteborg</publisher-loc>
          <publisher-name>Daidalos</publisher-name>
@@ -685,7 +651,7 @@
                <given-names>L.</given-names>
             </name>
          </person-group>
-         <source>WIP ## SourceTitle ## PLACEHOLDER</source>
+         <source>Punishing the poor.</source>
          <year>2009</year>
          <publisher-loc>Durham/London</publisher-loc>
          <publisher-name>Duke University Press</publisher-name>

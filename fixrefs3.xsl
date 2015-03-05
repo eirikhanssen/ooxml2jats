@@ -116,15 +116,28 @@
   <xsl:function name="j2e:getChapterTitle" as="xs:string">
     <!-- Return string with chapter title. Needs node with raw reference as param. 
       Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
-<!--    <xsl:param name="originalText" as="xs:node()"/>-->
-    <xsl:value-of select="'WIP ## ChapterTitle ## PLACEHOLDER'"/>
+     <xsl:param name="originalRef" as="node()"/>
+    <!--
+      WIP what if there is more then one italic element? Now all italic children are output together.
+      This is OK for book-chapter type references.
+    -->
+    <!-- WIP when translation follows <italic>...</italic> in [Brackets], how should it be marked up? -->
+    <xsl:value-of select="$originalRef/italic"/>
   </xsl:function>
 
   <xsl:function name="j2e:getSourceTitle" as="xs:string">
-    <!-- Return string with source title. Needs node with raw reference as param. 
+    <!-- Return string with chapter title. Needs node with raw reference as param.
       Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
-<!--    <xsl:param name="originalText" as="xs:node()"/>-->
-    <xsl:value-of select="'WIP ## SourceTitle ## PLACEHOLDER'"/>
+    <xsl:param name="originalRef" as="node()"/>
+
+    <!--
+      WIP what if there is more then one italic element? Now all italic children are output together.
+      This is OK for book type references.
+    -->
+
+    <!-- WIP when translation follows <italic>...</italic> in [Brackets], how should it be marked up? -->
+    <xsl:value-of select="$originalRef/italic"/>
+
   </xsl:function>
 
   <xsl:function name="j2e:getPublisherString" as="xs:string">
@@ -372,13 +385,13 @@
                 <xsl:choose>
                   <xsl:when test="$isBookChapter eq true()">
                     <chapter-title>
-                      <xsl:value-of select="j2e:getChapterTitle()"/>
+                      <xsl:value-of select="j2e:getChapterTitle($textcontent)"/>
                     </chapter-title>
                     <xsl:apply-templates select="$taggedEditors"/>
                   </xsl:when>
                   <xsl:otherwise>
                     <source>
-                      <xsl:value-of select="j2e:getSourceTitle()"/>
+                      <xsl:value-of select="j2e:getSourceTitle($textcontent)"/>
                     </source>
                   </xsl:otherwise>
                 </xsl:choose>
