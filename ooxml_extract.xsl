@@ -62,5 +62,9 @@
     <xsl:template match="w:t[../w:rPr/w:b]">
         <bold><xsl:value-of select="."/></bold>
     </xsl:template>
-
+    
+    <!-- mark up hyperlinks as uri -->
+    <xsl:template match="w:t[ancestor::w:hyperlink]">
+        <uri><xsl:value-of select="."/></uri>
+    </xsl:template>
 </xsl:stylesheet>
