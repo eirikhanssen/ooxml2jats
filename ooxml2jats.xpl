@@ -52,6 +52,16 @@
         </p:input>
     </p:xslt>
 
+    <p:xslt name="section_and_header_cleanup" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="section_and_header_cleanup.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <p:identity/>
 
 </p:declare-step>
