@@ -15,9 +15,9 @@
     <xsl:variable name="footnotes_in_doc" select="doc($footnotes)/w:footnotes"/>
 
     <xsl:template match="/">
-        <document>
+        <article>
             <xsl:apply-templates select=".//w:p"/>
-        </document>
+        </article>
     </xsl:template>
 
     <xsl:template match="w:p">
