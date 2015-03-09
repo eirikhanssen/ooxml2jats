@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<styles>
+    <style>
+        <name>BodyText</name>
+        <name>Normal</name>
+        <transformTo>p</transformTo>
+    </style>
+    <style>
+        <name>Heading1</name>
+        <name>PPHeading1</name>
+        <transformTo>h1</transformTo>
+    </style>
+    <style>
+        <name>Heading2</name>
+        <name>PPHeading2</name>
+        <transformTo>h2</transformTo>
+    </style>
+    <style>
+        <name>Heading3</name>
+        <name>PPHeading3</name>
+        <transformTo>h3</transformTo>
+    </style>
+    <style>
+        <name>Heading4</name>
+        <name>PPHeading4</name>
+        <transformTo>h4</transformTo>
+    </style>
+</styles>
