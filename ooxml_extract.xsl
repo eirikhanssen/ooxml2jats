@@ -12,7 +12,7 @@
 
     <xsl:param name="footnotes" as="xs:string"/>
     <xsl:variable name="styles" select="doc('stylemap.xml')/styles/style"/>
-    <xsl:variable name="footnotes_in_doc" select="doc($footnotes)/footnote"/>
+    <xsl:variable name="footnotes_in_doc" select="doc($footnotes)/w:footnotes"/>
 
     <xsl:template match="/">
         <document>
@@ -70,4 +70,18 @@
     <xsl:template match="w:t[ancestor::w:hyperlink]">
         <uri><xsl:value-of select="."/></uri>
     </xsl:template>
+
+    <!-- insert footnote-refs -->
+    <!--
+        in the final JATS document the id of the footnote should start counting from 1, even if it
+        starts counting differently in the source document
+    -->
+    <xsl:template match="w:r[w:footnoteReference]">
+        <xsl:variable name="footnoteId" select="w:footnoteReference/@w:id"/>
+        <xsl:element name="footnoteReference">
+            <!-- footnote content should be placed directly to the back matter of the JATS xml at a later stage -->
+            <xsl:attribute name="fn" select="$footnoteId"/>
+        </xsl:element>
+    </xsl:template>
+
 </xsl:stylesheet>
