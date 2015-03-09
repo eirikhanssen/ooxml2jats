@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+    xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+    xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+    xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+    xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+    xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+    xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+    xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+    xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer"
+    xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events"
+    xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:rpt="http://openoffice.org/2005/report"
+    xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+    xmlns:officeooo="http://openoffice.org/2009/office"
+    xmlns:tableooo="http://openoffice.org/2009/table"
+    xmlns:drawooo="http://openoffice.org/2010/draw"
+    xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+    xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+    xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+    xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+    xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
+    <office:scripts/>
+    <office:font-face-decls>
+        <style:font-face style:name="Arial" svg:font-family="Arial"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Calibri" svg:font-family="Calibri"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Cambria" svg:font-family="Cambria"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Lucida Grande" svg:font-family="&apos;Lucida Grande&apos;"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Tahoma" svg:font-family="Tahoma"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Times" svg:font-family="Times"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="Verdana" svg:font-family="Verdana"
+            style:font-family-generic="swiss"/>
+        <style:font-face style:name="F" svg:font-family="" style:font-family-generic="system"
+            style:font-pitch="variable"/>
+        <style:font-face style:name="Arial1" svg:font-family="Arial"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Calibri1" svg:font-family="Calibri"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Courier New" svg:font-family="&apos;Courier New&apos;"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Mangal" svg:font-family="Mangal"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Microsoft YaHei" svg:font-family="&apos;Microsoft YaHei&apos;"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Tahoma1" svg:font-family="Tahoma"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+    </office:font-face-decls>
+    <office:automatic-styles>
+        <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:line-height="96%"/>
+        </style:style>
+        <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties style:line-height-at-least="0.035cm"/>
+        </style:style>
+        <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:text-indent="0cm" style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:line-height="96%" fo:text-indent="0cm" style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                style:line-height-at-least="0.035cm" fo:text-indent="0cm"
+                style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:line-height="103%" fo:text-align="start" style:justify-single-word="false"
+                fo:text-indent="0cm" style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:line-height="100%" fo:text-align="start" style:justify-single-word="false"
+                fo:text-indent="0cm" style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:text-align="start" style:justify-single-word="false" fo:text-indent="0cm"
+                style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:line-height="98%" fo:text-align="start" style:justify-single-word="false"
+                fo:text-indent="0cm" style:auto-text-indent="false"/>
+        </style:style>
+        <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm"
+                fo:keep-together="always" fo:text-indent="0cm" style:auto-text-indent="false"
+                fo:keep-with-next="always"/>
+        </style:style>
+        <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+            <style:paragraph-properties fo:margin-left="0.501cm" fo:margin-right="0cm"
+                fo:line-height="103%" fo:text-align="start" style:justify-single-word="false"
+                fo:orphans="2" fo:widows="2" fo:text-indent="-0.501cm"
+                style:auto-text-indent="false" fo:keep-with-next="always"/>
+        </style:style>
+        <style:style style:name="P12" style:family="paragraph"
+            style:parent-style-name="PP_20_Heading_20_3">
+            <style:paragraph-properties fo:line-height="120%" fo:keep-together="always"
+                fo:keep-with-next="always"/>
+        </style:style>
+        <style:style style:name="P13" style:family="paragraph"
+            style:parent-style-name="PP_20_Heading_20_2">
+            <style:paragraph-properties fo:keep-together="always" fo:keep-with-next="always"/>
+        </style:style>
+        <style:style style:name="P14" style:family="paragraph"
+            style:parent-style-name="PP_20_Heading_20_1" style:master-page-name="First_20_Page">
+            <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.635cm"
+                loext:contextual-spacing="false" style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted2">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted4">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted6">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted8">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted10">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted12">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted14">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted16">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Footnote"
+            style:master-page-name="Converted18">
+            <style:paragraph-properties style:page-number="auto"/>
+        </style:style>
+        <style:style style:name="T1" style:family="text">
+            <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="en"
+                fo:country="US" fo:font-weight="bold" style:font-size-asian="10pt"
+                style:font-weight-asian="bold" style:font-name-complex="Arial1"
+                style:font-size-complex="10pt"/>
+        </style:style>
+        <style:style style:name="T2" style:family="text">
+            <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="en"
+                fo:country="US" style:font-size-asian="10pt" style:font-name-complex="Arial1"
+                style:font-size-complex="10pt"/>
+        </style:style>
+        <style:style style:name="T3" style:family="text">
+            <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="en"
+                fo:country="US" style:font-name-asian="Times New Roman1"
+                style:font-size-asian="10pt" style:font-name-complex="Arial1"
+                style:font-size-complex="10pt"/>
+        </style:style>
+        <style:style style:name="T4" style:family="text">
+            <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="en"
+                fo:country="GB" fo:font-weight="bold" style:font-size-asian="10pt"
+                style:font-weight-asian="bold" style:font-name-complex="Arial1"
+                style:font-size-complex="10pt"/>
+        </style:style>
+        <style:style style:name="T5" style:family="text">
+            <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="en"
+                fo:country="GB" style:font-size-asian="10pt" style:font-name-complex="Arial1"
+                style:font-size-complex="10pt"/>
+        </style:style>
+        <style:style style:name="T6" style:family="text">
+            <style:text-properties fo:language="en" fo:country="US"/>
+        </style:style>
+        <style:style style:name="T7" style:family="text">
+            <style:text-properties fo:language="en" fo:country="US" fo:font-style="italic"
+                style:font-style-asian="italic"/>
+        </style:style>
+        <style:style style:name="T8" style:family="text">
+            <style:text-properties fo:language="en" fo:country="US" fo:font-style="italic"
+                style:font-style-asian="italic" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T9" style:family="text">
+            <style:text-properties fo:language="en" fo:country="US" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T10" style:family="text">
+            <style:text-properties fo:language="en" fo:country="GB"/>
+        </style:style>
+        <style:style style:name="T11" style:family="text">
+            <style:text-properties fo:language="en" fo:country="GB" style:language-asian="nb"
+                style:country-asian="NO" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T12" style:family="text">
+            <style:text-properties fo:language="en" fo:country="GB" fo:font-style="italic"
+                style:language-asian="nb" style:country-asian="NO" style:font-style-asian="italic"
+                style:font-size-complex="11pt" style:font-style-complex="italic"/>
+        </style:style>
+        <style:style style:name="T13" style:family="text">
+            <style:text-properties fo:color="#1a1a1a" fo:language="en" fo:country="US"/>
+        </style:style>
+        <style:style style:name="T14" style:family="text">
+            <style:text-properties style:font-name="Times" fo:language="en" fo:country="US"/>
+        </style:style>
+        <style:style style:name="T15" style:family="text">
+            <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:language="en"
+                fo:country="US" fo:background-color="#ffffff" loext:char-shading-value="0"/>
+        </style:style>
+        <style:style style:name="T16" style:family="text">
+            <style:text-properties fo:language="sv" fo:country="SE" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T17" style:family="text">
+            <style:text-properties fo:language="sv" fo:country="SE" fo:font-style="italic"
+                style:font-style-asian="italic" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T18" style:family="text">
+            <style:text-properties style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T19" style:family="text">
+            <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
+                style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T20" style:family="text">
+            <style:text-properties fo:language="nn" fo:country="NO" fo:font-style="italic"
+                style:font-style-asian="italic" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="T21" style:family="text">
+            <style:text-properties fo:language="nn" fo:country="NO" style:font-size-complex="11pt"/>
+        </style:style>
+        <style:style style:name="Sect1" style:family="section">
+            <style:section-properties style:editable="false">
+                <style:columns fo:column-count="1" fo:column-gap="0cm"/>
+            </style:section-properties>
+        </style:style>
+    </office:automatic-styles>
+    <office:body>
+        <office:text text:use-soft-page-breaks="true">
+            <text:sequence-decls>
+                <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+            </text:sequence-decls>
+            <text:section text:style-name="Sect1" text:name="TextSection">
+                <text:p text:style-name="P14">Artists’ Autonomy and Professionalization in a New
+                    Cultural Policy Landscape</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T1"
+                        >Abstract</text:span><text:span text:style-name="T2">: Using
+                        </text:span><text:span text:style-name="T3">literature on the
+                        professions</text:span><text:span text:style-name="T2">, the article
+                        explores how a new political model for funding and steering may affect
+                        professional autonomy. Professional groups’ efforts to independently
+                        practice their profession during times of political change are elaborated.
+                        The professional group in questions is artists, the context is Sweden, and
+                        the new model is called the Collaborative Cultural Model. This model entails
+                        a shift in the funding and realization of cultural policy from the national
+                        to the regional level. From a situation in which civil servants with
+                        specific culture knowledge were involved, politicians, representatives of
+                        civil society, civil servants and artists are now to work together to create
+                        a regional culture plan. In the article, two different outcomes of the new
+                        model are discussed as possible. It can lead to de-professionalization
+                        process, particularly if the policy on keeping outside influences at “arm’s
+                        length” weakens. On the other hand, negotiations between different actors
+                        could result in artists’ knowledge becoming more prominent and receiving
+                        more recognition than previously. This, in turn, could promote professional
+                        artists’ status.</text:span></text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T4"
+                        >Keywords</text:span><text:span text:style-name="T5">:
+                        </text:span><text:span text:style-name="T2">Cultural policy, public funding,
+                        autonomy, artistic (de)professionalization, dominated and
+                        dominating</text:span></text:p>
+                <text:p text:style-name="P4"><text:span text:style-name="T6">Among groups defined as
+                        professionals, working conditions and incomes may differ. One common
+                        denominator, however, may be seen as professionals’ possibility to—even
+                        under uncertain circumstances—control their own work, tasks and knowledge
+                        and maintain a high deg</text:span><text:bookmark text:name="_GoBack"
+                        /><text:span text:style-name="T6">ree of freedom of determination (Molander
+                        &amp; Grimen, 2010; Svensson, 2011). Nevertheless, many
+                        professionals—especially welfare state professionals—are dependent on
+                        financial resources from the outside, such as public funds. In this article,
+                        we explore how changes in political models for funding in a welfare sector
+                        affect professional autonomy, here understood in terms of the individual’s
+                        possibility to act and make practical decisions (discretion) (Molander &amp;
+                        Grimen, 2010) as well as to control their own area of competence
+                        (jurisdiction) (e.g., Abbott, 1988). Our case concerns the professional
+                        conditions of artists in Sweden. Even though it may be argued whether
+                        artists (writers, visual artists, actors, musicians, dancers, directors and
+                        so forth) are a real profession, we utilize perspectives from the theory of
+                        professions and argue for its benefits. As we will see, an artist can be
+                        defined as a knowledge-based occupational group with a certain degree of
+                        professional autonomy. This autonomy may be challenged with a new, user
+                        involvement, policy reform. This kind of reform is a policy trend also
+                        challenging other professional groups in contemporary
+                    society.</text:span></text:p>
+                <text:p text:style-name="P4"><text:span text:style-name="T6">Cultural policy has
+                        played an important role in Sweden—like in other European countries such as
+                        Germany and Great Britain—in the building of a welfare state, as have the
+                        social and educational sectors (Jacobsson, 2014; Karlsson, 2010; Frenander,
+                        2005; Svensson, 2008). Therefore, an artist may almost be regarded as a kind
+                        of welfare state professional, closely related to ideals of cultural equity.
+                        Another reason for bringing artists into focus is that, even if they do not
+                        have control over public economy resources, they control important symbolic
+                        resources. That is, they have power over ideas and what kind of moral and
+                        political issues will be on the agenda (Bourdieu, 1996). As we will discuss
+                        here, this position gives rise to a specific, ambiguous social position
+                        that, in turn, may also give rise to specific professional
+                        strategies.</text:span></text:p>
+                <text:p text:style-name="P1"><text:span text:style-name="T6">The
+                        </text:span><text:span text:style-name="T7">aim</text:span><text:span
+                        text:style-name="T6"> of the present article is to discuss how the new
+                        cultural policy model in force in Sweden since 2011 may have affected the
+                        influence and autonomy of artists. The policy in question is the so-called
+                        Collaborative Cultural Model.</text:span><text:span text:style-name="T6"
+                            ><text:note text:id="ftn1" text:note-class="footnote">
+                            <text:note-citation>1</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P15"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> The </text:span><text:span
+                                        text:style-name="T13">Collaborative Cultural Model is the
+                                        official translation of this reform, in Swedish the name is
+                                        “Kultursamverkansmodellen.”</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6"> We have chosen to
+                        call the changes occurring in the wake of the model “Sweden’s new cultural
+                        policy landscape”. The reform implies two significant changes in relation to
+                        previous cultural policy. First, the terms of resource allocation have been
+                        regionalized, which means that a shift in focus from the national to the
+                        regional level has taken place. Second, the goal of the reform is that
+                        several actors, including people without artistic training, will now be able
+                        to influence the direction of cultural policy at the regional level.
+                        Politicians, civil servants and representatives of civil society are to work
+                        together with practitioners of culture to create a plan for cultural
+                        activities in the region and, ultimately, to shape cultural workers’
+                        occupational conditions. This new arrangement could be seen as entailing a
+                        democratization of cultural practice, but—as we will discuss in the
+                        article—it may also imply a risk for de-professionalization, as artists now
+                        have less to say regarding both their achievements and contributions to
+                        society. Demands from outsiders could also lead to increased requirements to
+                        report the achievement of aims and goals. Still, as several researchers have
+                        pointed out, the professional consequences of policy changes are often an
+                        open question. Autonomous decision-making and control of competence may both
+                        increase and decrease (e.g., Evans &amp; Harris, 2004; Larsson &amp;
+                        Jacobsson, 2013). From this perspective, the cultural collaboration reform
+                        could be regarded as a battleground for professional claims, where the
+                        outcome of these struggles could involve both de-professionalization and
+                        professionalization. The later may occur if more actors become interested in
+                        the value of culture and art.</text:span></text:p>
+                <text:p text:style-name="P1"><text:span text:style-name="T6">Given that the cultural
+                        policy reform in question is in its infancy, our analysis here is
+                        explorative. Therefore, the basis of the article concerns an analysis of
+                        possible implications of public policy and a new reform. Utilizing political
+                        documents, evaluations of the reform as well as research performed of
+                        related cultural projects in the wake of the Collaborative Cultural
+                        Model,</text:span><text:span text:style-name="T6"><text:note text:id="ftn2"
+                            text:note-class="footnote">
+                            <text:note-citation>2</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P16"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> The selection of documents concerning
+                                        our analysis is founded on evaluations and research that so
+                                        far have been published concerning the effects of the reform
+                                        as well as cultural policy documents concerning the process
+                                        leading forward to the Collaborative Cultural Model (e.g.
+                                        Harding &amp; Nathanson, 2012; Swedish Agency for Cultural
+                                        Policy Analysis, 2012; 2013, SKL 2012; SOU 2010:11; Swedish
+                                        Arts Council, 2011).</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6"> our discussion
+                        concerns how the autonomy of artist groups may change in the new landscape
+                        of cultural policy.</text:span></text:p>
+                <text:p text:style-name="P1"><text:soft-page-break/><text:span text:style-name="T6"
+                        >In the first section of the article—</text:span><text:span
+                        text:style-name="T7">Theoretical premises</text:span><text:span
+                        text:style-name="T6">—we will present our premises and concepts for the
+                        discussion, primarily based on the sociology of professions. The section is
+                        divided into three sub-headings, which all highlight the classic question of
+                        occupational groups’ efforts to independently define their field of
+                        knowledge and pursue their professional activities. Here, we also present
+                        some examples of the specific conditions that define artists’ working life,
+                        with regard to previous cultural policy. In the
+                        section—</text:span><text:span text:style-name="T7">A New Cultural Policy
+                        Landscape</text:span><text:span text:style-name="T6">—we present the
+                        cultural policy reform, followed by the final section—</text:span><text:span
+                        text:style-name="T7">Possible Consequences of the Collaborative Cultural
+                        Model</text:span><text:span text:style-name="T6">—where we discuss what the
+                        possible consequences of the reform may be for professional claims. Here, we
+                        summarize these challenges in relation to the previously raised questions of
+                        autonomy, professionalization and
+                    de-professionalization.</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_2">Theoretical Premises</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">Although the present
+                        article is not primarily an empirical investigation, we wish to offer a
+                        theoretical proposition concerning the conditions and starting points on
+                        which a research-based study of artists’ working life in relation to the
+                        Collaborative Cultural Model could focus. In our view, the Collaborative
+                        Cultural Model can be seen as a </text:span><text:span text:style-name="T7"
+                        >battleground</text:span><text:span text:style-name="T6"> on which constant
+                        professional claim-making, processes and negotiations are taking place. Such
+                        a theoretical basis is found in sociologist Pierre Bourdieu’s (e.g., 1996)
+                        perspective, who argues that artistic professionals and stakeholders guard
+                        their specific interests and struggle for influence and power. We also find
+                        a similar idea in professions theory, which elucidates the boundary work
+                        professional groups do to assert the value of their professional skills,
+                        maintain or increase their influence and status as well as improve their
+                        economic and social resources (Abbott, 1988; Gieryn, 1983; Scott,
+                        2008).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6"
+                        >Professionalization has been defined as a process through which
+                        professional groups develop and adopt strategies for converting their
+                        specific knowledge and qualifications into symbolic, social and economic
+                        dividends (Sarfatti-Larson, 1977; Svensson, 2002). Through such professional
+                        efforts, professional groups try to establish boundaries for their field of
+                        activity in relation to other spheres of interest in society (Carlhed, 2011;
+                        Svensson, 2011). In this connection, it should be pointed out that
+                        boundaries “are drawn and redrawn in flexible, historically changing and
+                        sometimes ambiguous ways” (Gieryn, 1983, p. 781). As we see it, both the
+                        perspective of Bourdieu and professions theory could be valuable in
+                        discussing what the new cultural policy landscape means for recognition of
+                        artists’ autonomy and professional skills. While Bourdieu’s perspective
+                        helps us look at unconscious processes of symbolic boundary work,
+                        professions theory focuses more on conscious strategies for maintaining
+                        status and professional advantages in a specific occupational
+                        field.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">With the concept
+                        of </text:span><text:span text:style-name="T7">social
+                        field</text:span><text:span text:style-name="T6">, Bourdieu wishes to give
+                        us a tool to analyze how resources and tasks are valued in different ways
+                        depending on the specific communities of interest in various social arenas,
+                        such as the economic, political or cultural arenas (Bourdieu, 1996).
+                        Bourdieu points out that relationships, beliefs and social norms within the
+                        artistic field have developed from a historical process of modernization and
+                        specialization. An important factor in this historical process is the
+                        development of professional autonomy as an artist, which is based on the
+                        modern idea that the assessments made by specialists in a specific field are
+                        different from the perceptions of the population at large (Bourdieu 1993,
+                        1996).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Both from
+                        Bourdieu’s perspective and that of professions theory, it is reasonable to
+                        assume that contradictions and power alliances may arise when negotiations
+                        on public funds are taking form. Professional conditions are related to
+                        strategies and negotiations of different interests, and therefore are a part
+                        of historical change, as Thomas Brante (2010) points out: “Social formations
+                        develop and change, so new areas emerge that can and sometimes need to be
+                        filled with specific competence” (p. 14). <text:s/>The degree of autonomy
+                        professional groups are able to achieve during these processes of change is
+                        related to </text:span><text:span text:style-name="T7"
+                        >competition</text:span><text:span text:style-name="T6"> from other
+                        </text:span><text:span text:style-name="T7">occupational
+                        groups</text:span><text:span text:style-name="T6">, which
+                        </text:span><text:span text:style-name="T7">economic and cultural
+                        resources</text:span><text:span text:style-name="T6"> are offered, as well
+                        as the degree and kind of </text:span><text:span text:style-name="T7"
+                        >collective voice</text:span><text:span text:style-name="T6"> that is
+                        emphasized within the group (Abbott, 1988). Improving the status of one’s
+                        own collective is a core aspect of professional strategies (e.g., Persson,
+                        2008). One way to increase status is through jurisdiction, that is, the
+                        right and authority to control a certain area of competence in the form of a
+                        knowledge monopoly.</text:span></text:p>
+                <text:p text:style-name="P12"><text:soft-page-break/>The professional field of
+                    artists in Sweden in relation to cultural policy.</text:p>
+                <text:p text:style-name="P10"><text:span text:style-name="T6">Swedish artists’
+                        autonomy and societal influence are framed by welfare state cultural
+                        policies that both facilitate and limit the conditions under which artists
+                        work. During a period of 40 years, Swedish cultural policy has stressed that
+                        artistic quality and artists’ specialist competence are fundamental to
+                        societal development (Swedish Government Offices, 2014). Like several other
+                        welfare professions this means that artists’ professional conditions and
+                        influence in society have largely been dependent on political goals and
+                        public funding (Nilsson, 2008). But dependence on public funding also means
+                        that professional conditions are sensitive to the changes brought about by
+                        for example political reforms.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">In countries with
+                        developed welfare state cultural policies, a classic often-discussed dilemma
+                        exists concerning the importance of artistic autonomy versus the notion that
+                        culture should “serve” the public welfare in a democratic manner (Karlsson,
+                        2010, p. 165). Swedish cultural policy has long been characterized by
+                        respect for artists’ professional autonomy. Public funding has followed the
+                        principle that political control should always take place at
+                        </text:span><text:span text:style-name="T7">arm’s
+                        length</text:span><text:span text:style-name="T6"> from practitioners, which
+                        is not only a question of showing respect but also of freedom of expression
+                        and democracy (Frenander, 2005). Because jurisdiction is an important
+                        foundation for professional autonomy, the Swedish cultural policy principle
+                        of arm’s length distance is interesting, as it can be seen as a “successful”
+                        professionalization strategy. Despite the fact that professional artist
+                        groups have been dependent on public funding, the principle has given them a
+                        great deal of autonomy. According to certain critics, institutions and
+                        artists have actually been given too much autonomy, compared with for
+                        example teachers’ professionalization in relation to educational policy
+                        (Blomgren, 2012).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">It seems that
+                        artists have succeeded in converting their knowledge capital into
+                        </text:span><text:span text:style-name="T7">symbolic
+                        power</text:span><text:span text:style-name="T6">—power that, according to
+                        Bourdieu (1996), concerns influence over idea systems. Sweden’s cultural
+                        policy goals state that culture should be “a dynamic, challenging and
+                        unbounded force” considering that “creativity, diversity and artistic
+                        creativity” are important parts of the societal development (Ministry of
+                        Culture, 2015). It would seem that few professions have so clearly succeeded
+                        in convincing society that their knowledge is essential and therefore in
+                        legitimating their own power, which is viewed in the research as a central
+                        question for professions (e.g., Sarfatti-Larson, 1977).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">From a
+                        professions theory perspective, one could say that the fact that
+                        professional artists are characterized as having achieved a dominant
+                        position with regard to symbolic power is related to the fact that they are
+                        generally highly educated. In Sweden, two thirds of all artists have at
+                        least three years of higher education, while the corresponding proportion
+                        for the general population is one third (Swedish Arts Grants Committee,
+                        2010). It is difficult for people who lack higher education to work as an
+                        artist. One fundamental idea in professions analysis is that professions
+                        expand and legitimate their position by requiring long periods of education.
+                        In other words, education is the basis for having a monopoly on specific
+                        knowledge, which in turn leads to increased symbolic and economic influence
+                        in society (Sarfatti Larson, 1977).</text:span><text:span
+                        text:style-name="T6"><text:note text:id="ftn3" text:note-class="footnote">
+                            <text:note-citation>3</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P17"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> For example, in one of the most recent
+                                        cultural policy efforts in Sweden, </text:span><text:span
+                                        text:style-name="T7">Creative School</text:span><text:span
+                                        text:style-name="T6">, school leaders are only allowed to
+                                        engage professional practitioners, with an artistic
+                                        education or many years in the sector, when using these
+                                        earmarked public funds (cf. Lund, Krantz &amp; Gustafsson,
+                                        2013).</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_2">Successful Strategies for Accumulating
+                    Symbolic Capital</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">The working conditions
+                        of artists have seldom been analyzed in working life and occupational
+                        research (Flisbäck &amp; Lund, 2010). One reason for this may be that the
+                        occupational field is small, in Sweden estimated at one percent of the labor
+                        force (Forsman, 2008). Recently, however, several scholars have pointed out
+                        that artistic professions and creative work in general are growing in terms
+                        of both size and social influence (Menger, 2006; Heian, Løyland, &amp;
+                        Mangset, 2008; Swedish Arts Grants Committee, 2010, 2011). The importance of
+                        artistic competence is thought to have increased through the culturalization
+                        of the economy. The increasing consumption of services in society has led to
+                        artists’ and designers’ skills becoming more desirable (Featherstone, 1994;
+                        Bauman, 2001). For example, Richard Florida (2002) claims that artists and
+                        workers in the creative industry belong to a new, influential
+                        </text:span><text:span text:style-name="T7">creative
+                        class</text:span><text:span text:style-name="T6">, and according to the
+                        European Commission (2006), the financial turnover of cultural enterprises
+                        has increased considerably. Moreover, in society at large, we are all
+                        encouraged to cash in on our creativity (cf. Reckwitz, 2012) and start our
+                        own businesses, and the national curriculum for Swedish elementary school
+                        students includes knowledge of entrepreneurial processes. In line with this,
+                        artists’ professional activities and work have come to be invoked as leading
+                        models in political discussions in Europe (McRobbie,
+                    2004).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Even if artists
+                        can still be regarded as a small part of the entire workforce, their skills
+                        in terms of creativity seem to have a societal impact. Artists’ typical
+                        working and employment conditions may also become more common in a
+                        “boundariless” working life climate (Allvin, Aronsson, Hagström, Johansson,
+                        &amp; Lundberg, 2006). Artists belong to a highly educated group, but they
+                        nonetheless have insecure employment, small incomes and many
+                        clients/employers (Swedish Arts Grants Committee, 2011). The median income
+                        of people working in the arts in Sweden is about 15 percent lower than that
+                        of the general population (Swedish Arts Grants Committee, 2009, 2010, 2011).
+                        Moreover, self-employment within the art and culture sector is widespread
+                        </text:span><text:soft-page-break/><text:span text:style-name="T6">and tends
+                        to be increasing (Forsman, 2008; Swedish Arts Grants Committee,
+                        2011).</text:span><text:span text:style-name="T6"><text:note text:id="ftn4"
+                            text:note-class="footnote">
+                            <text:note-citation>4</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P18"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> Looking at the broader field; the
+                                        creative industry, nearly one third of the people working
+                                        there were self-employed (compared to 14 percent in the rest
+                                        of EU) (The Economy of Culture in Europe, 2006, p.
+                                        91).</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6">
+                        <text:s/>Thus, rather than a creative class, perhaps artists should be seen
+                        as belonging to a new global, class that Guy Standing (2011) calls
+                        </text:span><text:span text:style-name="T7">the
+                        precariat</text:span><text:span text:style-name="T6">, that is, social
+                        groups that work on the periphery of the labor market, live with uncertain
+                        incomes and employment, and often find themselves outside the system of
+                        social security (cf. Flisbäck, 2014).</text:span><text:span
+                        text:style-name="T6"><text:note text:id="ftn5" text:note-class="footnote">
+                            <text:note-citation>5</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P19"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> McRobbie (2004) pointed out that
+                                        similar discussions of artists as an influential class are
+                                        more ideologically than empirically grounded. Creative
+                                        entrepreneurship has been presented as a model for
+                                        addressing unemployment and low wages. But according to
+                                        McRobbie, this hides important facts about artists’ low
+                                        material standards. Among self-employed artists in Sweden
+                                        profits are low despite long working hours. They are also in
+                                        a highly vulnerable position in relation to the social
+                                        insurance system (Swedish Arts Grants Committee, 2010;
+                                        2011).</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6"> Considering that
+                        artists’ working life is uncertain, one could ask whether the group’s
+                        professionalization strategies for converting knowledge capital into
+                        economic power have been less successful than its strategies for converting
+                        their knowledge into status, or what Bourdieu (1996) calls
+                        </text:span><text:span text:style-name="T7">symbolic
+                        capital</text:span><text:span text:style-name="T6">. As mentioned, looking
+                        at cultural policy goals, we find that artists are empowered in that they
+                        have an interpretive prerogative in society.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Using Bourdieu’s
+                        words, artistic professions belong to a social class with both symbolic
+                        capital and symbolic power. Artists’ symbolic capital gives them the
+                        symbolic power to influence societal debates and determine which political
+                        and moral issues are on the agenda. But the fact that artists generally have
+                        limited economic means, despite their symbolic power, makes their social
+                        position specific. As Bourdieu sees it, artists hold a dual power position
+                        as society’s </text:span><text:span text:style-name="T7"
+                        >dominated</text:span><text:span text:style-name="T6"> and
+                        </text:span><text:span text:style-name="T7">dominating</text:span><text:span
+                        text:style-name="T6"> class. The position of artists in working life is, in
+                        other words, similar both to that of the creative class and to that of the
+                        precariat (Flisbäck, 2014). Artists’ particular social position can be
+                        explained in part by specific ideals that have characterized their
+                        occupations, at least historically. Bourdieu (1996) stresses that, in
+                        artistic fields, actors tend to identify more with ideals of cultural
+                        benefit and to be less likely to seek out economic gain and
+                        popularity.</text:span><text:span text:style-name="T6"><text:note
+                            text:id="ftn6" text:note-class="footnote">
+                            <text:note-citation>6</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P20"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> According to Bourdieu, this logic can
+                                        be traced to the growth of a modern society founded on
+                                        differentiation and specialization. When artists strove to
+                                        make art their own delimited field of knowledge – separate
+                                        from purchasers within the church and nobility – the idea
+                                        emerged that artistic judgment regarding art should always
+                                        differ from public opinions about what constitutes good art.
+                                        Thus was born the notion of an artistic avant-garde
+                                        consisting of specialists who, independent of competing
+                                        societal interests or clients, produce art that is at first
+                                        misunderstood and only understood by the majority with time.
+                                        For the sake of art, an artist should take artistic,
+                                        material and personal risks.</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_3">Towards a new cultural policy, with new
+                    professional conditions?</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">In the research, the
+                        explanation for artists’ insecure working life has been that the demand for
+                        artistic competence is lower than the number of practitioners (Menger,
+                        2006). Others have pointed out that the group has weak
+                        </text:span><text:span text:style-name="T7">representational
+                        security</text:span><text:span text:style-name="T6"> (Standing, 2011), that
+                        is, low rates of union membership (Flisbäck &amp; Lindström, 2013). At the
+                        same time, the prerequisites for Swedish artists, like in Scandinavia as a
+                        whole, have been different from those in the rest of Europe (Duelund, 2003).
+                        In Sweden, permanent employment in artistic enterprises, such as theater,
+                        dance and music, has been much more common. A “more secure” working life has
+                        been enabled through cultural policy goals generally aimed at securing
+                        artists’ working conditions by invoking all citizens’ equal right to
+                        high-quality cultural products (SOU, 1972:66; cf. Duelund, 2003). As part of
+                        cultural policy, a so-called </text:span><text:span text:style-name="T7"
+                        >artist policy</text:span><text:span text:style-name="T6"> has been pursued
+                        and aimed at improving the working conditions and self-sufficiency of
+                        creators of culture (Government Bill 1996/97:3; p. 32, cf. Svensson,
+                        2008).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Despite the
+                        importance of public funding in helping Sweden’s artists live on the
+                        proceeds of their own efforts, artists’ working life is—as we have
+                        seen—characterized by a struggle for limited resources. During the past
+                        decade, the number of artists who have become self-employed has increased,
+                        even in Scandinavia. The primary reason for this, according to research
+                        reports, is the decrease in employment positions in cultural institutions
+                        (Heian, et al., 2008; Swedish Arts Grants Committee, 2011). Thus, even if
+                        the work situation for Swedish artists has largely been regulated by
+                        political goal statements and public funding (Nilsson, 1999; 2008), things
+                        have changed during the past few decades. In recent years, cultural policy
+                        has also expressed demands that funding from the private sector and through
+                        donations should increase (Government Bill 2009/10:3; SOU, 2009:16). The
+                        importance of so-called crowd funding has been pointed out, where creators
+                        of culture—such as other entrepreneurs and small business people—receive
+                        funding and support from private financiers. Even if this kind of start-up
+                        capital still appears to be marginal (Swedish Agency for Cultural Policy
+                        Analysis, 2013), a key idea in the present article is that cultural policy
+                        and artist policy are changing and that this has implication for artists’
+                        professional claims as well as their various working conditions. Perhaps
+                        such a significant change can be found in the Collaborative Cultural Model,
+                        which will be illuminated below.</text:span></text:p>
+                <text:p text:style-name="P13"><text:soft-page-break/>A New Cultural Policy
+                    Landscape</text:p>
+                <text:p text:style-name="P10"><text:span text:style-name="T6">The Collaborative
+                        Cultural Model is a policy reform that entails a new model for allocation of
+                        public funds to cultural activities on the regional level. The decision to
+                        introduce the reform was made by the Swedish Parliament in December 2009,
+                        and the model has gradually come into force, starting in 2011. The new model
+                        can be viewed as a shift in the aim of Swedish cultural policy, where the
+                        shift involves regions being given greater self-determination and more
+                        possibility to achieve diversity in their cultural offerings. Previously,
+                        national cultural policy concerned providing direct funding to activities
+                        within the framework of the cultural institutions in different regions. With
+                        the reform, it was no longer the state, but the county
+                        councils</text:span><text:span text:style-name="T6"><text:note
+                            text:id="ftn7" text:note-class="footnote">
+                            <text:note-citation>7</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P21"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> The county councils are responsible
+                                        for regional self-government.</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6"> that would have the
+                        overall responsibility for creating plans for putting cultural policies into
+                        practice. In addition, with the new model, cultural institutions are no
+                        longer the given recipients when public funds are allocated. Instead, there
+                        is a process—involving dialogue and meetings at the regional level—through
+                        which priorities are established for how the cultural policy can best be
+                        realized in the region in question (SOU, 2010:11).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">One main idea
+                        underlying the reform is that citizens’ influence over public cultural
+                        activities would increase. In contrast to the previous situation, which
+                        primarily involved civil servants with specific knowledge of cultural
+                        policy, now several actors—representatives of public institutions, interest
+                        groups and local authorities—are to participate in efforts to organize and
+                        give expression to the importance of culture. However, the Swedish
+                        Parliament continues to determine the level of national funding that will go
+                        to regional culture, and the Government determines the terms of the
+                        appropriation in a letter of regulation to the authorities in charge. Power
+                        over cultural policy will still remain at the national level, because the
+                        Swedish Arts Council, a national authority, is obliged to examine regional
+                        culture plans before allocating funds. In addition, one may ask whether the
+                        outcome of the negotiations has already been decided, because while the
+                        reform entails greater freedom of fund allocation, the regions are
+                        nonetheless not allowed complete freedom in formulating their culture plans.
+                        Seven cultural fields are predefined as priorities for regional activities:
+                        1) professional theater, dance and music, 2) regional museums, 3) regional
+                        archives, 4) libraries, 5) film culture for children and youth, 6) art- and
+                        culture-promoting as well as 7) handicraft-promoting activities (SOU,
+                        2010:11). Perhaps certain areas and creators of culture have already drawn
+                        the winning ticket or a blank regarding public funding?</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">To sum up, in the
+                        new cultural policy landscape, responsibility is distributed across civil
+                        servants and politicians at the municipal, regional and national level. Part
+                        of this division of responsibility involves consultation with
+                        representatives from each region’s professional cultural life and civil
+                        society. The fact that more “players,” at various levels, are involved in
+                        decisions over what cultural activities will receive public founds begs the
+                        question of whether the reform promotes de-professionalization or
+                        professionalization among professional artists. The question that we will
+                        take up on next concerns the meaning of the reform from the artists’
+                        perspective.</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_3">The reform, a “new” artist policy and
+                    the principle of arm’s length distance.</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">To date, investigations
+                        of the Collaborative Cultural Model have primarily focused on implementation
+                        of the new policy, and to a lesser extent on the consequences of the model
+                        for artists’ working conditions or professional claims. Civil servants and
+                        politicians, rather than artists, have been heard, and have served as
+                        spokespersons describing the extent to which artists have been able to
+                        influence dialogic processes (Harding &amp; Nathanson, 2012; Swedish Agency
+                        for Cultural Policy Analysis, 2012; 2013, SKL 2012; Swedish Arts Council,
+                        2011). The question is whether this silence tells us anything about the
+                        value and autonomy that society and the new cultural policy attribute to
+                        professional artists and their activities.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Nevertheless, the
+                        guidelines for the Collaborative Cultural Model state that one purpose of
+                        the reform is to improve artists’ working conditions. National support at
+                        the local and regional level is supposed to result in extending work
+                        opportunities from the big cities out into the country as a whole. Examples
+                        of work areas/positions in the guidelines are “supervisors and enthusiasts
+                        in, for example, educational associations,” work to strengthen “amateur
+                        culture and people’s opportunities to develop their own creative ability,”
+                        as well as participating in efforts “to integrate culture into schoolwork”
+                        (SOU, 2010:11, p. 67).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">One
+                        interpretation is that work opportunities for artists will emerge as part of
+                        what is called </text:span><text:span text:style-name="T7">aspect
+                        politics</text:span><text:span text:style-name="T6">, which implies viewing
+                        culture as an enterprise that should improve other political welfare areas,
+                        such as social and educational policies. Assessments of the Collaborative
+                        Cultural Model also indicate that cultural institutions, to a greater extent
+                        than previously, are broadening their role. Several culture plans stress the
+                        importance of culture that promotes improved health, increased cooperation
+                        with the schools, increased regional progress as well as economic growth. As
+                        Sternö and Nilsén (2013, p. 19) point out, it is “clear that the culture
+                        plans include more than just </text:span><text:span text:style-name="T7"
+                        >cultural</text:span><text:span text:style-name="T6"> policies” [authors’
+                        translation and italics]. According to Eleonora Belfiore (2004), it is
+                        exactly this—allying oneself with the welfare state sector—that has allowed
+                        British artists to survive in a time when cultural policy investments are
+                        increasingly judged for what they can do to improve people’s health or
+                        society’s economic growth.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:soft-page-break/><text:span
+                        text:style-name="T6">Like the UK, Sweden is a welfare state with a
+                        well-established cultural policy. As mentioned, Swedish cultural policy has
+                        long proclaimed respect for artists’ professional autonomy. Politicians
+                        should avoid controlling the cultural field and artistic work. They should
+                        keep themselves at </text:span><text:span text:style-name="T7">arm’s
+                        length</text:span><text:span text:style-name="T6"> (Frenander, 2005;
+                        Jacobsson, 2014).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">The investigation
+                        that preceded implementation of the model stressed that the views of
+                        representatives of cultural workers are essential and that development of
+                        regional cultural policies should occur in accordance with the principle of
+                        keeping an arm’s length distance (SOU, 2010:11). Dialogs are to take place
+                        between civil servants and representatives of civil society, as well as with
+                        cultural workers. The later part is essential to ensuring that regional
+                        cultural policies will be realized in the best way. However, the fact that
+                        the arm’s length principle remains in the Collaborative Cultural Model
+                        guidelines has led interested parties to ask how such a principle can be
+                        maintained when several institutions and actors are to participate in
+                        defining the scope and value of culture. One question has been raised from
+                        all directions: Do multiple dialogues actually entail a weakening of the
+                        arm’s length principle, a weakening that is related to the fact that culture
+                        production is increasingly being pursued—at least rhetorically—as a form of
+                        aspect policy (Karlsson, 2010; KLYS 2010; Sternö &amp; Nilsén,
+                        2013)?</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">When the
+                        legitimacy of a professional group is affected by for example political
+                        reforms, boundary work that reinforces this legitimacy can be facilitated if
+                        the group is able to formulate common strategies. Considering artists from
+                        the perspective of the sociology of occupations and professions, one issue
+                        concerns whether collective strategies, in the form of representational
+                        security, and forums for creating such strategies may be lacking. Given that
+                        many practitioners of art are self-employed, there is often no physical
+                        space, for example a staff room, where they can meet spontaneously to plead
+                        their profession’s case, discuss current problems and create common
+                        strategies. Moreover, temporary employment, for example on projects, may
+                        create a work culture in which it is essential to concentrate on one’s own
+                        career and work opportunities. Because artists’ working life is
+                        characterized by fierce competition for a few positions and by limited
+                        resources, the struggle for a better work situation more often involves
+                        individual strategies than collective efforts (Flisbäck,
+                    2013).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">Lacking a
+                        collective voice means greater vulnerability in the profession as a whole.
+                        This can have negative consequences when political reforms are introduced
+                        that require new boundary work, as compared to the welfare society’s other
+                        well-educated and well-organized occupational groups. In this connection, it
+                        is interesting to consider the propositions made by the Swedish Joint
+                        Committee for Artistic and Literary Professionals (KLYS) regarding the need
+                        for the county councils to establish culture creator groups. Such groups can
+                        monitor conditions for artists in the negotiations and work to guarantee
+                        artistic quality in the dialogs that follow in the wake of the reform
+                        (Almerud, 2012, p. 38-39). This could be viewed as a collective voice for
+                        stressing the value of one’s own knowledge monopoly. According to
+                        information from KLYS, similar collective interest groups are emerging in
+                        several county councils today.</text:span><text:span text:style-name="T6"
+                            ><text:note text:id="ftn8" text:note-class="footnote">
+                            <text:note-citation>8</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P22"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> KLYS has also developed documents to
+                                        inform artists about the importance of understanding both
+                                        national and regional cultural policy. Concrete advice is
+                                        given to read current regional culture plans and compare
+                                        plans across regions </text:span><text:span
+                                        text:style-name="T14">(KLYS 2013). Reglab (2014) also has
+                                        presentations and information on its website that can serve
+                                        as support in work on dialogic
+                                    processes.</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_2">Possible Professional Consequences of
+                    the Collaborative Cultural Model</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">Our aim in the article
+                        is to discuss whether the Collaborative Cultural Model and Sweden’s new
+                        cultural policy landscape could be analyzed as a professional field of
+                        tension concerning questions of occupational groups’ power to define their
+                        own work, what they view as their specific knowledge and contributions to
+                        society. As we argued, political and economic instruments affect not only
+                        artists’ working conditions, but also professionalization and professional
+                        skills, at the same time as cultural policy goals are, in practice, always
+                        negotiable. Using a conflict-oriented professions perspective, we have taken
+                        a view in which professional groups are assumed to band together to monitor
+                        spheres of interest and resources so as to prevent, for example,
+                        deterioration of their working conditions (Abbott, 1988; see also Bourdieu,
+                        1996). In our view, it is beneficial to view the new model as a battleground
+                        on which groups interact, do battle and create alliances for making claims
+                        about professional knowledge and the right to exercise their profession
+                        anonymously (cf. Svensson &amp; Evetts, 2010). But what are the outcomes of
+                        these efforts? While thinking in an explorative manner, has artists’
+                        professional influence decreased or increased in the new cultural policy
+                        landscape?</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_3">Increased professionalization?</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">Although the goal of
+                        the new cultural policy reform has not been to elucidate the content or
+                        value of occupational and knowledge claims among artists, negotiations and
+                        the creation of regional culture plans could result in their specialized
+                        knowledge becoming more prominent than previously. Similarly, when
+                        discussions concern which artistic forms of expression, cultural
+                        institutions, actors and group are to be funded, specific professional
+                        strategies and conditions may be constituted. Not unexpectedly, recent
+                        assessments of the Collaborative Cultural Model have shown that the number
+                        of negotiations and meetings has increased with introduction of the model
+                        (Swedish Agency for Cultural Policy Analysis, 2013). The fact that
+                        interaction between artists, politicians and civil servants has increased
+                        could help artists verbalize their knowledge more clearly and
+                        </text:span><text:soft-page-break/><text:span text:style-name="T6"
+                        >effectively. It is in encounters with other groups that taken-for-granted
+                        starting points in one’s own group can be challenged and modified (cf. Lund,
+                        Krantz, Gustafsson, 2013).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">If a common
+                        professional language were developed within various artist groups, it may
+                        ultimately lead to a broader understanding of artists’ professional skills
+                        and knowledge. On the whole, it may also promote the status, language and
+                        collective voice of these professional groups (cf. Coburn, 2001). Such a
+                        development would mean that work to realize the reform—the meetings and
+                        discussions following in its wake—has contributed to professionalization.
+                        Thus, paradoxically enough, it is possible that encounters with new actors
+                        and citizen groups in contexts outside cultural life could reinforce the
+                        prerequisites for a professional language of knowledge that gives power and
+                        status. When several, and different, actors collaborate with artists in
+                        meetings and dialogic processes, the legitimacy of artistic work may be
+                        strengthened. Such a development could also be a consequence of the aim of
+                        aspect politics, which is that artists should contribute to growth in other
+                        sectors, such as education or care. Working in contexts not typically
+                        inhabited by artists could lead to the emergence of new groups of art
+                        stakeholders. Moreover, through encounters with these groups, artists could
+                        gain a new or renewed outlook on their own work, their own views on art or
+                        on social values in general—all of which could develop their artistic work.
+                        Thus, in our view, the struggle for autonomy, through what we previously
+                        called boundary work, could benefit from increasing, as opposed to
+                        decreasing, others’ insights into artistic activities. Professional
+                        boundaries are plastic. In times of social change, boundaries can change,
+                        even if the aim continues to be to maintain professional privileges (cf.
+                        Fournier, 2000).</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">As a consequence
+                        of working on culture plans and various dialogic processes, practitioners of
+                        art will probably become more aware of cultural policy, and in a more
+                        explicit way than previously. It is reasonable to assume that this may give
+                        rise to a new knowledge base that will reinforce their claims to
+                        professionalism. In cultural policy documents, the importance of maintaining
+                        the principle of arm’s length distance as well as culture’s intrinsic value
+                        and force is articulated in many ways. A collective formation could
+                        strengthen artists’ professional scope of action.</text:span><text:span
+                        text:style-name="T15"> </text:span><text:span text:style-name="T6">A
+                        collective formation could strengthen artists&apos; professional scope of
+                        action. This could on the one hand be based on trade union and
+                        professional-strategic principles, concerning for example increased
+                        understanding of the policies regulating artists&apos; working life. On the
+                        other hand, it could  be based on increased insight into artists&apos;
+                        working life on the part of others outside this group. In this formation
+                        lies the potential to broaden positive attitudes toward artists’
+                        contributions to society. Thus, the new reform, as a battleground for
+                        collectivization, is not only tied to artists’ own intra-professional
+                        strategies.</text:span></text:p>
+                <text:p text:style-name="Standard"><text:span text:style-name="T6">We have seen in
+                        the present article that artists’ working life is economically unstable,
+                        characterized as it is by temporary employment and irregular incomes. At the
+                        same time, we have claimed that artists have a reputation, status or
+                        symbolic capital in society. Moreover, creators of culture possess symbolic
+                        power in that they are seen, in Swedish cultural policy goal statements, as
+                        essential to society’s democratic debates and development (Ministry of
+                        Culture, 2015). The fact that artists have little power over their own
+                        material conditions may be an effect of their field’s long held ideal
+                        concerning the importance of culture as opposed to financial success.
+                        However, their material conditions may also be an effect of their weak
+                        representational security. In this connection, the culture creator alliances
+                        that have been called for and begun to form as a result of the collaborative
+                        cultural model—on the initiative of KLYS, among others—become interesting.
+                        It may be that these groupings constitute one step toward a representational
+                        security that has the characteristics of both professional strategy and
+                        trade-union affiliation. In brief: Collective formations may provide a way
+                        for artists to maintain their status as specialists in their struggle for
+                        autonomy.</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_3">De-professionalization?</text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T6">As we have seen, the
+                        new reform probably serves as a battleground that provides scope for
+                        increased collectivization and allows artists’ competence and working
+                        conditions to be met with more sympathy than previously. Introduction of the
+                        new cultural policy reform has given rise to questions concerning whether
+                        the principle of arm’s length distance is being phased out. Similarly, it
+                        would seem that, in Sweden’s new cultural policy, the belief that artistic
+                        production maintains a higher standard when it is built on an established
+                        education in the arts than when it is influenced by market forces and aspect
+                        politics has changed. As Sternö and Nielsén (2013, p. 19) point out, the new
+                        cultural policy entails the risk that “side effects” of cultural production,
+                        for example improved public health, will increase at the cost of the “core
+                        activity,” that is, artistic expression. With regard to similar tendencies
+                        in British cultural policy, Belfiore (2004) claims that the logical
+                        consequence of art being evidence-based and useful would seem to be that we
+                        might just as well have no cultural policy at all. It would quite simply be
+                        better to let the ministries of education and health and social affairs take
+                        over. In our view, what Belfiore is talking about is the risks associated
+                        with a new cultural policy whose art and artist policies entail a clear
+                        de-professionalization of artistic activities. Could it be that inroads are
+                        being made into the historical idea of an autonomous artistic sphere of
+                        activity and a modern cultural avant-garde with similar political currents?
+                        Are artists no longer thought to possess any specific knowledge? Do actors
+                        in other societal spheres now have the same right to have opinions about
+                        what constitutes high-quality cultural products? At this point, we should
+                        probably remind ourselves that artists’ precarious working conditions mean
+                        that they seldom have any choice but to adapt to the prevailing cultural
+                        policy agenda, even if it seems to lead to decreased autonomy—which there is
+                        a clear risk of in a situation marked by aspect politics (cf. Lund et al.,
+                        2013).</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_3">An open question.</text:p>
+                <text:p text:style-name="P5"><text:soft-page-break/><text:span text:style-name="T6"
+                        >As we have seen, it would seem that the new cultural policy landscape
+                        offers tendencies toward both professionalization and
+                        de-professionalization. From the conflict-oriented perspective we have
+                        established in the present article, the question of artist groups’ autonomy
+                        and societal influence is an open one. In our view, groups in similar
+                        contexts of change tend to come together to maintain or increase their
+                        power—and groups’ increased influence and power are often met with
+                        strategies to counteract these advances.</text:span></text:p>
+                <text:p text:style-name="P2"><text:span text:style-name="T6">Our tentative analysis
+                        shows that the Collaborative Cultural Model in Sweden touches on the
+                        relations between </text:span><text:span text:style-name="T7">professional
+                        autonomy, precarious working conditions</text:span><text:span
+                        text:style-name="T6"> and a </text:span><text:span text:style-name="T7"
+                        >transformation of the welfare state’s mission</text:span><text:span
+                        text:style-name="T6">. When Bourdieu and Balazs (1999) analyzed the welfare
+                        state’s transformation, they pointed out how European welfare states’ “right
+                        hand,” with increased control over obligations, has expanded at the cost of
+                        its “left hand,” that is, the state’s care-oriented, communicative and
+                        labor-political mission (see also Wacquant, 2009). Similar processes have
+                        been identified in Scandinavian cultural policies since the mid-1980s. Some
+                        scholars have claimed that it was at this point cultural policy entered a
+                        new “phase.” Visions of the intrinsic value of art yielded to a more
+                        instrumental cultural policy with goals based on an economic rationality
+                        (Duelund, 2003; Jacobsson, 2014; Nilsson, 1999). Other scholars, however,
+                        have indicated that, compared to other welfare sectors, cultural policy has
+                        maintained its position of relative autonomy.</text:span></text:p>
+                <text:p text:style-name="P2"><text:span text:style-name="T6">In other words, the
+                        cultural sphere was less affected by mangerialism than were other public
+                        sector enterprises during the 1980s and 1990s (Frenander, 2005). From
+                        similar perspectives, cultural policy has during the 2000s been unable to
+                        resist demands for economic rationalization as well as usefulness, the
+                        latter often discussed in the field of education. Here, it is the so-called
+                        aspect policies that are spreading effectively in several European countries
+                        that are interesting. Perhaps aspect policies are a unique expression for
+                        how managerialism (often summarized as </text:span><text:span
+                        text:style-name="T7">New Public Management</text:span><text:span
+                        text:style-name="T6">) is manifested within the sphere of culture (Belfiore,
+                        2004; Duelund, 2008; Johannisson, 2012; cf. Power,
+                        1997).</text:span><text:span text:style-name="T6"><text:note text:id="ftn9"
+                            text:note-class="footnote">
+                            <text:note-citation>9</text:note-citation>
+                            <text:note-body>
+                                <text:p text:style-name="P23"><text:span
+                                        text:style-name="footnote_20_reference"/><text:span
+                                        text:style-name="T6"> The term </text:span><text:span
+                                        text:style-name="T7">New Public
+                                        Management</text:span><text:span text:style-name="T6"> often
+                                        refers to societal processes, which began in the 1980s, and
+                                        aims at the de-politicization of the public sector, adoption
+                                        of market logics and decentralization and rationalization in
+                                        accordance with demands for goals, benefit and streamlining
+                                        as well as regular outcome reports (Power,
+                                        1997).</text:span></text:p>
+                            </text:note-body>
+                        </text:note></text:span><text:span text:style-name="T6"> Surely, it is
+                        seldom the case that the benefit of welfare policy in one area is primarily
+                        articulated as a matter of growth in another area. With regard to Sweden’s
+                        cultural policy, however, we would like to claim that developments can still
+                        be seen as working in both directions concerning the autonomy of cultural
+                        areas and artists—at least in relation to implementation of the
+                        Collaborative Cultural Model. The model has resulted in both
+                        </text:span><text:span text:style-name="T7">decreased</text:span><text:span
+                        text:style-name="T6"> and </text:span><text:span text:style-name="T7"
+                        >increased</text:span><text:span text:style-name="T6"> political
+                        interference. On the one hand, cultural policy has been depoliticized
+                        through calls for broader-based funding from actors other than public
+                        granting agencies. On the other hand, demands for goal statements and
+                        regular reports have become increasingly important elements in relation to
+                        public funds allocated within the framework of the Collaborative Cultural
+                        Model, as in other areas of cultural policy, which can be seen as a sign of
+                        increased politicization. Thus, this new cultural policy landscape is an
+                        interesting issue to elucidate empirically and discuss theoretically in
+                        future research, particularly because, as we see it, contemporary
+                        development in cultural policy is also one case among a range of
+                        international and national developments of professions in other societal
+                        sectors.</text:span></text:p>
+                <text:p text:style-name="PP_20_Heading_20_2"><text:span text:style-name="T10"
+                        >References</text:span></text:p>
+                <text:p text:style-name="P11"><text:span text:style-name="T11">Abbott, A. (1988).
+                        </text:span><text:span text:style-name="T12">The system of professions. An
+                        essay on the division of expert labor.</text:span><text:span
+                        text:style-name="T11"> London: The University of Chicago
+                    Press.</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T16">Allvin, M., Aronsson,
+                        G., Hagström, T., Johansson, G., &amp; Lundberg U. (2006).
+                        </text:span><text:span text:style-name="T17">Gränslöst arbete.
+                        Socialpsykologiska perspektiv på det nya arbetslivet</text:span><text:span
+                        text:style-name="T16"> [Boundariless work life. </text:span><text:span
+                        text:style-name="T9">Social-psychological perspectives on the new working
+                        life]. Malmö: Liber.</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T16">Almerud, P. (2012).
+                        Kulturskaparna och kulturplanerna. In Sveriges Kommuner och Landsting.
+                        </text:span><text:span text:style-name="T17">Under konstruktion. Effekter av
+                        samverkansmodellen 2010-2012</text:span><text:span text:style-name="T16">
+                        [Under construction. </text:span><text:span text:style-name="T9">Effects of
+                        the Collaborative Cultural Model 2010-2012, creators and planers of culture]
+                        (pp. 38-51). Stockholm: Sveriges Kommuner och
+                    Landsting.</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T9">Bauman, Z. (2001).
+                        </text:span><text:span text:style-name="T8">The individualized
+                        society.</text:span><text:span text:style-name="T9"> Cambridge:
+                        Polity.</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T9">Belfiore, E. (2004).
+                        The subsidized cultural sector in the New Public Management.
+                        </text:span><text:span text:style-name="T8">International Journal of
+                        Cultural Policy</text:span><text:span text:style-name="T9">,
+                        </text:span><text:span text:style-name="T8">10</text:span><text:span
+                        text:style-name="T9">(2), 183-202. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1080/10286630042000255808"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T18"
+                                >http://dx.doi.org/10.1080/10286630042000255808</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T18">Blomgren R. (2012).
+                        Staten tur och retur. In Sveriges Kommuner och Landsting.
+                        </text:span><text:span text:style-name="T19">Under konstruktion. Effekter av
+                        samverkansmodellen 2010-2012</text:span><text:span text:style-name="T18">
+                        [Under construction. </text:span><text:span text:style-name="T9">Effects of
+                        the Collaborative Cultural Model 2010-2012, the state roundtrip] (pp.15-25).
+                        Stockholm: Sveriges Kommuner och Landsting</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T9">Bourdieu. B. (1993).
+                        </text:span><text:span text:style-name="T8">The field of culture
+                        production.</text:span><text:span text:style-name="T9"> Cambridge: Polity
+                        Press.</text:span></text:p>
+                <text:p text:style-name="P6"><text:span text:style-name="T9">Bourdieu, P. (1996).
+                        </text:span><text:span text:style-name="T8">The rules of art: Genesis and
+                        structure of the literary field</text:span><text:span text:style-name="T9">.
+                        Stanford: Stanford University Press.</text:span></text:p>
+                <text:p text:style-name="P6"><text:soft-page-break/><text:span text:style-name="T9"
+                        >Bourdieu, P. &amp; Balazs, G. (1999). </text:span><text:span
+                        text:style-name="T8">The weight of the world. Social suffering in
+                        contemporary society</text:span><text:span text:style-name="T9">. Cambridge:
+                        Polity Press.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Brante, T. (2010).
+                        State formations and the historical take-off of continental professional
+                        types. The case of Sweden. </text:span><text:span text:style-name="T16">In
+                        L. Svensson &amp; J. Evett (Eds.): </text:span><text:span
+                        text:style-name="T8">Sociology of professions. Continental and Anglo-Saxon
+                        traditions</text:span><text:span text:style-name="T9"> (pp. 75-119).
+                        </text:span><text:span text:style-name="T16">Göteborg:
+                    Daidalos.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T16">Coburn, C. E. (2001).
+                        </text:span><text:span text:style-name="T9">Collective sense making about
+                        reading: How teachers mediate reading policy in their professional
+                        communities. </text:span><text:span text:style-name="T8">Educational
+                        Evaluation and Policy Analysis,</text:span><text:span text:style-name="T9"
+                        > </text:span><text:span text:style-name="T8">23</text:span><text:span
+                        text:style-name="T9">(2), 145–170. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.3102/01623737023002145"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >http://dx.doi.org/10.3102/01623737023002145</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T16">Carlhed, C. (2011).
+                        Fält, habitus och kapital som kompletterande redskap i
+                        </text:span><text:span text:style-name="T9">professionsforskning. [Field,
+                        habitus and capital as complementary tools in professions research].
+                        </text:span><text:span text:style-name="T20">Socialvetenskaplig
+                        tidskrift</text:span><text:span text:style-name="T21"
+                        > </text:span><text:span text:style-name="T20">4</text:span><text:span
+                        text:style-name="T21">, 283–300.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T21">Duelund, P. (2003).
+                        <text:s/></text:span><text:span text:style-name="T20">The Nordic Cultural
+                        Model</text:span><text:span text:style-name="T21">. Köpenhamn: Nordisk
+                        Kulturinstitut.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Duelund, P. (2008)
+                        Nordic cultural policies: A critical view. </text:span><text:span
+                        text:style-name="T8">International Journal of Cultural
+                        Policy</text:span><text:span text:style-name="T9">, </text:span><text:span
+                        text:style-name="T8">14</text:span><text:span text:style-name="T9">(1),
+                        7–24. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1080/10286630701856468"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >http://dx.doi.org/10.1080/10286630701856468</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Evans, T. &amp; Harris,
+                        J. (2004). Street-level bureaucracy, social work and the exaggerated death
+                        of discretion. </text:span><text:span text:style-name="T8">British Journal
+                        of Social Work</text:span><text:span text:style-name="T9">,
+                        </text:span><text:span text:style-name="T8">34</text:span><text:span
+                        text:style-name="T9">(6), 871–895. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1093/bjsw/bch106"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T21"
+                                >http://dx.doi.org/10.1093/bjsw/bch106</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T21">Featherstone, M.
+                        (1994). </text:span><text:span text:style-name="T20">Kultur, kropp och
+                        konsumtion. </text:span><text:span text:style-name="T8">Kultursociologiska
+                        texter i urval och översättning av F Miegel &amp; T Johansson
+                        </text:span><text:span text:style-name="T9">[Culture, body and consumption.
+                        Cultural sociological texts selected and translated by F. Miegel &amp; T.
+                        Johansson] Stockholm/Stehag: Symposion.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T16">Flisbäck, M. (2014).
+                        </text:span><text:span text:style-name="T17">När livet går bort, när livet
+                        kommer till. </text:span><text:span text:style-name="T8"
+                        >Existenssociologiska betraktelser av konstnärligt arbete, familjebildning
+                        och anhörigförlust</text:span><text:span text:style-name="T9"> [When life
+                        passes away, when life arises: Contemplations of artistic work, family
+                        formation and losses of relatives from an existential sociology
+                        perspective]. Lund: Studentlitteratur.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Flisbäck, M. (2013).
+                        Creating a life: The role of symbolic and economic structures in the gender
+                        dynamics of Swedish artists’, </text:span><text:span text:style-name="T8"
+                        >International Journal of Cultural Policy</text:span><text:span
+                        text:style-name="T9">, </text:span><text:span text:style-name="T8"
+                        >19</text:span><text:span text:style-name="T9">(4)</text:span><text:span
+                        text:style-name="T8">,</text:span><text:span text:style-name="T9"> 462-480.
+                        </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1080/10286632.2012.658046"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >http://dx.doi.org/10.1080/10286632.2012.658046</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Flisbäck, M. &amp;
+                        Lindström, S. (2013). Work–family conflict among professional visual artists
+                        in Sweden: Gender Differences in the influence of parenting and household
+                        responsibilities, </text:span><text:span text:style-name="T8">Nordic Journal
+                        of Cultural Policy</text:span><text:span text:style-name="T9"
+                        >,</text:span><text:span text:style-name="T8"> 2</text:span><text:span
+                        text:style-name="T9">, 239–268.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T16">Flisbäck, M. &amp;
+                        Lund, A. (2010). Konst- och kultursektorn - ett pionjärområde för
+                        </text:span><text:span text:style-name="T9">ett arbetsliv i omvandling? [The
+                        art and culture sector – a pioneering area for a working life in
+                        transition?]. </text:span><text:span text:style-name="T8">Arbetsliv i
+                        omvandling</text:span><text:span text:style-name="T9">,
+                        </text:span><text:span text:style-name="T8">4</text:span><text:span
+                        text:style-name="T9">, 1–13.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Florida, R. (2002).
+                        </text:span><text:span text:style-name="T8">The rise of the creative class:
+                        and how it’s transforming work, leisure, community and everyday
+                        life</text:span><text:span text:style-name="T9">. New York: Basic
+                        Books.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Forsman, A. (2008).
+                        </text:span><text:span text:style-name="T21">Konstnärspolitiska dilemman. In
+                        S. Beckman. </text:span><text:span text:style-name="T16">&amp; S. Månsson
+                        (Eds.), </text:span><text:span text:style-name="T17">KulturSverige
+                        2009</text:span><text:span text:style-name="T16"> [Artist policy dilemmas In
+                        CulturalSweden 2009] (pp. 123–126). Linköping: Sörlin
+                    Förlag.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Fournier, V. (2000).
+                        Boundary work and the (un)making of the professions. In N. Malin (Eds.),
+                        </text:span><text:span text:style-name="T8">Professionalism, boundaries and
+                        the workplace</text:span><text:span text:style-name="T9"> (pp. 67–86).
+                        </text:span><text:span text:style-name="T21">London:
+                    Routledge.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T21">Frenander, A. (2005).
+                        </text:span><text:span text:style-name="T20">Kulturen som kulturpolitikens
+                        stora problem. Diskussionen om svensk kulturpolitik under
+                        1900-talet</text:span><text:span text:style-name="T21"> [Culture as cultural
+                        policy’s greatest problem. </text:span><text:span text:style-name="T9">The
+                        discussion on Swedish cultural policies during the 20th century]. Hedemora:
+                        Gidlunds förlag.</text:span></text:p>
+                <text:p text:style-name="P7"><text:span text:style-name="T9">Gieryn, T. F. (1983).
+                        Boundary-work and the demarcation of science from non-science: Strains and
+                        interests in professional ideologies of scientists. </text:span><text:span
+                        text:style-name="T19">American Sociological Review</text:span><text:span
+                        text:style-name="T18">, </text:span><text:span text:style-name="T19"
+                        >48(6)</text:span><text:span text:style-name="T18">, 781–795.
+                        </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.2307/2095325"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T18"
+                                >http://dx.doi.org/10.2307/2095325</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T18">Harding, T &amp;
+                        Nathanson, C. 2012. ”Inledning”, In Sveriges Kommuner och
+                        </text:span><text:span text:style-name="T16">Landsting.
+                        </text:span><text:span text:style-name="T17">Under konstruktion. Effekter av
+                        samverkansmodellen 2010-2012</text:span><text:span text:style-name="T16">
+                        [Under construction. Effects of the Collaborative Cultural Model 2010-2012,
+                        Introduction] (pp. 9-14). Stockholm: Sveriges Kommuner och
+                        Landsting.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">Heian Torvik, M.,
+                        Løyland, K., &amp; Mangset, P. (2008). Kunstnernes aktivitet, arbeids- og
+                        inntektsforhold, 2006. Rapport nr
+                    241.Telemarksforsking-Bø.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T21">Jacobsson, B.
+                        (2014</text:span><text:span text:style-name="T20">). Kulturpolitik. Styrning
+                        på avstånd</text:span><text:span text:style-name="T21"> [Cultural policy. A
+                        distanced steering]. Lund: Studentlitteratur.</text:span></text:p>
+                <text:p text:style-name="P8"><text:soft-page-break/><text:span text:style-name="T21"
+                        >Johannisson, J. (2012). Att planera kultur. In Sveriges Kommuner och
+                        Landsting, </text:span><text:span text:style-name="T20">Under konstruktion.
+                        Effekter av samverkansmodellen 2010-2012</text:span><text:span
+                        text:style-name="T21">. </text:span><text:span text:style-name="T9">[Under
+                        construction. Effects of the Collaborative Cultural Model 2010-2012,
+                        Planning culture] (pp. 65-75). </text:span><text:span text:style-name="T16"
+                        >Stockholm: Sveriges Kommuner och Landsting</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">Karlsson, D. (2010).
+                        </text:span><text:span text:style-name="T17">En kulturutredning. Pengar,
+                        konst och politik</text:span><text:span text:style-name="T16"> [An
+                        investiga</text:span><text:span text:style-name="T9">tion of culture. Money,
+                        art and politics]. </text:span><text:span text:style-name="T16">Göteborg:
+                        Glänta produktion.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">KLYS (2010). KLYS
+                        synpunkter på SOU 2010:11 Spela samman – en ny modell för stöd till regional
+                        kulturverksamhet. </text:span><text:span text:style-name="T9">[The Swedish
+                        Joint Committee for Artistic and Literary Professionals view on SOU 2010:11
+                        Playing together – a new model for funding regional cultural activities].
+                        </text:span><text:a xlink:type="simple"
+                        xlink:href="http://www.klys.se/samverkansmodellen.html"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >http://www.klys.se/samverkansmodellen.html</text:span></text:span></text:a><text:span
+                        text:style-name="T9">.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T21">KLYS (2013).
+                        Samverkansmodellen. Hur utvecklas kulturlivet i din region?
+                        </text:span><text:span text:style-name="T9">[The Collaborative Cultural
+                        Model. How is cultural life developing in your region?]. </text:span><text:a
+                        xlink:type="simple"
+                        xlink:href="http://www.klys.se/bdh_filearea/Remissvar_och_yttranden/Kulturpolitik/26_11_Samverkansbroschyren_UPPSLAG.pdf."
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T18"
+                                >http://www.klys.se/bdh_filearea/Remissvar_och_yttranden/Kulturpolitik/26_11_Samverkansbroschyren_UPPSLAG.pdf.</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Larsson, B. &amp;
+                        Jacobsson, B. (2013). Discretion in the “backyard of law”: Case handling of
+                        debt relief in Sweden, </text:span><text:span text:style-name="T8"
+                        >Professions &amp; Professionalism</text:span><text:span
+                        text:style-name="T9">, </text:span><text:span text:style-name="T8"
+                        >3</text:span><text:span text:style-name="T9">(1). </text:span><text:a
+                        xlink:type="simple"
+                        xlink:href="https://journals.hioa.no/index.php/pp/article/view/438"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >https://journals.hioa.no/index.php/pp/article/view/438</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Lund, A, Krantz, J,
+                        &amp; Gustafsson, B. (2013). </text:span><text:span text:style-name="T17"
+                        >Skapande skola. En kalejdoskopisk </text:span><text:span
+                        text:style-name="T8">reform och dess praktik</text:span><text:span
+                        text:style-name="T9"> [Creative school. A kaleidoscopic reform and its
+                        practices]. </text:span><text:span text:style-name="T16">Stockholm:
+                        Myndigheten för kulturanalys.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">McRobbie, A. (2004).
+                        Everyone is creative? </text:span><text:span text:style-name="T18">In T.
+                        Bennett &amp; E. De Silva, (Eds.), </text:span><text:span
+                        text:style-name="T8">Contemporary culture and everyday
+                        life</text:span><text:span text:style-name="T9"> (pp. 186–202). Durham:
+                        Sociology Press.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Menger, P-M. (2006).
+                        Artistic labor markets: Contingent work, excess supply and occupational risk
+                        management. In V.A Ginsburgh &amp; D. Throsby (Eds.), </text:span><text:span
+                        text:style-name="T8">Handbook of the economics of art and
+                        culture</text:span><text:span text:style-name="T9">, </text:span><text:span
+                        text:style-name="T8">1</text:span><text:span text:style-name="T9"> (pp.
+                        766–811). North-Holland.</text:span></text:p>
+                <text:p text:style-name="P3"><text:span text:style-name="T9">Ministry of Culture
+                        (2015). Cultural policy objectives. Declared by Ministry of Culture,
+                        Government Office of Sweden. <text:s/></text:span><text:a
+                        xlink:type="simple" xlink:href="http://www.government.se/sb/d/3009/a/176574"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T6"
+                                >http://www.government.se/sb/d/3009/a/176574</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Molander, A &amp;
+                        Grimen, H. (2010). Understanding professional discretion. In L. Svensson
+                        &amp; J. Evett (Eds.), </text:span><text:span text:style-name="T8">Sociology
+                        of professions. Continental and Anglo-Saxon traditions</text:span><text:span
+                        text:style-name="T9"> (pp. 167-187). </text:span><text:span
+                        text:style-name="T16">Göteborg: Daidalos.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">Nilsson, S. (1999).
+                        </text:span><text:span text:style-name="T17">Kulturens
+                        vägar</text:span><text:span text:style-name="T16"> [Paths of culture].
+                        Malmö: Polyvalent.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">Nilsson, S. (2008).
+                        </text:span><text:span text:style-name="T17">Var finns kreativiteten?
+                        </text:span><text:span text:style-name="T8">Exemplet
+                        Skåne</text:span><text:span text:style-name="T9"> [Where is the creativity?
+                        Skåne as an example]. </text:span><text:span text:style-name="T16">Malmö:
+                        Polyvalent.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Persson, S. (2008).
+                        </text:span><text:span text:style-name="T8">Läraryrkets uppkomst och
+                        förändring.</text:span><text:span text:style-name="T9">[The rise and change
+                        of the teaching professions]. Dissertation. Gothenburg: Gothenburg
+                        University, Department of Sociology.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Power, M (1997).
+                        </text:span><text:span text:style-name="T8">The audit society: Rituals of
+                        verification.</text:span><text:span text:style-name="T9"> Oxford: University
+                        Press.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Reckwitz, A. (2012).
+                        </text:span><text:span text:style-name="T17">Die Erfindung der
+                        Kreativität.</text:span><text:span text:style-name="T16"> Berlin: Suhrkamp
+                        Verlag.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Regeringens proposition
+                        [Government Bill]. 1996/97:3. Kulturpolitik [Cultural
+                    policy].</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T9">Regeringens proposition
+                        [Government Bill] 2009/10:3. </text:span><text:span text:style-name="T16"
+                        >Tid för kultur [Time for culture].</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T16">Regeringskansliet
+                        [Swedish Government Offices], 2014. </text:span><text:span
+                        text:style-name="T21">Kulturpolitiska mål [Cultural policy-goals].
+                        www.regeringen.se/sb/d/1897.</text:span></text:p>
+                <text:p text:style-name="P8"><text:span text:style-name="T21">Reglab (2014).
+                        </text:span><text:span text:style-name="T20"
+                        >Kulturdialoger</text:span><text:span text:style-name="T21"> [Culture
+                        dialogues]. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://www.reglab.se/kulturdialoger"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T21"
+                                >www.reglab.se/kulturdialoger</text:span></text:span></text:a><text:span
+                        text:style-name="T21"> </text:span><text:span text:style-name="T9"
+                        >Sarfatti-Larson, M. (1977) </text:span><text:span text:style-name="T8">The
+                        rise of professionalism. A sociological analysis. </text:span><text:span
+                        text:style-name="T9">Berkeley: University of California
+                    Press.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Scott, W. R. (2008).
+                        Lords of the dance: Professionals as institutional agents.
+                        </text:span><text:span text:style-name="T8">Organization
+                        Studies,</text:span><text:span text:style-name="T9"> </text:span><text:span
+                        text:style-name="T8">29</text:span><text:span text:style-name="T9">(2),
+                        219-238. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1177/0170840607088151"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T9"
+                                >http://dx.doi.org/10.1177/0170840607088151</text:span></text:span></text:a></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T18">SKL/Sveriges Kommuner
+                        och Landsting. </text:span><text:span text:style-name="T16">(2012)
+                        </text:span><text:span text:style-name="T17">Under konstruktion. Effekter av
+                        samverkansmodellen 2010-2012</text:span><text:span text:style-name="T16">
+                        [Under construction. Effects of the Cultural Collaboration Model 2010-2012].
+                        Stockholm: Sveriges Kommuner och Landsting.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T21">SOU 1972:66.
+                        </text:span><text:span text:style-name="T20">Ny
+                        kulturpolitik</text:span><text:span text:style-name="T21"> [New cultural
+                        policy].</text:span></text:p>
+                <text:p text:style-name="P9"><text:soft-page-break/><text:span text:style-name="T21"
+                        >SOU 2009:16 Betänkande av kulturutredningen [Report from the culture
+                        investigation].</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T21">SOU 2010:11.
+                        </text:span><text:span text:style-name="T20">Spela samman - En ny modell för
+                        statens stöd till regional kulturverksamhet</text:span><text:span
+                        text:style-name="T21"> [Playing together – a new model for funding regional
+                        cultural activities]. </text:span><text:span text:style-name="T9">Stockholm:
+                        Fritzes Offentliga Publikationer.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Standing, G. (2011).
+                        </text:span><text:span text:style-name="T8">The Precariat: the new dangerous
+                        class</text:span><text:span text:style-name="T9">. London: Bloomsbury
+                        Academic.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Sternö &amp; Nielsén
+                        (2013). </text:span><text:span text:style-name="T18">Villkorad existens,
+                        politik och konsekvens. En rapport </text:span><text:span
+                        text:style-name="T9">om kultursamverkansmodellen och
+                        scenkonstinstitutionerna. [Conditioned existence, policies and consequences.
+                        A report on the Collaborative Cultural Model and the performing arts
+                        institutions]. </text:span><text:span text:style-name="T16">Stockholm:
+                        Svensk scenkonst.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T16">Svensson, P. (2008).
+                        Konstnärerna i kulturpolitiken. [Artists in cultural policy].
+                        </text:span><text:span text:style-name="T9">Stockholm: Swedish Art
+                        Committee.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T16">Svensson, L. G.
+                        (2002). </text:span><text:span text:style-name="T17">Professionella villkor
+                        och värderingar.</text:span><text:span text:style-name="T16"
+                        > </text:span><text:span text:style-name="T9">[Professional conditions and
+                        values] Göteborg: Research report no. 126, Department of
+                        </text:span><text:span text:style-name="T16">Sociology Göteborgs
+                        University.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T16">Svensson, L. G.
+                        (2011). </text:span><text:span text:style-name="T18">Inledning till studier
+                        av professioner och professionellt </text:span><text:span
+                        text:style-name="T9">arbete [An introduction to professions and professional
+                        work]. </text:span><text:span text:style-name="T19">Socialvetenskaplig
+                        tidskrift</text:span><text:span text:style-name="T18">.
+                        </text:span><text:span text:style-name="T19">4</text:span><text:span
+                        text:style-name="T18">, 254-267.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T18">Svensson, L. G. &amp;
+                        Evetts, J. (2010). </text:span><text:span text:style-name="T8">Sociology of
+                        professions. Continental and Anglo-Saxon traditions.</text:span><text:span
+                        text:style-name="T9"> Göteborg: Daidalos.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Swedish Agency for
+                        Cultural Policy Analysis (2012). </text:span><text:span text:style-name="T8"
+                        >Kulturanalys 2012</text:span><text:span text:style-name="T9"> [Cultural
+                        analysis 2012].</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Swedish Agency for
+                        Cultural Policy Analysis (2013). </text:span><text:span
+                        text:style-name="T21">Kultursamverkansmodellen. Styrning och
+                        bidragsfördelning [The Cultural Collaboration Model. </text:span><text:span
+                        text:style-name="T9">Control and fund allocation]. Report
+                        2013:2.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Swedish Arts Council.
+                        (2011). </text:span><text:span text:style-name="T8">Erfarenheter av
+                        kultursamverkansmodellen – redovisning av
+                        regeringsuppdrag</text:span><text:span text:style-name="T9">. [Experiences
+                        of the Collaborative Cultural Model – a report on a governmental mission]
+                        Dnr KUR 2011/1368.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T16">Swedish Arts Grants
+                        Committee (2009). Konstnärernas inkomster. En statistisk undersökning av SCB
+                        inom alla konstområden 2004–2005 [The income of artists.
+                        </text:span><text:span text:style-name="T9">A statistical investigation by
+                        SCB of all art sectors from 2004-2005].</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T18">Swedish Arts Grants
+                        Committee (2010). Konstnärernas inkomster ur ett jämställdhetsperspektiv.
+                        </text:span><text:span text:style-name="T16">Ekonomi, arbete och familjeliv.
+                        </text:span><text:span text:style-name="T9">[Economy, Work, and Family Life:
+                        A Survey of Artists’ Income from a Gender Perspective].</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T16">Swedish Arts Grants
+                        Committee (2011). Konstnärernas inkomster, arbetsmarknad
+                        </text:span><text:span text:style-name="T9">och försörjningsmönster
+                        [Artists’ incomes, labor market and balance of
+                    resources].</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T8">The Economy of Culture
+                        in Europe</text:span><text:span text:style-name="T9">. Study prepared for
+                        the European Commission October 2006. KEA European
+                    Affairs.</text:span></text:p>
+                <text:p text:style-name="P9"><text:span text:style-name="T9">Wacquant, L. (2009)
+                        </text:span><text:span text:style-name="T8">Punishing the
+                        poor.</text:span><text:span text:style-name="T9"> Durham/London: Duke
+                        University Press. </text:span><text:a xlink:type="simple"
+                        xlink:href="http://dx.doi.org/10.1215/9780822392255"
+                        text:style-name="Internet_20_link"
+                        text:visited-style-name="Visited_20_Internet_20_Link"><text:span
+                            text:style-name="Internet_20_link"><text:span text:style-name="T18"
+                                >http://dx.doi.org/10.1215/9780822392255</text:span></text:span></text:a></text:p>
+            </text:section>
+        </office:text>
+    </office:body>
+</office:document-content>
