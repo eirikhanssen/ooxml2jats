@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0"?>
 <p:declare-step version="1.0" xmlns:p="http://www.w3.org/ns/xproc" name="fixrefs-pipeline">
 
-  
-
   <p:input port="source">
     <p:document href="refs.temp.xml"/>
   </p:input>
