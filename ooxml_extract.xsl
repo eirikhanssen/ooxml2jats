@@ -31,9 +31,12 @@
             </xsl:when>
             <xsl:otherwise>
                 <!-- paragraphs without a listed style are just plain p's -->
-                <p>
-                    <xsl:apply-templates select="*"/>
-                </p>
+                <!-- generate this p-element only if there is textcontent and it contains non-whitespace characters -->
+                <xsl:if test="matches(. , '[^\s]')">
+                    <p>
+                        <xsl:apply-templates select="*"/>
+                    </p>
+                </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
