@@ -24,14 +24,23 @@
             </front>
             <body>
                 <xsl:for-each-group select="p|h1|h2|h3|h4" group-starting-with="h2">
-<!--                    <xsl:choose>-->
-<!--                        <xsl:when test="current-group()[self::h2]">-->
                             <section lvl="2">
                                 <xsl:for-each-group select="current-group()" group-starting-with="h3">
                                     <xsl:choose>
                                         <xsl:when test="current-group()[self::h3]">
                                             <section lvl="3">
-                                                <xsl:apply-templates select="current-group()"/>
+                                                <xsl:for-each-group select="current-group()" group-starting-with="h4">
+                                                    <xsl:choose>
+                                                        <xsl:when test="current-group()[self::h4]">
+                                                            <section lvl="4">
+                                                                <xsl:apply-templates select="current-group()"/>
+                                                            </section>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:apply-templates select="current-group()"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:for-each-group>
                                             </section>
                                         </xsl:when>
                                         <xsl:otherwise>
@@ -40,12 +49,6 @@
                                     </xsl:choose>    
                                 </xsl:for-each-group>
                             </section>                            
-                        <!--</xsl:when>-->
-                        <!--<xsl:otherwise>
-                            <xsl:apply-templates/>
-                        </xsl:otherwise>-->
-                    <!--</xsl:choose>-->
-                    
                 </xsl:for-each-group>
             </body>
             <back>
@@ -73,11 +76,5 @@
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
-    <!--
-    <xsl:template match="p">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>-->
     
 </xsl:stylesheet>
