@@ -3,7 +3,7 @@
     xmlns:c="http://www.w3.org/ns/xproc-step">
 
     <p:input port="source">
-        <p:document href="source/docx-unpacked/word/document.xml"/>
+        <p:document href="source/ooxml-unpacked/word/document.xml"/>
     </p:input>
     
 <!--    <p:input port="footnotes" kind="parameter"/>-->
@@ -22,7 +22,7 @@
         <p:input port="parameters">
             <p:inline>
                 <c:param-set>
-                    <c:param name="footnotes" value="source/docx-unpacked/word/footnotes.xml"/>
+                    <c:param name="footnotes" value="source/ooxml-unpacked/word/footnotes.xml"/>
                 </c:param-set>
             </p:inline>
         </p:input>
