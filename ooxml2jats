@@ -1,0 +1,2 @@
+#!/bin/bash
+calabash ooxml2jats.xpl | tee ooxml2jats.output.xml | pygmentize -l xml | less -RS
