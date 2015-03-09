@@ -8,7 +8,7 @@
     <style>
         <name>Heading1</name>
         <name>PPHeading1</name>
-        <transformTo>h1</transformTo>
+        <transformTo>article-title</transformTo>
     </style>
     <style>
         <name>Heading2</name>
