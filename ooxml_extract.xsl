@@ -57,5 +57,10 @@
     <xsl:template match="w:t[../w:rPr/w:i]">
         <italic><xsl:value-of select="."/></italic>
     </xsl:template>
+    
+    <!-- preserve bold formatting -->
+    <xsl:template match="w:t[../w:rPr/w:b]">
+        <bold><xsl:value-of select="."/></bold>
+    </xsl:template>
 
 </xsl:stylesheet>
