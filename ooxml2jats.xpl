@@ -42,6 +42,16 @@
 
     <p:delete match="h2[.='References']"/>
 
+    <p:xslt name="group_to_front_body_back" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="group_to_front_body_back.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <p:identity/>
 
 </p:declare-step>
