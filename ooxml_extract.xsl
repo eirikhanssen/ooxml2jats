@@ -53,4 +53,9 @@
         </xsl:choose>
     </xsl:template>
 
+    <!-- preserve italic formatting -->
+    <xsl:template match="w:t[../w:rPr/w:i]">
+        <italic><xsl:value-of select="."/></italic>
+    </xsl:template>
+
 </xsl:stylesheet>
