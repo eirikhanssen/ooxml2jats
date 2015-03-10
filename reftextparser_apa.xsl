@@ -9,19 +9,42 @@
 
   <xsl:output method="xml"/>
 
+  <xsl:function name="j2e:isAssumedToBeReference" as="xs:boolean">
+    <!-- decide if text is a running text reference or not -->
+    <!-- Return true or false. -->
+    <!--
+      It is assumed that if the contents of the parenthesis ends with 4 digits and optionally space before the closing parenthesis
+      then it must contain atleast one running text reference
+    -->
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="matches( $originalString , '\d{4}')"/>
+  </xsl:function>
+
   <!-- auto-tag running references in the text -->
-  <!--<xsl:template match="text()">
-    <xsl:analyze-string select="(\([^()]*?\))">
+  <xsl:template match="p[ancestor::body]/text()">
+    <!-- select text that is parenthesized and analyze it further to see if it contains references or not -->
+    <xsl:analyze-string select="." regex="(\([^()]*?\))">
       <xsl:matching-substring>
-        <running-text-refs>
-          <xsl:value-of select="regex-group(1)"/>
-        </running-text-refs>
+        <xsl:choose>
+          <xsl:when test="j2e:isAssumedToBeReference(regex-group(1)) eq true()">
+            <textRef>
+              <xsl:value-of select="regex-group(1)"/>
+            </textRef>
+          </xsl:when>
+          <xsl:otherwise>
+            <!-- uncomment <unmatched> to debug refparsing -->
+            <!--<unmatched>-->
+            <xsl:value-of select="."/>
+            <!--</unmatched>-->
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:matching-substring>
       <xsl:non-matching-substring>
+        <!-- for all text that is not in paranthesis, just copy unmodified -->
         <xsl:copy/>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
-  </xsl:template>-->
+  </xsl:template>
 
   <!-- properly mark up footnotes in the running text -->
 

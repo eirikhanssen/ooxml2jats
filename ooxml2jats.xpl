@@ -124,7 +124,7 @@
             <p:pipe step="extract_footnotes" port="result"/>
         </p:input>
     </p:insert>
-
+    
     <p:identity/>
 
 </p:declare-step>
