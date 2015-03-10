@@ -380,6 +380,8 @@
 
         <xsl:when test="$isUnknownRefType eq false()">
           <element-citation>
+            <!-- uncomment to show compare reference next to the auto-tagged version -->            
+            <!-- <original-ref><xsl:apply-templates/></original-ref>-->
             <xsl:apply-templates select="$taggedAuthors"/>
             <xsl:choose>
               <xsl:when test="$isBook eq true()">

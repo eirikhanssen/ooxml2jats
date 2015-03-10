@@ -3,6 +3,7 @@
     <style>
         <name>BodyText</name>
         <name>Normal</name>
+        <name>Footnote</name>
         <transformTo>p</transformTo>
     </style>
     <style>

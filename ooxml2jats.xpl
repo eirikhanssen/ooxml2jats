@@ -65,15 +65,63 @@
     <!-- parse the <ref> elements in the <ref-list> and autogenerate <element-citation> and <mixed-citation> markup -->
     <!-- refparser_apa.xsl assumes apa style formatting of references. --> 
     <!-- other citation styles can be accommodated by creating a refparser for other styles and using it here. -->
-    <p:xslt name="refparser" version="2.0">
+    <p:xslt name="reflistparser" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
-            <p:document href="refparser_apa.xsl"/>
+            <p:document href="reflistparser_apa.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>
         </p:input>
     </p:xslt>
+
+    <!-- parse text nodes in <p> and <title> elements. Inspect every paranthesis using regex to see if it contains reference(s) -->
+    <!--
+        if it contains reference(s), try to mark each reference up using the following format:
+        <xref type="bibr" rid="concat({first letter of each author's surnames}, {year})">{reference text}</xref>
+    -->
+    <!--<p:xslt name="reftextparser" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="reftextparser_apa.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>-->
+
+    <!-- this identity is the target of the <p:insert> step that places the footnotes xml document inside the main xml document -->
+
+    <p:identity name="document_before_footnotes_are_inserted"/>
+
+    <!-- extract footnotes and place them in a new xml document where <fn-group> is the root with <fn> children -->
+    <!-- maybe path to footnotes.xml should be given as a parameter (it could also be derived from the location of document.xml) -->
+    <!-- Later this document containing the footnotes needs to be inserted into the main document's back section -->
+
+    <p:xslt name="extract_footnotes" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="extract_footnotes.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:inline>
+                <c:param-set>
+                    <c:param name="footnotes" value="source/ooxml-unpacked/word/footnotes.xml"/>
+                </c:param-set>
+            </p:inline>
+        </p:input>
+    </p:xslt>
+
+    <!-- Insert footnotes into the back section of the main document -->
+
+    <p:insert name="insert_footnotes_into_main_document" match="article/back" position="first-child">
+        <p:input port="source">
+            <p:pipe step="document_before_footnotes_are_inserted" port="result"/>
+        </p:input>
+        <p:input port="insertion">
+            <p:pipe step="extract_footnotes" port="result"/>
+        </p:input>
+    </p:insert>
 
     <p:identity/>
 
