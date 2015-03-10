@@ -21,6 +21,7 @@
   </xsl:function>
 
   <!-- auto-tag running references in the text -->
+  <!-- WIP also need to do this for references in back/fn-group/p and possibly in title elements as well -->
   <xsl:template match="p[ancestor::body]/text()">
     <!-- select text that is parenthesized and analyze it further to see if it contains references or not -->
     <xsl:analyze-string select="." regex="(\([^()]*?\))">
