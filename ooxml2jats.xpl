@@ -79,8 +79,10 @@
     <!--
         if it contains reference(s), try to mark each reference up using the following format:
         <xref type="bibr" rid="concat({first letter of each author's surnames}, {year})">{reference text}</xref>
+        it also marks up <footnoteReference>'s to appropriate JSATS markup in the running text
     -->
-    <!--<p:xslt name="reftextparser" version="2.0">
+    
+    <p:xslt name="reftextparser" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
             <p:document href="reftextparser_apa.xsl"/>
@@ -88,7 +90,7 @@
         <p:input port="parameters">
             <p:empty/>
         </p:input>
-    </p:xslt>-->
+    </p:xslt>
 
     <!-- this identity is the target of the <p:insert> step that places the footnotes xml document inside the main xml document -->
 
