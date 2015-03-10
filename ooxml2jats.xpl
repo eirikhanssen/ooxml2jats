@@ -6,7 +6,7 @@
         <p:document href="source/ooxml-unpacked/word/document.xml"/>
     </p:input>
 
-    <!--    <p:input port="footnotes" kind="parameter"/>-->
+    <!-- <p:input port="footnotes" kind="parameter"/> -->
 
     <p:output port="result"/>
 
@@ -56,6 +56,19 @@
         <p:input port="source"/>
         <p:input port="stylesheet">
             <p:document href="section_and_header_cleanup.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
+    <!-- parse the <ref> elements in the <ref-list> and autogenerate <element-citation> and <mixed-citation> markup -->
+    <!-- refparser_apa.xsl assumes apa style formatting of references. --> 
+    <!-- other citation styles can be accommodated by creating a refparser for other styles and using it here. -->
+    <p:xslt name="refparser" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="refparser_apa.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>

@@ -103,90 +103,617 @@
    </body>
    <back>
       <ref-list>
-         <ref>Abbott, A. (1988). <italic>The system of professions. An essay on the division of expert labor.</italic> London: The University of Chicago Press.</ref>
-         <ref>Allvin, M., Aronsson, G., Hagström, T., Johansson, G., &amp; Lundberg U. (2006). <italic>Gränslöst arbete. Socialpsykologiska perspektiv på det nya arbetslivet</italic> [Boundariless work life. Social-psychological perspectives on the new working life]. Malmö: Liber.</ref>
-         <ref>Almerud, P. (2012). Kulturskaparna och kulturplanerna. In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, creators and planers of culture] (pp. 38-51). Stockholm: Sveriges Kommuner och Landsting.</ref>
-         <ref>Bauman, Z. (2001). <italic>The individualized society.</italic> Cambridge: Polity.</ref>
-         <ref>Belfiore, E. (2004). The subsidized cultural sector in the New Public Management. <italic>International Journal of Cultural Policy</italic>, <italic>10</italic>(2), 183-202. <uri>http://dx.doi.org/10.1080/10286630042000255808</uri>
+         <ref id="A1988" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Abbott</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <source>The system of professions. An essay on the division of expert labor.</source>
+               <year>1988</year>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>The University of Chicago Press</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Blomgren R. (2012). Staten tur och retur. In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, the state roundtrip] (pp.15-25). Stockholm: Sveriges Kommuner och Landsting</ref>
-         <ref>Bourdieu. B. (1993). <italic>The field of culture production.</italic> Cambridge: Polity Press.</ref>
-         <ref>Bourdieu, P. (1996). <italic>The rules of art: Genesis and structure of the literary field</italic>. Stanford: Stanford University Press.</ref>
-         <ref>Bourdieu, P. &amp; Balazs, G. (1999). <italic>The weight of the world. Social suffering in contemporary society</italic>. Cambridge: Polity Press.</ref>
-         <ref>Brante, T. (2010). State formations and the historical take-off of continental professional types. The case of Sweden. In L. Svensson &amp; J. Evett (Eds.): <italic>Sociology of professions. Continental and Anglo-Saxon traditions</italic> (pp. 75-119). Göteborg: Daidalos.</ref>
-         <ref>Coburn, C. E. (2001). Collective sense making about reading: How teachers mediate reading policy in their professional communities. <italic>Educational Evaluation and Policy Analysis,</italic> 
-            <italic>23</italic>(2), 145–170. <uri>http://dx.doi.org/10.3102/01623737023002145</uri>
+         <ref id="AAHJL2006" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Allvin</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Aronsson</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hagström</surname>
+                     <given-names>T.</given-names>
+                  </name>
+                  <name>
+                     <surname>Johansson</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lundberg</surname>
+                     <given-names>U.</given-names>
+                  </name>
+               </person-group>
+               <source>Gränslöst arbete. Socialpsykologiska perspektiv på det nya arbetslivet</source>
+               <year>2006</year>
+               <publisher-loc>Malmö</publisher-loc>
+               <publisher-name>Liber</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Carlhed, C. (2011). Fält, habitus och kapital som kompletterande redskap i professionsforskning. [Field, habitus and capital as complementary tools in professions research]. <italic>Socialvetenskaplig tidskrift</italic> 
-            <italic>4</italic>, 283–300.</ref>
-         <ref>Duelund, P. (2003).  <italic>The Nordic Cultural Model</italic>. Köpenhamn: Nordisk Kulturinstitut.</ref>
-         <ref>Duelund, P. (2008) Nordic cultural policies: A critical view. <italic>International Journal of Cultural Policy</italic>, <italic>14</italic>(1), 7–24. <uri>http://dx.doi.org/10.1080/10286630701856468</uri>
+         <ref id="A2012" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Almerud</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
+               <year>2012</year>
+               <publisher-loc>Stockholm</publisher-loc>
+               <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Evans, T. &amp; Harris, J. (2004). Street-level bureaucracy, social work and the exaggerated death of discretion. <italic>British Journal of Social Work</italic>, <italic>34</italic>(6), 871–895. <uri>http://dx.doi.org/10.1093/bjsw/bch106</uri>
+         <ref id="B2001" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bauman</surname>
+                     <given-names>Z.</given-names>
+                  </name>
+               </person-group>
+               <source>The individualized society.</source>
+               <year>2001</year>
+               <publisher-loc>Cambridge</publisher-loc>
+               <publisher-name>Polity</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Featherstone, M. (1994). <italic>Kultur, kropp och konsumtion. </italic>
-            <italic>Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </italic>[Culture, body and consumption. Cultural sociological texts selected and translated by F. Miegel &amp; T. Johansson] Stockholm/Stehag: Symposion.</ref>
-         <ref>Flisbäck, M. (2014). <italic>När livet går bort, när livet kommer till. </italic>
-            <italic>Existenssociologiska betraktelser av konstnärligt arbete, familjebildning och anhörigförlust</italic> [When life passes away, when life arises: Contemplations of artistic work, family formation and losses of relatives from an existential sociology perspective]. Lund: Studentlitteratur.</ref>
-         <ref>Flisbäck, M. (2013). Creating a life: The role of symbolic and economic structures in the gender dynamics of Swedish artists’, <italic>International Journal of Cultural Policy</italic>, <italic>19</italic>(4)<italic>,</italic> 462-480. <uri>http://dx.doi.org/10.1080/10286632.2012.658046</uri>
+         <ref id="___ 2004" publication-format="print">
+            <mixed-citation>Belfiore, E. (2004). The subsidized cultural sector in the New Public Management. <italic>International Journal of Cultural Policy</italic>, <italic>10</italic>(2), 183-202. <uri>http://dx.doi.org/10.1080/10286630042000255808</uri>
+            </mixed-citation>
          </ref>
-         <ref>Flisbäck, M. &amp; Lindström, S. (2013). Work–family conflict among professional visual artists in Sweden: Gender Differences in the influence of parenting and household responsibilities, <italic>Nordic Journal of Cultural Policy</italic>,<italic> 2</italic>, 239–268.</ref>
-         <ref>Flisbäck, M. &amp; Lund, A. (2010). Konst- och kultursektorn - ett pionjärområde för ett arbetsliv i omvandling? [The art and culture sector – a pioneering area for a working life in transition?]. <italic>Arbetsliv i omvandling</italic>, <italic>4</italic>, 1–13.</ref>
-         <ref>Florida, R. (2002). <italic>The rise of the creative class: and how it’s transforming work, leisure, community and everyday life</italic>. New York: Basic Books.</ref>
-         <ref>Forsman, A. (2008). Konstnärspolitiska dilemman. In S. Beckman. &amp; S. Månsson (Eds.), <italic>KulturSverige 2009</italic> [Artist policy dilemmas In CulturalSweden 2009] (pp. 123–126). Linköping: Sörlin Förlag.</ref>
-         <ref>Fournier, V. (2000). Boundary work and the (un)making of the professions. In N. Malin (Eds.), <italic>Professionalism, boundaries and the workplace</italic> (pp. 67–86). London: Routledge.</ref>
-         <ref>Frenander, A. (2005). <italic>Kulturen som kulturpolitikens stora problem. Diskussionen om svensk kulturpolitik under 1900-talet</italic> [Culture as cultural policy’s greatest problem. The discussion on Swedish cultural policies during the 20th century]. Hedemora: Gidlunds förlag.</ref>
-         <ref>Gieryn, T. F. (1983). Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. <italic>American Sociological Review</italic>, <italic>48(6)</italic>, 781–795. <uri>http://dx.doi.org/10.2307/2095325</uri>
+         <ref id="___ 2012" publication-type="book" publication-format="print">
+            <mixed-citation>Blomgren R. (2012). Staten tur och retur. In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, the state roundtrip] (pp.15-25). Stockholm: Sveriges Kommuner och Landsting</mixed-citation>
          </ref>
-         <ref>Harding, T &amp; Nathanson, C. 2012. ”Inledning”, In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, Introduction] (pp. 9-14). Stockholm: Sveriges Kommuner och Landsting.</ref>
-         <ref>Heian Torvik, M., Løyland, K., &amp; Mangset, P. (2008). Kunstnernes aktivitet, arbeids- og inntektsforhold, 2006. Rapport nr 241.Telemarksforsking-Bø.</ref>
-         <ref>Jacobsson, B. (2014<italic>). Kulturpolitik. Styrning på avstånd</italic> [Cultural policy. A distanced steering]. Lund: Studentlitteratur.</ref>
-         <ref>Johannisson, J. (2012). Att planera kultur. In Sveriges Kommuner och Landsting, <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic>. [Under construction. Effects of the Collaborative Cultural Model 2010-2012, Planning culture] (pp. 65-75). Stockholm: Sveriges Kommuner och Landsting</ref>
-         <ref>Karlsson, D. (2010). <italic>En kulturutredning. Pengar, konst och politik</italic> [An investigation of culture. Money, art and politics]. Göteborg: Glänta produktion.</ref>
-         <ref>KLYS (2010). KLYS synpunkter på SOU 2010:11 Spela samman – en ny modell för stöd till regional kulturverksamhet. [The Swedish Joint Committee for Artistic and Literary Professionals view on SOU 2010:11 Playing together – a new model for funding regional cultural activities]. <uri>http://www.klys.se/samverkansmodellen.html</uri>.</ref>
-         <ref>KLYS (2013). Samverkansmodellen. Hur utvecklas kulturlivet i din region? [The Collaborative Cultural Model. How is cultural life developing in your region?]. <uri>http://www.klys.se/bdh_filearea/Remissvar_och_yttranden/Kulturpolitik/26_11_Samverkansbroschyren_UPPSLAG.pdf.</uri>
+         <ref id="___ 1993" publication-type="book" publication-format="print">
+            <mixed-citation>Bourdieu. B. (1993). <italic>The field of culture production.</italic> Cambridge: Polity Press.</mixed-citation>
          </ref>
-         <ref>Larsson, B. &amp; Jacobsson, B. (2013). Discretion in the “backyard of law”: Case handling of debt relief in Sweden, <italic>Professions &amp; Professionalism</italic>, <italic>3</italic>(1). <uri>https://journals.hioa.no/index.php/pp/article/view/438</uri>
+         <ref id="B1996" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bourdieu</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>The rules of art: Genesis and structure of the literary field</source>
+               <year>1996</year>
+               <publisher-loc>Stanford</publisher-loc>
+               <publisher-name>Stanford University Press</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Lund, A, Krantz, J, &amp; Gustafsson, B. (2013). <italic>Skapande skola. En kalejdoskopisk </italic>
-            <italic>reform och dess praktik</italic> [Creative school. A kaleidoscopic reform and its practices]. Stockholm: Myndigheten för kulturanalys.</ref>
-         <ref>McRobbie, A. (2004). Everyone is creative? In T. Bennett &amp; E. De Silva, (Eds.), <italic>Contemporary culture and everyday life</italic> (pp. 186–202). Durham: Sociology Press.</ref>
-         <ref>Menger, P-M. (2006). Artistic labor markets: Contingent work, excess supply and occupational risk management. In V.A Ginsburgh &amp; D. Throsby (Eds.), <italic>Handbook of the economics of art and culture</italic>, <italic>1</italic> (pp. 766–811). North-Holland.</ref>
-         <ref>Ministry of Culture (2015). Cultural policy objectives. Declared by Ministry of Culture, Government Office of Sweden.  <uri>http://www.government.se/sb/d/3009/a/176574</uri>
+         <ref id="BB1999" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bourdieu</surname>
+                     <given-names>P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Balazs</surname>
+                     <given-names>G.</given-names>
+                  </name>
+               </person-group>
+               <source>The weight of the world. Social suffering in contemporary society</source>
+               <year>1999</year>
+               <publisher-loc>Cambridge</publisher-loc>
+               <publisher-name>Polity Press</publisher-name>
+            </element-citation>
          </ref>
-         <ref>Molander, A &amp; Grimen, H. (2010). Understanding professional discretion. In L. Svensson &amp; J. Evett (Eds.), <italic>Sociology of professions. Continental and Anglo-Saxon traditions</italic> (pp. 167-187). Göteborg: Daidalos.</ref>
-         <ref>Nilsson, S. (1999). <italic>Kulturens vägar</italic> [Paths of culture]. Malmö: Polyvalent.</ref>
-         <ref>Nilsson, S. (2008). <italic>Var finns kreativiteten? </italic>
-            <italic>Exemplet Skåne</italic> [Where is the creativity? Skåne as an example]. Malmö: Polyvalent.</ref>
-         <ref>Persson, S. (2008). <italic>Läraryrkets uppkomst och förändring.</italic>[The rise and change of the teaching professions]. Dissertation. Gothenburg: Gothenburg University, Department of Sociology.</ref>
-         <ref>Power, M (1997). <italic>The audit society: Rituals of verification.</italic> Oxford: University Press.</ref>
-         <ref>Reckwitz, A. (2012). <italic>Die Erfindung der Kreativität.</italic> Berlin: Suhrkamp Verlag.</ref>
-         <ref>Regeringens proposition [Government Bill]. 1996/97:3. Kulturpolitik [Cultural policy].</ref>
-         <ref>Regeringens proposition [Government Bill] 2009/10:3. Tid för kultur [Time for culture].</ref>
-         <ref>Regeringskansliet [Swedish Government Offices], 2014. Kulturpolitiska mål [Cultural policy-goals]. www.regeringen.se/sb/d/1897.</ref>
-         <ref>Reglab (2014). <italic>Kulturdialoger</italic> [Culture dialogues]. <uri>www.reglab.se/kulturdialoger</uri> Sarfatti-Larson, M. (1977) <italic>The rise of professionalism. A sociological analysis. </italic>Berkeley: University of California Press.</ref>
-         <ref>Scott, W. R. (2008). Lords of the dance: Professionals as institutional agents. <italic>Organization Studies,</italic> 
-            <italic>29</italic>(2), 219-238. <uri>http://dx.doi.org/10.1177/0170840607088151</uri>
+         <ref id="B2010"
+              publication-type="book-chapter"
+              publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Brante</surname>
+                     <given-names>T.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>Sociology of professions. Continental and Anglo-Saxon traditions</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Svensson</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Evett</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2010</year>
+               <publisher-loc>Göteborg</publisher-loc>
+               <publisher-name>Daidalos</publisher-name>
+            </element-citation>
          </ref>
-         <ref>SKL/Sveriges Kommuner och Landsting. (2012) <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Cultural Collaboration Model 2010-2012]. Stockholm: Sveriges Kommuner och Landsting.</ref>
-         <ref>SOU 1972:66. <italic>Ny kulturpolitik</italic> [New cultural policy].</ref>
-         <ref>SOU 2009:16 Betänkande av kulturutredningen [Report from the culture investigation].</ref>
-         <ref>SOU 2010:11. <italic>Spela samman - En ny modell för statens stöd till regional kulturverksamhet</italic> [Playing together – a new model for funding regional cultural activities]. Stockholm: Fritzes Offentliga Publikationer.</ref>
-         <ref>Standing, G. (2011). <italic>The Precariat: the new dangerous class</italic>. London: Bloomsbury Academic.</ref>
-         <ref>Sternö &amp; Nielsén (2013). Villkorad existens, politik och konsekvens. En rapport om kultursamverkansmodellen och scenkonstinstitutionerna. [Conditioned existence, policies and consequences. A report on the Collaborative Cultural Model and the performing arts institutions]. Stockholm: Svensk scenkonst.</ref>
-         <ref>Svensson, P. (2008). Konstnärerna i kulturpolitiken. [Artists in cultural policy]. Stockholm: Swedish Art Committee.</ref>
-         <ref>Svensson, L. G. (2002). <italic>Professionella villkor och värderingar.</italic> [Professional conditions and values] Göteborg: Research report no. 126, Department of Sociology Göteborgs University.</ref>
-         <ref>Svensson, L. G. (2011). Inledning till studier av professioner och professionellt arbete [An introduction to professions and professional work]. <italic>Socialvetenskaplig tidskrift</italic>. <italic>4</italic>, 254-267.</ref>
-         <ref>Svensson, L. G. &amp; Evetts, J. (2010). <italic>Sociology of professions. Continental and Anglo-Saxon traditions.</italic> Göteborg: Daidalos.</ref>
-         <ref>Swedish Agency for Cultural Policy Analysis (2012). <italic>Kulturanalys 2012</italic> [Cultural analysis 2012].</ref>
-         <ref>Swedish Agency for Cultural Policy Analysis (2013). Kultursamverkansmodellen. Styrning och bidragsfördelning [The Cultural Collaboration Model. Control and fund allocation]. Report 2013:2.</ref>
-         <ref>Swedish Arts Council. (2011). <italic>Erfarenheter av kultursamverkansmodellen – redovisning av regeringsuppdrag</italic>. [Experiences of the Collaborative Cultural Model – a report on a governmental mission] Dnr KUR 2011/1368.</ref>
-         <ref>Swedish Arts Grants Committee (2009). Konstnärernas inkomster. En statistisk undersökning av SCB inom alla konstområden 2004–2005 [The income of artists. A statistical investigation by SCB of all art sectors from 2004-2005].</ref>
-         <ref>Swedish Arts Grants Committee (2010). Konstnärernas inkomster ur ett jämställdhetsperspektiv. Ekonomi, arbete och familjeliv. [Economy, Work, and Family Life: A Survey of Artists’ Income from a Gender Perspective].</ref>
-         <ref>Swedish Arts Grants Committee (2011). Konstnärernas inkomster, arbetsmarknad och försörjningsmönster [Artists’ incomes, labor market and balance of resources].</ref>
-         <ref>
-            <italic>The Economy of Culture in Europe</italic>. Study prepared for the European Commission October 2006. KEA European Affairs.</ref>
-         <ref>Wacquant, L. (2009) <italic>Punishing the poor.</italic> Durham/London: Duke University Press. <uri>http://dx.doi.org/10.1215/9780822392255</uri>
+         <ref id="___ 2001" publication-format="print">
+            <mixed-citation>Coburn, C. E. (2001). Collective sense making about reading: How teachers mediate reading policy in their professional communities. <italic>Educational Evaluation and Policy Analysis,</italic> 
+               <italic>23</italic>(2), 145–170. <uri>http://dx.doi.org/10.3102/01623737023002145</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___ 2011" publication-format="print">
+            <mixed-citation>Carlhed, C. (2011). Fält, habitus och kapital som kompletterande redskap i professionsforskning. [Field, habitus and capital as complementary tools in professions research]. <italic>Socialvetenskaplig tidskrift</italic> 
+               <italic>4</italic>, 283–300.</mixed-citation>
+         </ref>
+         <ref id="D2003" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Duelund</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>The Nordic Cultural Model</source>
+               <year>2003</year>
+               <publisher-loc>Köpenhamn</publisher-loc>
+               <publisher-name>Nordisk Kulturinstitut</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2008" publication-format="print">
+            <mixed-citation>Duelund, P. (2008) Nordic cultural policies: A critical view. <italic>International Journal of Cultural Policy</italic>, <italic>14</italic>(1), 7–24. <uri>http://dx.doi.org/10.1080/10286630701856468</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___ 2004" publication-format="print">
+            <mixed-citation>Evans, T. &amp; Harris, J. (2004). Street-level bureaucracy, social work and the exaggerated death of discretion. <italic>British Journal of Social Work</italic>, <italic>34</italic>(6), 871–895. <uri>http://dx.doi.org/10.1093/bjsw/bch106</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="F1994" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Featherstone</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <source>Kultur, kropp och konsumtion.  Kultursociologiska texter i urval och översättning av F Miegel &amp; T Johansson </source>
+               <year>1994</year>
+               <publisher-loc>Stockholm/Stehag</publisher-loc>
+               <publisher-name>Symposion</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="F2014" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Flisbäck</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <source>När livet går bort, när livet kommer till.  Existenssociologiska betraktelser av konstnärligt arbete, familjebildning och anhörigförlust</source>
+               <year>2014</year>
+               <publisher-loc>Lund</publisher-loc>
+               <publisher-name>Studentlitteratur</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2013" publication-format="print">
+            <mixed-citation>Flisbäck, M. (2013). Creating a life: The role of symbolic and economic structures in the gender dynamics of Swedish artists’, <italic>International Journal of Cultural Policy</italic>, <italic>19</italic>(4)<italic>,</italic> 462-480. <uri>http://dx.doi.org/10.1080/10286632.2012.658046</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___ 2013" publication-format="print">
+            <mixed-citation>Flisbäck, M. &amp; Lindström, S. (2013). Work–family conflict among professional visual artists in Sweden: Gender Differences in the influence of parenting and household responsibilities, <italic>Nordic Journal of Cultural Policy</italic>,<italic> 2</italic>, 239–268.</mixed-citation>
+         </ref>
+         <ref id="___ 2010" publication-format="print">
+            <mixed-citation>Flisbäck, M. &amp; Lund, A. (2010). Konst- och kultursektorn - ett pionjärområde för ett arbetsliv i omvandling? [The art and culture sector – a pioneering area for a working life in transition?]. <italic>Arbetsliv i omvandling</italic>, <italic>4</italic>, 1–13.</mixed-citation>
+         </ref>
+         <ref id="F2002" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Florida</surname>
+                     <given-names>R.</given-names>
+                  </name>
+               </person-group>
+               <source>The rise of the creative class: and how it’s transforming work, leisure, community and everyday life</source>
+               <year>2002</year>
+               <publisher-loc>New York</publisher-loc>
+               <publisher-name>Basic Books</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="F2008"
+              publication-type="book-chapter"
+              publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Forsman</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>KulturSverige 2009</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>S. Beckman.</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Månsson</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <publisher-loc>Linköping</publisher-loc>
+               <publisher-name>Sörlin Förlag</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="F2000"
+              publication-type="book-chapter"
+              publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fournier</surname>
+                     <given-names>V.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>Professionalism, boundaries and the workplace</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Malin</surname>
+                     <given-names>N.</given-names>
+                  </name>
+               </person-group>
+               <year>2000</year>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>Routledge</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="F2005" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Frenander</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <source>Kulturen som kulturpolitikens stora problem. Diskussionen om svensk kulturpolitik under 1900-talet</source>
+               <year>2005</year>
+               <publisher-loc>Hedemora</publisher-loc>
+               <publisher-name>Gidlunds förlag</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 1983" publication-format="print">
+            <mixed-citation>Gieryn, T. F. (1983). Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. <italic>American Sociological Review</italic>, <italic>48(6)</italic>, 781–795. <uri>http://dx.doi.org/10.2307/2095325</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___" publication-type="book" publication-format="print">
+            <mixed-citation>Harding, T &amp; Nathanson, C. 2012. ”Inledning”, In Sveriges Kommuner och Landsting. <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Collaborative Cultural Model 2010-2012, Introduction] (pp. 9-14). Stockholm: Sveriges Kommuner och Landsting.</mixed-citation>
+         </ref>
+         <ref id="___ 2008" publication-format="print">
+            <mixed-citation>Heian Torvik, M., Løyland, K., &amp; Mangset, P. (2008). Kunstnernes aktivitet, arbeids- og inntektsforhold, 2006. Rapport nr 241.Telemarksforsking-Bø.</mixed-citation>
+         </ref>
+         <ref id="J2014" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Jacobsson</surname>
+                     <given-names>B.</given-names>
+                  </name>
+               </person-group>
+               <source>). Kulturpolitik. Styrning på avstånd</source>
+               <year>2014</year>
+               <publisher-loc>Lund</publisher-loc>
+               <publisher-name>Studentlitteratur</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="J2012" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Johannisson</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <source>Under konstruktion. Effekter av samverkansmodellen 2010-2012</source>
+               <year>2012</year>
+               <publisher-loc>Stockholm</publisher-loc>
+               <publisher-name>Sveriges Kommuner och Landsting</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="K2010" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Karlsson</surname>
+                     <given-names>D.</given-names>
+                  </name>
+               </person-group>
+               <source>En kulturutredning. Pengar, konst och politik</source>
+               <year>2010</year>
+               <publisher-loc>Göteborg</publisher-loc>
+               <publisher-name>Glänta produktion</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2010" publication-format="print">
+            <mixed-citation>KLYS (2010). KLYS synpunkter på SOU 2010:11 Spela samman – en ny modell för stöd till regional kulturverksamhet. [The Swedish Joint Committee for Artistic and Literary Professionals view on SOU 2010:11 Playing together – a new model for funding regional cultural activities]. <uri>http://www.klys.se/samverkansmodellen.html</uri>.</mixed-citation>
+         </ref>
+         <ref id="___ 2013" publication-format="print">
+            <mixed-citation>KLYS (2013). Samverkansmodellen. Hur utvecklas kulturlivet i din region? [The Collaborative Cultural Model. How is cultural life developing in your region?]. <uri>http://www.klys.se/bdh_filearea/Remissvar_och_yttranden/Kulturpolitik/26_11_Samverkansbroschyren_UPPSLAG.pdf.</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___ 2013" publication-format="print">
+            <mixed-citation>Larsson, B. &amp; Jacobsson, B. (2013). Discretion in the “backyard of law”: Case handling of debt relief in Sweden, <italic>Professions &amp; Professionalism</italic>, <italic>3</italic>(1). <uri>https://journals.hioa.no/index.php/pp/article/view/438</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="LKG2013" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lund</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Krantz</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gustafsson</surname>
+                     <given-names>B.</given-names>
+                  </name>
+               </person-group>
+               <source>Skapande skola. En kalejdoskopisk  reform och dess praktik</source>
+               <year>2013</year>
+               <publisher-loc>Stockholm</publisher-loc>
+               <publisher-name>Myndigheten för kulturanalys</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="M2004"
+              publication-type="book-chapter"
+              publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McRobbie</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>Contemporary culture and everyday life</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Bennett</surname>
+                     <given-names>T.</given-names>
+                  </name>
+                  <name>
+                     <surname>De Silva</surname>
+                     <given-names>E.</given-names>
+                  </name>
+               </person-group>
+               <year>2004</year>
+               <publisher-loc>Durham</publisher-loc>
+               <publisher-name>Sociology Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2006" publication-format="print">
+            <mixed-citation>Menger, P-M. (2006). Artistic labor markets: Contingent work, excess supply and occupational risk management. In V.A Ginsburgh &amp; D. Throsby (Eds.), <italic>Handbook of the economics of art and culture</italic>, <italic>1</italic> (pp. 766–811). North-Holland.</mixed-citation>
+         </ref>
+         <ref id="___ 2015" publication-format="print">
+            <mixed-citation>Ministry of Culture (2015). Cultural policy objectives. Declared by Ministry of Culture, Government Office of Sweden.  <uri>http://www.government.se/sb/d/3009/a/176574</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="MG2010"
+              publication-type="book-chapter"
+              publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Molander</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Grimen</surname>
+                     <given-names>H.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>Sociology of professions. Continental and Anglo-Saxon traditions</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Svensson</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Evett</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2010</year>
+               <publisher-loc>Göteborg</publisher-loc>
+               <publisher-name>Daidalos</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="N1999" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nilsson</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <source>Kulturens vägar</source>
+               <year>1999</year>
+               <publisher-loc>Malmö</publisher-loc>
+               <publisher-name>Polyvalent</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="N2008" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nilsson</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <source>Var finns kreativiteten?  Exemplet Skåne</source>
+               <year>2008</year>
+               <publisher-loc>Malmö</publisher-loc>
+               <publisher-name>Polyvalent</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2008" publication-format="print">
+            <mixed-citation>Persson, S. (2008). <italic>Läraryrkets uppkomst och förändring.</italic>[The rise and change of the teaching professions]. Dissertation. Gothenburg: Gothenburg University, Department of Sociology.</mixed-citation>
+         </ref>
+         <ref id="P1997" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Power</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <source>The audit society: Rituals of verification.</source>
+               <year>1997</year>
+               <publisher-loc>Oxford</publisher-loc>
+               <publisher-name>University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="R2012" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Reckwitz</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <source>Die Erfindung der Kreativität.</source>
+               <year>2012</year>
+               <publisher-loc>Berlin</publisher-loc>
+               <publisher-name>Suhrkamp Verlag</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>Regeringens proposition [Government Bill]. 1996/97:3. Kulturpolitik [Cultural policy].</mixed-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>Regeringens proposition [Government Bill] 2009/10:3. Tid för kultur [Time for culture].</mixed-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>Regeringskansliet [Swedish Government Offices], 2014. Kulturpolitiska mål [Cultural policy-goals]. www.regeringen.se/sb/d/1897.</mixed-citation>
+         </ref>
+         <ref id="___ 1977" publication-type="book" publication-format="print">
+            <mixed-citation>Reglab (2014). <italic>Kulturdialoger</italic> [Culture dialogues]. <uri>www.reglab.se/kulturdialoger</uri> Sarfatti-Larson, M. (1977) <italic>The rise of professionalism. A sociological analysis. </italic>Berkeley: University of California Press.</mixed-citation>
+         </ref>
+         <ref id="___ 2008" publication-format="print">
+            <mixed-citation>Scott, W. R. (2008). Lords of the dance: Professionals as institutional agents. <italic>Organization Studies,</italic> 
+               <italic>29</italic>(2), 219-238. <uri>http://dx.doi.org/10.1177/0170840607088151</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="___ 2012" publication-type="book" publication-format="print">
+            <mixed-citation>SKL/Sveriges Kommuner och Landsting. (2012) <italic>Under konstruktion. Effekter av samverkansmodellen 2010-2012</italic> [Under construction. Effects of the Cultural Collaboration Model 2010-2012]. Stockholm: Sveriges Kommuner och Landsting.</mixed-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>SOU 1972:66. <italic>Ny kulturpolitik</italic> [New cultural policy].</mixed-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>SOU 2009:16 Betänkande av kulturutredningen [Report from the culture investigation].</mixed-citation>
+         </ref>
+         <ref id="___" publication-type="book" publication-format="print">
+            <mixed-citation>SOU 2010:11. <italic>Spela samman - En ny modell för statens stöd till regional kulturverksamhet</italic> [Playing together – a new model for funding regional cultural activities]. Stockholm: Fritzes Offentliga Publikationer.</mixed-citation>
+         </ref>
+         <ref id="S2011" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Standing</surname>
+                     <given-names>G.</given-names>
+                  </name>
+               </person-group>
+               <source>The Precariat: the new dangerous class</source>
+               <year>2011</year>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>Bloomsbury Academic</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2013" publication-type="book" publication-format="print">
+            <mixed-citation>Sternö &amp; Nielsén (2013). Villkorad existens, politik och konsekvens. En rapport om kultursamverkansmodellen och scenkonstinstitutionerna. [Conditioned existence, policies and consequences. A report on the Collaborative Cultural Model and the performing arts institutions]. Stockholm: Svensk scenkonst.</mixed-citation>
+         </ref>
+         <ref id="S2008" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Svensson</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source/>
+               <year>2008</year>
+               <publisher-loc>Stockholm</publisher-loc>
+               <publisher-name>Swedish Art Committee</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2002" publication-format="print">
+            <mixed-citation>Svensson, L. G. (2002). <italic>Professionella villkor och värderingar.</italic> [Professional conditions and values] Göteborg: Research report no. 126, Department of Sociology Göteborgs University.</mixed-citation>
+         </ref>
+         <ref id="___ 2011" publication-format="print">
+            <mixed-citation>Svensson, L. G. (2011). Inledning till studier av professioner och professionellt arbete [An introduction to professions and professional work]. <italic>Socialvetenskaplig tidskrift</italic>. <italic>4</italic>, 254-267.</mixed-citation>
+         </ref>
+         <ref id="SE2010" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Svensson</surname>
+                     <given-names>L. G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Evetts</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <source>Sociology of professions. Continental and Anglo-Saxon traditions.</source>
+               <year>2010</year>
+               <publisher-loc>Göteborg</publisher-loc>
+               <publisher-name>Daidalos</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="___ 2012" publication-format="print">
+            <mixed-citation>Swedish Agency for Cultural Policy Analysis (2012). <italic>Kulturanalys 2012</italic> [Cultural analysis 2012].</mixed-citation>
+         </ref>
+         <ref id="___ 2013" publication-format="print">
+            <mixed-citation>Swedish Agency for Cultural Policy Analysis (2013). Kultursamverkansmodellen. Styrning och bidragsfördelning [The Cultural Collaboration Model. Control and fund allocation]. Report 2013:2.</mixed-citation>
+         </ref>
+         <ref id="___ 2011" publication-format="print">
+            <mixed-citation>Swedish Arts Council. (2011). <italic>Erfarenheter av kultursamverkansmodellen – redovisning av regeringsuppdrag</italic>. [Experiences of the Collaborative Cultural Model – a report on a governmental mission] Dnr KUR 2011/1368.</mixed-citation>
+         </ref>
+         <ref id="___ 2009" publication-format="print">
+            <mixed-citation>Swedish Arts Grants Committee (2009). Konstnärernas inkomster. En statistisk undersökning av SCB inom alla konstområden 2004–2005 [The income of artists. A statistical investigation by SCB of all art sectors from 2004-2005].</mixed-citation>
+         </ref>
+         <ref id="___ 2010" publication-format="print">
+            <mixed-citation>Swedish Arts Grants Committee (2010). Konstnärernas inkomster ur ett jämställdhetsperspektiv. Ekonomi, arbete och familjeliv. [Economy, Work, and Family Life: A Survey of Artists’ Income from a Gender Perspective].</mixed-citation>
+         </ref>
+         <ref id="___ 2011" publication-format="print">
+            <mixed-citation>Swedish Arts Grants Committee (2011). Konstnärernas inkomster, arbetsmarknad och försörjningsmönster [Artists’ incomes, labor market and balance of resources].</mixed-citation>
+         </ref>
+         <ref id="___" publication-format="print">
+            <mixed-citation>
+               <italic>The Economy of Culture in Europe</italic>. Study prepared for the European Commission October 2006. KEA European Affairs.</mixed-citation>
+         </ref>
+         <ref id="W2009" publication-type="book" publication-format="print">
+            <element-citation>
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Wacquant</surname>
+                     <given-names>L.</given-names>
+                  </name>
+               </person-group>
+               <source>Punishing the poor.</source>
+               <year>2009</year>
+               <publisher-loc>http</publisher-loc>
+               <publisher-name>//dx.doi.org/10.1215/9780822392255</publisher-name>
+            </element-citation>
          </ref>
       </ref-list>
    </back>
