@@ -28,9 +28,9 @@
       <xsl:matching-substring>
         <xsl:choose>
           <xsl:when test="j2e:isAssumedToBeReference(regex-group(1)) eq true()">
-            <textRef>
+            <textRefs>
               <xsl:value-of select="regex-group(1)"/>
-            </textRef>
+            </textRefs>
           </xsl:when>
           <xsl:otherwise>
             <!-- uncomment <unmatched> to debug refparsing -->
