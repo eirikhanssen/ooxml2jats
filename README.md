@@ -5,7 +5,7 @@ Developing an automatic tagging solution to produce **JATS** XML output from **.
 Written in XSLT 2.0 and XProc 1.0.
 
 ## Warning - work in progress
-This project is currently under heavy development and as such is unstable, and will change without notice.
+This project is currently under active development and will change without notice.
 
 ## Project motivation
 
@@ -22,7 +22,9 @@ The number of in-text citations, references in the reference list as well as the
 
 Without an automatic tagging solution, with our available manpower, we are only able to provide the service of publishing in html, ePub and mobi formats to one of our institution's ten journals.
 
-Wouldn't it be wonderful if there was a tool that could allow a machine to do this work. Then the person working with this task could concentrate on proofreading.
+Wouldn't it be wonderful if there was a tool that could allow a machine to do this work?
+
+Then the person working with this task could spend considerably less time per article and focus on proofreading.
 
 And then the project ooxml2jats was born.
 
@@ -76,7 +78,7 @@ This is because in the APA style citation format, italic text in the references 
 
 XSLT 2.0's grouping cababilities have been exploited to divide the body text of the article in proper section (sec) elements.
 If you're interested in how that's done, you can read the excellent article on the topic by Pricilla Walmsley: http://www.ibm.com/developerworks/library/x-addstructurexslt/
-This article also explains how to generate a structure from the OOXML format based on a style mapping present in the format.
+This article also explains how to generate a structure from the OOXML format based on a style mapping.
 
 ## Citation styles
 
@@ -117,6 +119,35 @@ The ooxml2jats shellscript saves the output in ooxml2jats.output.xml and then fi
 #!/bin/bash
 calabash ooxml2jats.xpl | tee ooxml2jats.output.xml | pygmentize -l xml | less -RS
 ```
+
+## Todo
+
+Ideas, tasks and issues that haven't been implemented/fixed yet
+- reference list
+    - book type references
+        - the reference parser can't handle an uri at the end
+        - when title is translated:
+            - need trans-source elements and xml:lang on source and trans-source
+    - book chapter type references
+        - the source (name of the book) is missing
+        - trans-title and trans-source elements missing for references with translated titles
+        - the reference parser probably can't handle an uri at the end
+    - journal type references
+        - not implemented yet
+    - dissertation not marked up (sort of a book type reference) - Persson S. (2008) - missing id also, because of long publisher name with comma.
+- running text citations
+    - identify and isolate each reference present within a parenthesis
+    - automatically tag and generate id for these running text citations
+- generate a report of punctuation errors we can mail back to the authors
+- schematron validation
+    - if book chapter ref and either of trans-source or trans-title present
+        - then chapter-title, source, trans-source and trans-title must all have xml:lang attributes
+    - if journal type ref and trans-title element present, then article-title and trans-title botn need xml:lang attributes
+    - if book ref and translated title (trans-source element)
+        - then source and trans-source need to have xml:lang
+- should use types/type checking with the as attribute in xslt stylesheets
+- should create a method to check if all text in the original refernce has been marked up and issue a warning if there is some text that has not
+- resolve duplicate id's gracefully
 
 ## How to contribute
 
