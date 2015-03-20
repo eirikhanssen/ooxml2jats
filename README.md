@@ -99,6 +99,9 @@ But with time other commonly used citation styles could easily be added as well.
 - java - calabash, saxon and the libs are .jar archives, so you need a java environment to run the pipeline.
 - python-pygments (optional) - if you want the xml colorized output in the less pager using the ooxml2jats shellscript.
 
+The requied programs (or shellscripts/batchfiles invoking them) should be in the 
+```$path``` (gnu/linux) or the ```%path%``` (windows) environment variables.
+
 ## Operating system??
 
 I am using Gnu/Linux but anything goes as long as you have the above installed.
