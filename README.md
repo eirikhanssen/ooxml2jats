@@ -66,12 +66,15 @@ ooxml2jats contains many xsl stylesheets that do the transformations needed.
 ### Pattern matching
 
 In order to properly mark up the running text citations and the references in the reference list, the support for regular expressions in XSLT 2.0/XPath 2.0 is exploited to:
-- identify where the references are in the running text
-- automatically generate id's for the references
-- identify what type of references are in the reference list
+- identify where the citations are in the running text
+- automatically generate id's for the citations in the running text
+- automatically generate id's for the references in the reference list
+- identify what type of reference each reference in the reference list are
+    - to be able to process the different reference types
 - identify different parts of the reference list and automatically mark up the references using the JATS tagset.
 
-It is also worth to note that it is important to preserve **bold** and *italic* formatting during the extraction from the OOXML container format.
+It is also worth mentioning that it is important to preserve **bold** and *italic* formatting during the extraction from the OOXML container format.
+
 This is because in the APA style citation format, italic text in the references in the reference list has special meaning that helps to identify the different parts of a reference. Also we would like to preserve the author's formatting of text that should be in boldface or italics.
 
 ### Generating structure from a flat document structure
@@ -91,7 +94,7 @@ But with time other commonly used citation styles could easily be added as well.
 
 ## Required software
 
-- XProc processor: calabash - http://xmlcalabash.com/ (this will probably work with a different XProc processor as well).
+- XProc processor: calabash - http://xmlcalabash.com/ (a different XProc processor will probably be able to run the pipeline ooxml2jats.xpl as well).
     - calabash is built on top of the XSLT processor saxon and java.
 - java - calabash, saxon and the libs are .jar archives, so you need a java environment to run the pipeline.
 - python-pygments (optional) - if you want the xml colorized output in the less pager using the ooxml2jats shellscript.
@@ -148,6 +151,9 @@ Ideas, tasks and issues that haven't been implemented/fixed yet
 - should use types/type checking with the as attribute in xslt stylesheets
 - should create a method to check if all text in the original refernce has been marked up and issue a warning if there is some text that has not
 - resolve duplicate id's gracefully
+- unit testing 
+    - run the different xsl stylesheets against test data and comparing the results against known expected output
+    - important to be able to catch possible regressions that can happen when trying to improve the software
 
 ## How to contribute
 
