@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+    <back>
+        <ref>
+            <!--jrnw-->
+            <element-citation publication-type="journal" publication-format="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <article-title>___</article-title>
+                <source>___</source>
+                <year>___</year>
+                <volume>___</volume>
+                <issue>___</issue>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <uri>___</uri>
+            </element-citation>
+
+            <!--jrnp-->
+            <element-citation publication-type="journal" publication-format="print">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <article-title>___</article-title>
+                <source>___</source>
+                <year>___</year>
+                <volume>___</volume>
+                <issue>___</issue>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+            </element-citation>
+
+            <!--bookp-->
+            <element-citation publication-type="book" publication-format="print">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source>___</source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+            </element-citation>
+            
+            <!--bookw-->
+            <element-citation publication-type="book" publication-format="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source>___</source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+                <uri>___</uri>
+            </element-citation>
+            
+            <!--bookwtr-->
+            <element-citation publication-type="book" publication-format="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source xml:lang="___">___</source>
+                <trans-source xml:lang="___"></trans-source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+                <uri>___</uri>
+            </element-citation>
+
+            <!--bookptr-->
+            <element-citation publication-type="book" publication-format="print">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source xml:lang="___">___</source>
+                <trans-source xml:lang="___">___</trans-source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+            </element-citation>
+
+            <!--bookchp-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <chapter-title>___</chapter-title>
+                <person-group person-group-type="editor">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source>___</source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+            </element-citation>
+
+            <!--bookchptr-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <chapter-title xml:lang="___">___</chapter-title>
+                <trans-title xml:lang="___">___</trans-title>
+                <person-group person-group-type="editor">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source xml:lang="___">___</source>
+                <trans-source xml:lang="___">___</trans-source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+            </element-citation>
+
+            <!--bookchw-->
+            <element-citation publication-type="book-chapter" publication-format="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <chapter-title>___</chapter-title>
+                <person-group person-group-type="editor">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source>___</source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+                <uri>___</uri>
+            </element-citation>
+
+            <!--bookchwtr-->
+            <element-citation publication-type="book-chapter" publication-format="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <chapter-title xml:lang="___">___</chapter-title>
+                <trans-title  xml:lang="___"></trans-title>
+                <person-group person-group-type="editor">
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </person-group>
+                <source xml:lang="___">___</source>
+                <trans-source  xml:lang="___"></trans-source>
+                <year>___</year>
+                <fpage>___</fpage>
+                <lpage>___</lpage>
+                <publisher-loc>___</publisher-loc>
+                <publisher-name>___</publisher-name>
+                <uri>___</uri>
+            </element-citation>
+
+            <indent>
+                <addname1>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </addname1>
+            </indent>
+
+
+            <indent>
+                <addname2>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </addname2>
+            </indent>
+
+            <indent>
+                <addname3>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </addname3>
+            </indent>
+
+            <indent>
+                <addname4>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </addname4>
+            </indent>
+
+            <indent>
+                <addname5>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                    <name>
+                        <surname>___</surname>
+                        <given-names>___</given-names>
+                    </name>
+                </addname5>
+            </indent>
+
+
+        </ref>
+    </back>
+</article>
