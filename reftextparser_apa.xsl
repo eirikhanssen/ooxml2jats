@@ -19,6 +19,19 @@
     <xsl:param name="originalString" as="xs:string"/>
     <xsl:value-of select="matches( $originalString , '\d{4}')"/>
   </xsl:function>
+  
+  <xsl:function name="j2e:citationSplitter" as="item()*">
+    <!-- break up the citation-string to individual references -->
+    <xsl:param name="originalString" as="xs:string"/>
+    
+    <!-- testing function output -->
+    <xsl:analyze-string select="$originalString" regex="(;\s*|(/d/d/d/d),\s*)">
+      <xsl:matching-substring> <xsl:value-of select="regex-group(2)"></xsl:value-of><xsl:text>|</xsl:text> </xsl:matching-substring>
+      <xsl:non-matching-substring>
+        <xsl:copy/>
+      </xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:function>
 
   <!-- auto-tag running references in the text -->
   <!-- WIP also need to do this for references in back/fn-group/p and possibly in title elements as well -->
@@ -29,7 +42,8 @@
         <xsl:choose>
           <xsl:when test="j2e:isAssumedToBeReference(regex-group(1)) eq true()">
             <textRefs>
-              <xsl:value-of select="regex-group(1)"/>
+                <!-- <xsl:value-of select="regex-group(1)"/>-->
+              <xsl:sequence select="j2e:citationSplitter(regex-group(1))"/>
             </textRefs>
           </xsl:when>
           <xsl:otherwise>
