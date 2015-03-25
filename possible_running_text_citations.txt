@@ -1,0 +1,13 @@
+[authorgroup]:
+[author], 
+[author] &amp; [author],
+
+[yeargroup]
+[year]
+[year](, [year])*
+
+[authorgroup], [yeargroup]
+
+[authorgroup], [yeargroup]; ([authorgroup], [yeargroup])*
+
+
