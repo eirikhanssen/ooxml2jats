@@ -94,6 +94,16 @@
         </p:input>
     </p:xslt>
 
+    <p:xslt name="reftexttagger" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="reftext_tagger_apa.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <!-- this identity is the target of the <p:insert> step that places the footnotes xml document inside the main xml document -->
 
     <p:identity name="document_before_footnotes_are_inserted"/>
