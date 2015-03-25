@@ -1,9 +1,10 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <p:declare-step version="1.0" name="ooxml2jats" xmlns:p="http://www.w3.org/ns/xproc"
     xmlns:c="http://www.w3.org/ns/xproc-step" exclude-inline-prefixes="c">
 
     <p:input port="source">
-        <p:document href="source/ooxml-unpacked/word/document.xml"/>
+        <!--<p:document href="source/ooxml-unpacked/word/document.xml"/>-->
+        <p:document href="source/nylenna-ooxml/word/document.xml"/>
     </p:input>
 
     <!-- <p:input port="footnotes" kind="parameter"/> -->
@@ -22,7 +23,8 @@
         <p:input port="parameters">
             <p:inline>
                 <c:param-set>
-                    <c:param name="footnotes" value="source/ooxml-unpacked/word/footnotes.xml"/>
+                    <!--<c:param name="footnotes" value="source/ooxml-unpacked/word/footnotes.xml"/>-->
+                    <c:param name="footnotes" value="source/nylenna-ooxml/word/footnotes.xml"/>
                 </c:param-set>
             </p:inline>
         </p:input>

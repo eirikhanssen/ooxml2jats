@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
@@ -19,12 +19,12 @@
 
     <xsl:template match="p[position() &lt; 3][bold]">
         <xsl:choose>
-            <xsl:when test="matches(bold, '^Abstract$')">
+            <xsl:when test="matches(bold[1], '^Abstract[:]\s*$')">
                 <abstract>
                     <xsl:apply-templates mode="abstract_and_keywords"/>
                 </abstract>
             </xsl:when>
-            <xsl:when test="matches(bold, '^Keywords$')">
+            <xsl:when test="matches(bold[1], '^Keywords[:]?\s*$')">
                 <keywords>
                     <xsl:apply-templates mode="abstract_and_keywords"/>
                 </keywords>
@@ -39,7 +39,7 @@
     
     <xsl:template match="bold" mode="abstract_and_keywords">
         <xsl:choose>
-            <xsl:when test="matches(. , '^Abstract$|^Keywords$')"></xsl:when>
+            <xsl:when test="matches(. , '^Abstract[:]?\s*$|^Keywords[:]?\s*$')"></xsl:when>
             <xsl:otherwise>
                 <bold>
                     <xsl:apply-templates/>
@@ -50,10 +50,10 @@
 
     <!-- remove colon and space from the beginning of the string inside abstract and keywords -->
     <xsl:template match="text()[1]" mode="abstract_and_keywords">
-        <xsl:analyze-string select="." regex="^:\s*">
+        <xsl:analyze-string select="." regex="^(:|\s)\s*">
             <xsl:matching-substring/>
             <xsl:non-matching-substring>
-                <xsl:copy></xsl:copy>
+                <xsl:copy/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
