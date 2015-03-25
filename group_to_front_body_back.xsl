@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
@@ -16,7 +16,7 @@
                         <xsl:apply-templates select="abstract"/>
                         <kwd-group kwd-group-type="author-generated">
                             <xsl:for-each select="tokenize(keywords, ',')">
-                                <kwd><xsl:value-of select="normalize-space(.)"/></kwd>
+                                <kwd><xsl:value-of select="replace(normalize-space(.), '[.]$', '')"/></kwd>
                             </xsl:for-each>
                         </kwd-group>
                     </title-group>
