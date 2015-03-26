@@ -25,8 +25,8 @@
         <!-- paragraphs without a listed style are just plain p's -->
         <!-- generate this p-element only if there is textcontent and it contains non-whitespace characters -->
         <xsl:if test="matches(. , '[^\s]')">
-          <p>
-            <xsl:apply-templates select="*"/>
+          <p test="test">
+            <xsl:apply-templates select="w:t|w:r"/>
           </p>
         </xsl:if>
       </xsl:otherwise>

@@ -36,10 +36,6 @@
             <p>Most definitions of quality relate the standard of a service or product to something else, thus giving quality a relative value such as poor, good or excellent. This implies a comparison, as the comparator might be more or less well specified and even vary, for example over time. </p>
             <p>A widely used definition of quality in general is, “the degree to which a set of inherent characteristics fulfills requirements” <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="ISO2005">ISO, 2005</xref>)</textRefs>. According to this definition, “inherent,” as opposed to “assigned,” means “existing in something, especially as a permanent characteristic,” while requirement means a “need or expectation that is stated, generally implied or obligatory.” </p>
             <p>Whether a product or service meets implicit or explicit requirements is at the core of its quality. In this sense, quality can be seen as the ratio of outcome (result, experience, etc.) to requirements (needs or expectations): </p>
-            <p>Q (quality)</p>
-            <p>=</p>
-            <p>O (outcome)</p>
-            <p>R (requirements)</p>
             <p>Hence, the quality of an airline or dishwasher depends both on expectation (requirements) and experience (outcome). The outcome is the sum total of measurable (quantitative) and unmeasurable (non-quantitative) results, while the expectation is the anticipated level of these characteristics. This level is usually set through a knowledge of comparable services or products, or other judgments made beforehand.</p>
             <p>Based on this relative approach, quality will increase not only by a higher outcome, but also by a lower expectation. For most services and products, the expectations will increase over time, thereby demanding a higher outcome to keep the quality at the same level. Expectations may also vary according to social, cultural, economic and other factors, for example in the airline industry when flights are delayed due to poor weather conditions. Whether passengers’ expectations are adjusted accordingly decides the perceived quality of the airline, and these adjustments are again dependent on information and an acceptance of the consequences that bad weather will have for air traffic. For airline companies and dishwashers, expectations are probably also related to price, since high prices will lead to higher expectations than low prices. If the experiences with a budget airline or a cheap dishwasher are seen as similar to services or products that are more expensive, the quality could be judged as being higher.</p>
             <!-- END of sec lvl 3 -->
@@ -69,115 +65,59 @@
             <p>
                <italic>A selection of quality definitions (Legido-Quigley et al., 2008).</italic>
             </p>
-            <p>In general, the ISO definition of quality implies a rather relative view of quality by relating it directly to requirements. This opens up the possibility of varying quality perceptions between individuals and between different stakeholders confronted with the same services. The IOM definition relates quality to the goals of the health-care system, as well as to the current level of professional knowledge.-3175146685<p>International Organization for Standardization <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                           id="___2005"
-                           preceding-text="International Organization for Standardization ">2005</xref>)</textRefs>
-               </p>
-               <p>The degree to which a set of inherent characteristics fulfills requirements <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="ISO2005">ISO, 2005</xref>)</textRefs>
-               </p>
-               <p>Donabedian <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1980" preceding-text="Donabedian ">1980</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="D1980">Donabedian, 1980</xref>)</textRefs>.</p>
-               <p>IOM <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1990" preceding-text="IOM ">1990</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge <textRefs>(Lohr &amp; Schroeder, 1990)</textRefs>.</p>
-               <p>Department of Health (UK) <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                           id="___1997"
-                           preceding-text="Department of Health (UK) ">1997</xref>)</textRefs>
-               </p>
-               <p>Quality of care is:</p>
-               <p>doing the right things (what);</p>
-               <p>to the right people (to whom);</p>
-               <p>at the right time (when); and</p>
-               <p>doing things right the first time.</p>
-               <p>Council of Europe <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1997" preceding-text="Council of Europe ">1997</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</p>
-               <p>WHO <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___2000" preceding-text="WHO ">2000</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="WHO2000">WHO, 2000</xref>)</textRefs>.</p>
-               <p>International Organization for Standardization <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                           id="___2005"
-                           preceding-text="International Organization for Standardization ">2005</xref>)</textRefs>
-               </p>
-               <p>The degree to which a set of inherent characteristics fulfills requirements <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="ISO2005">ISO, 2005</xref>)</textRefs>
-               </p>
-               <p>Donabedian <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1980" preceding-text="Donabedian ">1980</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="D1980">Donabedian, 1980</xref>)</textRefs>.</p>
-               <p>IOM <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1990" preceding-text="IOM ">1990</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge <textRefs>(Lohr &amp; Schroeder, 1990)</textRefs>.</p>
-               <p>Department of Health (UK) <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                           id="___1997"
-                           preceding-text="Department of Health (UK) ">1997</xref>)</textRefs>
-               </p>
-               <p>Quality of care is:</p>
-               <p>doing the right things (what);</p>
-               <p>to the right people (to whom);</p>
-               <p>at the right time (when); and</p>
-               <p>doing things right the first time.</p>
-               <p>Council of Europe <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1997" preceding-text="Council of Europe ">1997</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</p>
-               <p>WHO <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___2000" preceding-text="WHO ">2000</xref>)</textRefs>
-               </p>
-               <p>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="WHO2000">WHO, 2000</xref>)</textRefs>.</p>
+            <p>In general, the ISO definition of quality implies a rather relative view of quality by relating it directly to requirements. This opens up the possibility of varying quality perceptions between individuals and between different stakeholders confronted with the same services. The IOM definition relates quality to the goals of the health-care system, as well as to the current level of professional knowledge.-3175146685<table>
+                  <tr>
+                     <td>International Organization for Standardization (2005)</td>
+                     <td>The degree to which a set of inherent characteristics fulfills requirements (ISO, 2005)</td>
+                  </tr>
+                  <tr>
+                     <td>Donabedian (1980)</td>
+                     <td>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts (Donabedian, 1980).</td>
+                  </tr>
+                  <tr>
+                     <td>IOM (1990)</td>
+                     <td>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge (Lohr &amp; Schroeder, 1990).</td>
+                  </tr>
+                  <tr>
+                     <td>Department of Health (UK) (1997)</td>
+                     <td>Quality of care is:doing the right things (what);to the right people (to whom);at the right time (when); anddoing things right the first time.</td>
+                  </tr>
+                  <tr>
+                     <td>Council of Europe (1997)</td>
+                     <td>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</td>
+                  </tr>
+                  <tr>
+                     <td>WHO (2000)</td>
+                     <td>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population (WHO, 2000).</td>
+                  </tr>
+               </table>
+               <table>
+                  <tr>
+                     <td>International Organization for Standardization (2005)</td>
+                     <td>The degree to which a set of inherent characteristics fulfills requirements (ISO, 2005)</td>
+                  </tr>
+                  <tr>
+                     <td>Donabedian (1980)</td>
+                     <td>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts (Donabedian, 1980).</td>
+                  </tr>
+                  <tr>
+                     <td>IOM (1990)</td>
+                     <td>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge (Lohr &amp; Schroeder, 1990).</td>
+                  </tr>
+                  <tr>
+                     <td>Department of Health (UK) (1997)</td>
+                     <td>Quality of care is:doing the right things (what);to the right people (to whom);at the right time (when); anddoing things right the first time.</td>
+                  </tr>
+                  <tr>
+                     <td>Council of Europe (1997)</td>
+                     <td>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</td>
+                  </tr>
+                  <tr>
+                     <td>WHO (2000)</td>
+                     <td>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population (WHO, 2000).</td>
+                  </tr>
+               </table>
             </p>
-            <p>International Organization for Standardization <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                        id="___2005"
-                        preceding-text="International Organization for Standardization ">2005</xref>)</textRefs>
-            </p>
-            <p>The degree to which a set of inherent characteristics fulfills requirements <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="ISO2005">ISO, 2005</xref>)</textRefs>
-            </p>
-            <p>Donabedian <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1980" preceding-text="Donabedian ">1980</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="D1980">Donabedian, 1980</xref>)</textRefs>.</p>
-            <p>IOM <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1990" preceding-text="IOM ">1990</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge <textRefs>(Lohr &amp; Schroeder, 1990)</textRefs>.</p>
-            <p>Department of Health (UK) <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                        id="___1997"
-                        preceding-text="Department of Health (UK) ">1997</xref>)</textRefs>
-            </p>
-            <p>Quality of care is:</p>
-            <p>doing the right things (what);</p>
-            <p>to the right people (to whom);</p>
-            <p>at the right time (when); and</p>
-            <p>doing things right the first time.</p>
-            <p>Council of Europe <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1997" preceding-text="Council of Europe ">1997</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</p>
-            <p>WHO <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___2000" preceding-text="WHO ">2000</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="WHO2000">WHO, 2000</xref>)</textRefs>.</p>
-            <p>International Organization for Standardization <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                        id="___2005"
-                        preceding-text="International Organization for Standardization ">2005</xref>)</textRefs>
-            </p>
-            <p>The degree to which a set of inherent characteristics fulfills requirements <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="ISO2005">ISO, 2005</xref>)</textRefs>
-            </p>
-            <p>Donabedian <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1980" preceding-text="Donabedian ">1980</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="D1980">Donabedian, 1980</xref>)</textRefs>.</p>
-            <p>IOM <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1990" preceding-text="IOM ">1990</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge <textRefs>(Lohr &amp; Schroeder, 1990)</textRefs>.</p>
-            <p>Department of Health (UK) <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr"
-                        id="___1997"
-                        preceding-text="Department of Health (UK) ">1997</xref>)</textRefs>
-            </p>
-            <p>Quality of care is:</p>
-            <p>doing the right things (what);</p>
-            <p>to the right people (to whom);</p>
-            <p>at the right time (when); and</p>
-            <p>doing things right the first time.</p>
-            <p>Council of Europe <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___1997" preceding-text="Council of Europe ">1997</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</p>
-            <p>WHO <textRefs type="hasOnlySingleYear">(<xref ref-type="bibr" id="___2000" preceding-text="WHO ">2000</xref>)</textRefs>
-            </p>
-            <p>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population <textRefs type="hasOneAuthorOneYear">(<xref ref-type="bibr" id="WHO2000">WHO, 2000</xref>)</textRefs>.</p>
             <p>One possible use of the ISO definition is to ask patients what constitutes the most important outcome to them and apply this as the requirement part of the quality definition. A special Euro Barometer population survey on safety and the quality of health care in all European countries conducted in 2009 asked respondents to prioritize different quality criteria <textRefs>(European Commission, 2010)</textRefs>. The results of the survey showed that effective treatment and a competent medical staff were considered the most important quality criteria for Europe as a whole. Furthermore, a fair agreement was found on at least the two most important quality criteria across the European countries, but also a lot of between-country variation and some variation between different socio-demographic groups. A Norwegian study showed that it is possible to identify ten core patient experience items across nine patient groups in specialized health care based on patient priorities, including items on safety, effectiveness and responsiveness. This study also showed that certain aspects varied between the groups <textRefs>(Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011)</textRefs>. Consequently, the European and Norwegian studies show that there is no universal definition of quality criteria, even from the patient or population perspective. Other stakeholders with other perspectives, such as managers and professionals, may have other expectations and requirements <textRefs>(Jung, Wensing, Olesen, &amp; Grol, 2002|Levine et al., 2012)</textRefs>.</p>
             <p>A study comparing physician and patient perceptions of quality found both similarities and differences regarding the quality concept in ambulatory care <textRefs>(Levine et al., 2012)</textRefs>, as both groups highly valued clinical skills, rapport and health-related communication, but varied in sub-categories within these topics and on other major topics. The bottom line is that quality is a relative concept according to the ISO definition, and that health-care service quality cannot be judged without linking it to the requirements of patients or other stakeholders.</p>
             <p>Deciding on a more specific health-care definition of quality, the patient perspective has an important but more limited role. The patient perspective is included in most conceptual health-care models of quality as a separate quality dimension, and patients are also included in the evaluation of quality. For example, through concepts like patient satisfaction and experiences of care, the IOM approach includes the patient perspective in the term “outcomes,” which also has patient centeredness as one of six dimensions of quality <textRefs>(Institute of Medicine, 2001|Lohr, 1990b)</textRefs>. The patient centeredness component is usually measured by systematic surveys of patient-reported experiences, at least in large-scale settings.</p>
@@ -210,7 +150,7 @@
             <p>Nearly 30 years after the Canadian report, The Institute of Medicine (IOM), an independent, non-profit US-based organization, proposed six components that define quality in health care based on a systematic review of the dimensions of quality improvement <textRefs>(Institute of Medicine, 2001)</textRefs>. According to this proposal, high-quality health care should be: safe, effective, patient centered, timely, efficient and equitable.</p>
             <p>Ensuring competency may be interpreted as a part of efficacy, the ability of science and technology to bring about improvements in health when used under the most favorable circumstances, having competent personnel may be seen as an important prerequisite to achieve improvement. It may be tempting to say that these three classical mapping of quality characteristics as “same, same, but different”. They differ in terms of time of origin, from the beginning of the 70s, to mid- eighties and late nineties, they may differ in perspective, from the Health Minsters policy perspective, to Donabedians’ clinically-oriented perspective, and the later IOM can be interpreted as a an attempt to bridge both policy, clinical and patient perspective. There are similarities and there are differences, and the recognition of this lead to yet another systematic review of central health-care performance frameworks. A quality indicator project established by the WHO, OECD and the EU-commission selected effectiveness, safety and patient centeredness as the primary dimensions for comparing quality <textRefs>(Arah et al., 2006)</textRefs>. Other, Norwegian approaches, have included these three components, and supplemented them with access to health services, equity, efficiency and an integration of care <textRefs>(Rygh et al., 2010)</textRefs>.</p>
             <p>Donabedian underscored that the different dimensions of quality depend on the level of assessment, ranging from the care provided by practitioners and other providers to care received at the community level <textRefs>(Donabedian &amp; Bashshur, 2003)</textRefs>. For instance, core dimensions for the former are effectiveness, efficiency and the patient-practitioner relationship, while the latter has relatively more focus on legitimacy and equity. Donabedian argued that there is no general answer to the relative priority of different dimensions or what dimensions to include or exclude, but rather that such questions depend on the measurement context. Therefore, according to Donabedian, the measurement of quality depends on a definition of quality, an operationalization of quality dimensions and a selection of dimensions according to the relevant measurement level.</p>
-            <p>Having decided on a definition of quality, the next step is to operationalize the concept as a basis for measurement and improvement. As for the definition of quality, a range of different approaches exists regarding operationalization. As a result, the dimensions of quality are coming closer to a common approach, but lack a universal standard and should be explicitly chosen and argued for in the context of evaluation. The context could be the health-care system or lower levels of health care, for example a single health-care provider, which affects the priority of and selection of dimensions.</p>
+            <p test="test">Having decided on a definition of quality, the next step is to operationalize the concept as a basis for measurement and improvement. As for the definition of quality, a range of different approaches exists regarding operationalization. As a result, the dimensions of quality are coming closer to a common approach, but lack a universal standard and should be explicitly chosen and argued for in the context of evaluation. The context could be the health-care system or lower levels of health care, for example a single health-care provider, which affects the priority of and selection of dimensions.</p>
             <!-- END of sec lvl 3 -->
          </sec>
          <!-- END of sec lvl 2 -->

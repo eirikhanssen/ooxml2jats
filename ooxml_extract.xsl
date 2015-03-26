@@ -14,7 +14,7 @@
 
     <xsl:template match="/">
         <article>
-            <xsl:apply-templates select=".//w:p"/>
+            <xsl:apply-templates/>
         </article>
     </xsl:template>
 
@@ -30,5 +30,30 @@
             <xsl:attribute name="fn" select="$footnoteId"/>
         </xsl:element>
     </xsl:template>
-
+    
+    <xsl:template match="w:p[ancestor::w:tbl]"/>
+    
+    <!-- extract tables -->
+    <xsl:template match="w:tbl">
+        <table>
+            <xsl:apply-templates mode="table"/>
+        </table>
+    </xsl:template>
+    
+    <xsl:template match="w:tr" mode="table">
+        <tr>
+            <xsl:apply-templates mode="table"/>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="w:tc" mode="table">
+        <td>
+            <xsl:apply-templates mode="table"/>
+        </td>
+    </xsl:template>
+    
+    <xsl:template match="w:p[ancestor::w:tc]" mode="table">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
 </xsl:stylesheet>
